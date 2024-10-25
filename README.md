@@ -20,13 +20,13 @@ Provides basic experience with the types of hardware necessary for manipulating 
 
 ## Timeline
 
-| Objective                                            | Expected Completion Date |
-| ---------------------------------------------------- | ------------------------ |
-| Start                                                | Oct 24, 2024             |
-| Functioning STM imaging graphite                     | Nov 7, 2024 (two weeks) |
-| Imaging a tripod monolayer on Au(111)                | Nov 21, 2024 (four weeks) |
-| Inverting the tripod as a conventional mode tooltip  | TBD |
-| Attempting mechanosynthesis under ambient conditions | TBD |
+| Objective                                            | Completion Date |
+| ---------------------------------------------------- | --------------- |
+| Start                                                | Oct 24, 2024    |
+| Functioning STM imaging graphite                     | TBD             |
+| Imaging a tripod monolayer on Au(111)                | TBD             |
+| Inverting the tripod as a conventional mode tooltip  | TBD             |
+| Attempting mechanosynthesis under ambient conditions | TBD             |
 
 ## Current Status
 
