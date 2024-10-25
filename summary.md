@@ -1,8 +1,8 @@
 # Student Names 
-Henry Forsyth
+Philip Turner
 
 # Summary
-This is a testing doc to see if I can pull it into the website
+A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses
 
 # Date Started
-11-16-2000
+10-24-2024

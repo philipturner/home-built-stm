@@ -7,9 +7,11 @@ N/A
 
 ## Project Overview
 
-Make a device that can image with atomic resolution. Place a layer of tripod nano-tips under the device, verify that they can also be imaged.
+A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses.
 
-Attempt to perform atom-by-atom manufacturing. Not likely to succeed, but nonetheless ought to be attempted under ambient conditions.
+<b>Near-term goals:</b> Make a device that can image with atomic resolution. Place a layer of tripod nano-tips under the device, verify that they can also be imaged.
+
+<b>Long-term goals:</b> Attempt to perform atom-by-atom manufacturing. Not likely to succeed, but nonetheless ought to be attempted under ambient conditions.
 - Subtractive, by etching individual atoms from the W tip.
 - Additive, through thermodynamic cascade, with inverted tripod.
 
