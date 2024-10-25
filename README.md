@@ -9,7 +9,7 @@ N/A
 
 A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses.
 
-<b>Near-term goals:</b> Reproducing Mech Panda's DIY STM, a low-cost device that can image with atomic resolution. Will place a layer of tripod nano-tips under the device, verify that they can also be imaged.
+<b>Near-term goals:</b> Reproducing Mech Panda's DIY STM, a low-cost device that can image graphite. Will place a layer of tripod nano-tips under the device, verify that they can also be imaged.
 
 <b>Long-term goals:</b> Attempt to perform atom-by-atom manufacturing. Not likely to succeed, but nonetheless ought to be attempted under ambient conditions.
 - Subtractive, by etching individual atoms from the W tip.
