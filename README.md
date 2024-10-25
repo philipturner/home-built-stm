@@ -9,7 +9,7 @@ N/A
 
 A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses.
 
-<b>Near-term goals:</b> Make a device that can image with atomic resolution. Place a layer of tripod nano-tips under the device, verify that they can also be imaged.
+<b>Near-term goals:</b> Reproducing Mech Panda's DIY STM, a low-cost device that can image with atomic resolution. Will place a layer of tripod nano-tips under the device, verify that they can also be imaged.
 
 <b>Long-term goals:</b> Attempt to perform atom-by-atom manufacturing. Not likely to succeed, but nonetheless ought to be attempted under ambient conditions.
 - Subtractive, by etching individual atoms from the W tip.
@@ -30,6 +30,10 @@ Provides basic experience with the types of hardware necessary for manipulating 
 | Imaging a tripod monolayer on Au(111)                | Nov 21, 2024 (four weeks) |
 | Inverting the tripod as a conventional mode tooltip  | TBD |
 | Attempting mechanosynthesis under ambient conditions | TBD |
+
+## Current Status
+
+
 
 ## Useful Links
 
