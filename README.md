@@ -1,49 +1,38 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Philip Turner, Nanoscience Student (2025)
+philipturner@vt.edu
 
 ## Mentor
-MENTOR NAME HERE
-
-## Current Status
-IN PROGRESS
+N/A
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+Make a device that can image with atomic resolution. Place a layer of tripod nano-tips under the device, verify that they can also be imaged.
+
+Attempt to perform atom-by-atom manufacturing. Not likely to succeed, but nonetheless ought to be attempted under ambient conditions.
+- Subtractive, by etching individual atoms from the W tip.
+- Additive, through thermodynamic cascade, with inverted tripod.
 
 ## Educational Value Added
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+PCB Design, Controls, Scanning Probe Microscopy, Computer Vision, Nanotechnology
 
-## Tasks
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Design Decisions
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Design Misc
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## Steps for Documenting Your Design Process
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
-
-## BOM + Component Cost
-
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+Provides basic experience with the types of hardware necessary for manipulating individual atoms (e.g. IBM's [A Boy and His Atom](https://www.youtube.com/watch?v=oSCX78-8-q0)). This hardware typically costs an exorbitant amount of money, because it requires UHV and/or liquid helium conditions. I am testing how much functionality traditionally restricted to UHV can actually be achieved at ambient pressure.
 
 ## Timeline
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+| Objective                                            | Expected Completion Date |
+| ---------------------------------------------------- | ------------------------ |
+| Start                                                | Oct 24, 2024             |
+| Functioning STM imaging graphite                     | Nov 7, 2024 (two weeks) |
+| Imaging a tripod monolayer on Au(111)                | Nov 21, 2024 (four weeks) |
+| Inverting the tripod as a conventional mode tooltip  | TBD |
+| Attempting mechanosynthesis under ambient conditions | TBD |
 
 ## Useful Links
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+Dan Berard's Home Built STM: https://dberard.com/home-built-stm
 
-## Log
+Mechanical Panda's Scanning Tunneling Microscope (STM) Design: https://github.com/MechRedPanda/red-panda-stm
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+Systems and methods for mechanosynthesis: https://patents.google.com/patent/US11708384
