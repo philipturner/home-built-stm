@@ -2,9 +2,6 @@
 Philip Turner, Nanoscience Student (2025)
 philipturner@vt.edu
 
-## Mentor
-N/A
-
 ## Project Overview
 
 A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses.
