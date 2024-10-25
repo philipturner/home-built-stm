@@ -33,7 +33,15 @@ Provides basic experience with the types of hardware necessary for manipulating 
 
 ## Current Status
 
+Working on patching up the EasyEDA files for the circuit boards. I have crude 3D models, but they need refining to match images of the actual circuit boards. Also need to specify the exact part models/manufacturers in EasyEDA. Once I do this, EasyEDA can automate a portion of the Bill of Materials generation process.
 
+![3D render of the control board](./Documentation/ControlBoard_Latest.jpg)
+
+_Current status of the control board model._
+
+![3D render of the pre-amplifier](./Documentation/PreAmplifier_Latest.jpg)
+
+_Current status of the pre-amplifier model._
 
 ## Useful Links
 
