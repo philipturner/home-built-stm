@@ -22,6 +22,8 @@ I also read a few hundred pages of literature on:
 - Ferroelectric materials (Landau Theory)
 - A substantial portion of "Art of Electronics, 3rd Edition"
 
+The remainder of this document is outdated. I will update it when I have fleshed out the concrete details of my device.
+
 ## Project Overview
 
 A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses.
