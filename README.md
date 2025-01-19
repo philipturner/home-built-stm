@@ -14,6 +14,7 @@ Small-scale studies and tests performed:
 - [FourierTransformVelocityPosition.swift](https://gist.github.com/philipturner/a365d72c1ba5c4eedf1c331bb21d586d)
 - [FrequencyResponse.swift](https://gist.github.com/philipturner/212ae83408707147ce6cd6f57adedc7e)
 - [PiezoelectricCoefficients.swift](https://gist.github.com/philipturner/9fb9d81c1d2d1427b4287541a99e6cec)
+- Ordered and received 10 lithium niobate piezo plates
 
 I also read a few hundred pages of literature on:
 - Nanopositioner design and control electronics
