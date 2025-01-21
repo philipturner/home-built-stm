@@ -30,3 +30,20 @@ I also read a few hundred pages of literature on:
 ## High-Level Overview
 
 The current high-level plan is very rough. It will be split into different modules, which can be constructed once and recycled multiple times. I will conduct multiple experiments in sequence, some of which will reuse this equipment. For example, the very first capacitance measurement experiment can use the same vibration isolator as a late-stage STM iteration. It could even opt to only use the interior isolation stage.
+
+Sequence of experiments:
+- Measuring capacitance change between two parallel plates, to verify piezoelectricity of LiNbO3
+  - Verify the predicted behavior, that it shears in both X and Y
+- 1DOF scanning tunneling spectroscopy machine, that can maintain tunneling current without crashing the tip
+  - Verify the measurement of 100 fA currents (100x more sensitive than the Mech Panda STM)
+- 3DOF scanning tunneling microscope with limited range
+  - Prove there is an absence of hysteresis and creep distorting the images of HOPG
+  - Resolve individual atoms on Au(111), which Dan Berard could not do. Or find the reason it cannot be imaged under ambient conditions.
+- Complete, end-goal iteration with 100 nm range X/Y/Z and vacuum compatibility
+  - Remove the stepper motor Z coarse stage
+  - Add slip-stick interial drive for X and Z axes
+  - X axis is needed to enable a "tripod assembly line" for reducing a sample swapping bottleneck during atom building
+- Ultra-high vacuum system at room temperature
+  - Prove that evaporation of lithium atoms from LiNbO3 is not a concern
+  - Prove that evaporation of atoms from the conductive epoxy is not a concern
+  - Very that the previously designed system can function (take an image) while producing a vapor pressure of under 10^-10 torr
