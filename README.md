@@ -113,9 +113,9 @@ System modules:
 - Second half of TIA board
   - Processed the output of the pre-amplifier, which doesn't need as much shielding
   - Complex analog circuitry for the 0.1 pA–50 nA, [fast low-noise transimpedance amplifier](https://pubs.aip.org/aip/rsi/article-abstract/91/7/074701/967357/Fast-low-noise-transimpedance-amplifier-for).
-  - Contains the expensive (~$30) 18-bit ADC.
+  - Contains the expensive (~$20–30) 18-bit ADC.
     - Plan to buy the low-bandwidth 250 kHz one. The way ADC bandwidths work, is they have either a fixed frequency or they are on sleep.
-    - The analog part of this circuit has no more than 50 kHz (anything higher would have unacceptable e<sub>n</sub>C noise anyway.
+    - The analog part of this circuit has no more than 50 kHz (anything higher would have unacceptable e<sub>n</sub>C noise anyway).
     - No need to sample significantly higher than the true bandwidth.
   - Bandwidth switching circuitry and high-order filters, potentially multiplexing through a finite set of bandwidths.
     - Theoretical limit is the 50 fA bias current of the pre-amplifier.
