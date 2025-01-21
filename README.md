@@ -48,4 +48,5 @@ Sequence of experiments:
 - Ultra-high vacuum system at room temperature
   - Prove that evaporation of lithium atoms from LiNbO3 is not a concern
   - Prove that evaporation of atoms from the conductive epoxy is not a concern
-  - Very that the previously designed system can function (take an image) while producing a vapor pressure of under 10^-10 torr
+  - Prove that the system can withstand bakeout, if STM modules are typically required to undergo bakeout
+  - Verify that the previously designed system can function (take an image) while producing a vapor pressure of under 10^-10 torr
