@@ -131,7 +131,7 @@ Safety mechanisms for high-voltage electronics: major importance
 - It's often not the voltage, per se, that is the reason for danger (40 V is already way above the band gap of the toughest insulator).
 - Rather, it's the magnitude of electric field, given the typical thicknesses of a thin film in context.
 - Plus, high voltage generating high current, and the two multiplying to give a high power through the human body.
-- I'll reach up a bunch more, litter the circuitry boards with HV safety warnings, add redundancy to physically prevent exposure to HV, etc.
+- I'll reach up a bunch more, litter the PCB silkscreens with HV safety signs, add redundant mechanisms to physically prevent exposure to HV, etc.
 - I'm not an expert on HV safety yet, so the above precautions are not good enough to protect someone.
 
 ## Lithium Niobate
