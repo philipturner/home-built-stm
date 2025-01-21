@@ -140,9 +140,9 @@ Images of 10 lithium niobate plates that were delivered. Dimensions: 5 mm x 5 mm
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/Lithium_Niobate_1.jpg" width="45.0%">
+  <img src="./Documentation/Lithium_Niobate_1.jpg" width="43.8%">
 &nbsp; &nbsp;
-  <img src="./Documentation/Lithium_Niobate_2.jpg" width="45.0%">
+  <img src="./Documentation/Lithium_Niobate_2.jpg" width="46.2%">
 &nbsp;
 </p>
 
