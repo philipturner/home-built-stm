@@ -76,7 +76,7 @@ System modules:
   - This is similar to qPlus sensors, which have some MEMS circuitry on whatever the tuning fork is glued to
   - Minimize the magnitude of thermal drift caused by the op-amp's ~7 mW power consumption
 - Reversibly bondable piezo plates
-  - Use magnets to make piezos reversibly stickable to something. You can stack them up, or instead distribute then across different axes (X/Y/Z).
+  - Use magnets to make piezos reversibly stickable to something. You can stack them up, or instead distribute them across different axes (X/Y/Z).
   - Need to understand whether you can do this, without the magnetic force crushing the crystalline material.
   - Issues with isolating nearby circuitry (such as the grounded STM tip) from very high electric fields
 - Two-stage spring suspension system
@@ -90,7 +90,7 @@ System modules:
     - ["The industry's first 220 Vpp op amp"](https://www.analog.com/en/resources/design-notes/adhv4702-1-24-v-to-220-v-precision-operational-amplifier.html), invented in 2018.
     - There are 350 Vpp (-175 V / +175 V) designs out there, but they have triple the cost ($10 -> $28)
     - Might be more economical to use custom, discrete components to reach even higher voltages (Art of Electronics mentioned 0 V / +1 kV piezo driver)
-  - Each LiNbO3 stack needs 2 decidated op amps, so one electrode is +110 V while the other is -110 V. LiNbO3 can withstand extremely high electric fields.
+  - Each LiNbO3 stack needs 2 dedicated op amps, so one electrode is +110 V while the other is -110 V. LiNbO3 can withstand extremely high electric fields.
   - Unused op amps should be turned off to reduce power consumption.
   - Might multiplex op-amps to the subset of piezoactuators in use at any moment.
   - Can be recycled for late-stage prototype with coarse piezoactuators under ambient conditions. Might keep one of the electrodes at GND for PZT plates, to avoid depoling them.
@@ -109,9 +109,9 @@ System modules:
     - Accepts up to 4 pF variation range during dynamic operation, with 17 pF able to be accessed by a slow capacitance offsetting mechanism
     - The capacitance measurement setup in the paper that studied piezo creep, was 3.2 pF with 10 mm x 10 mm x 300 μm parallel plate capacitor
     - Removes the need for bulky, expensive "capacitance bridges" based on a four-element bridge with inductors and mechanical DACs (unsure how they work fully)
-    - Useful the early-stage prototype measuring capacitance, and could serve as a sensor to aid in tip-sample approach later on.
+    - Useful to early-stage prototype measuring capacitance, and could serve as a sensor to aid in tip approach later on.
 - Second half of TIA board
-  - Processed the output of the pre-amplifier, which doesn't need as much shielding
+  - Processes the output of the pre-amplifier; this board doesn't need as much shielding
   - Complex analog circuitry for the 0.1 pA–50 nA, [fast low-noise transimpedance amplifier](https://pubs.aip.org/aip/rsi/article-abstract/91/7/074701/967357/Fast-low-noise-transimpedance-amplifier-for).
   - Contains the expensive (~$20–30) 18-bit ADC.
     - Plan to buy the low-bandwidth 250 kHz one. The way ADC bandwidths work, is they have either a fixed frequency or they are on sleep.
