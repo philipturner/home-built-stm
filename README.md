@@ -86,7 +86,7 @@ System modules:
   - The low-frequency isolator models a pessimistic outcome, where you need an air table, and you can't utilize Minus K technology.
   - This table would hold the entire UHV chamber in the far-term prototype. Near-term, it serves to conveniently hold the electronics.
 - High-voltage amplification board (piezo driver board)
-  - A large number (~5–10) high-power op amps, with bipolar -110V / +110 V output ([ADHV4702-1](https://www.analog.com/en/products/adhv4702-1.html))
+  - A large number (~5–10) of high-power op amps, with bipolar -110V / +110 V output ([ADHV4702-1](https://www.analog.com/en/products/adhv4702-1.html))
     - ["The industry's first 220 Vpp op amp"](https://www.analog.com/en/resources/design-notes/adhv4702-1-24-v-to-220-v-precision-operational-amplifier.html), invented in 2018.
     - There are 350 Vpp (-175 V / +175 V) designs out there, but they have triple the cost ($10 -> $28)
     - Might be more economical to use custom, discrete components to reach even higher voltages (Art of Electronics mentioned 0 V / +1 kV piezo driver)
