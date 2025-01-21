@@ -46,6 +46,7 @@ Sequence of experiments:
   - Resolve individual atoms on Au(111), which Dan Berard could not do. Or find the reason it cannot be imaged under ambient conditions.
 - Complete, end-goal iteration with 100 nm range X/Y/Z and vacuum compatibility
   - Remove the stepper motor Z coarse stage
+  - Z fine actuator needs disproportionately more range (more LiNbO3 plates) to match the stepping size of the coarse stage
   - Add slip-stick/stick-slip inertial drive for X and Z axes, clamped by gravity
   - X coarse stage enables "tripod assembly line", reducing a sample swapping bottleneck during atom building
   - Coarse stage uses shear piezos, but potentially out of the inferior PZT just to increase their range
