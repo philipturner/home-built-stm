@@ -50,3 +50,11 @@ Sequence of experiments:
   - Prove that evaporation of atoms from the conductive epoxy is not a concern
   - Prove that the system can withstand bakeout, if STM modules are typically required to undergo bakeout
   - Verify that the previously designed system can function (take an image) while producing a vapor pressure of under 10^-10 torr
+
+System modules:
+- UHV compatible spare pre-amplifiers
+  - Each time a pre-amplifier is used, it might be soldered irreversibly to the STM tip
+  - A custom design that minimizes parasitic capacitance, might need to be discarded with the broken tip
+  - This is similar to qPlus sensors, which have some MEMS circuitry on whatever the tuning fork is glued to
+  - Minimize the magnitude of thermal drift caused by the op-amp's ~7 mW power consumption
+
