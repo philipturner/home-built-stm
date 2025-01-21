@@ -119,7 +119,7 @@ System modules:
     - No need to sample significantly higher than the true bandwidth.
   - Bandwidth switching circuitry and high-order filters, potentially multiplexing through a finite set of bandwidths.
     - Theoretical limit is the 50 fA bias current of the pre-amplifier.
-    - Ultra low bandwidth (1—2 kHz, the circuit's natural corner frequency without correction) = 250 fA noise, mostly Johnson noise at 300 K
+    - Ultra low bandwidth (1-2 kHz, the circuit's natural corner frequency without correction) = 250 fA noise, mostly Johnson noise at 300 K
     - Low bandwidth (4.4 kHz) = 500 fA noise
     - High bandwidth (40 kHz) = 7 pA noise, mostly e<sub>n</sub>C noise
   - Current amplifier will not be needed for early capacitance testing experiments
