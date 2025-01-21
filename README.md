@@ -133,3 +133,19 @@ Safety mechanisms for high-voltage electronics: major importance
 - Plus, high voltage generating high current, and the two multiplying to give a high power through the human body.
 - I'll reach up a bunch more, litter the circuitry boards with HV safety warnings, add redundancy to physically prevent exposure to HV, etc.
 - I'm not an expert on HV safety yet, so the above precautions are not good enough to protect someone.
+
+## Lithium Niobate
+
+Images of 10 lithium niobate plates that were delivered. Dimensions: 5 mm x 5 mm x 0.5 mm.
+
+<p align="center">
+&nbsp;
+  ![IMG_4283](https://github.com/user-attachments/assets/e3829df2-3ddd-41fe-8c6b-51e1b3b364f3)
+&nbsp; &nbsp;
+  ![IMG_4282](https://github.com/user-attachments/assets/beaf75cc-99ee-467b-bd06-ee47914b3800)
+&nbsp;
+</p>
+
+Crystallographic orientation:
+
+![x-cut (1)](https://github.com/user-attachments/assets/6d661ed6-f970-4015-ae1d-56235a1c2356)
