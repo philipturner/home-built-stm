@@ -41,6 +41,7 @@ Sequence of experiments:
 - 1DOF scanning tunneling spectroscopy machine, that can maintain tunneling current without crashing the tip
   - Verify the measurement of 100 fA currents (100x more sensitive than the Mech Panda STM)
 - 3DOF scanning tunneling microscope with limited range
+  - 30 nm range on each axis, verified for the X/Y axes by counting number of HOPG unit cells.
   - Prove there is an absence of hysteresis and creep distorting the images of HOPG
   - Resolve individual atoms on Au(111), which Dan Berard could not do. Or find the reason it cannot be imaged under ambient conditions.
 - Complete, end-goal iteration with 100 nm range X/Y/Z and vacuum compatibility
@@ -77,10 +78,12 @@ System modules:
   - Might multiplex op-amps to the subset of piezoactuators in use at any moment.
   - Can be recycled for late-stage prototype with coarse piezoactuators under ambient conditions. Might keep one of the electrodes at GND for PZT plates, to avoid depoling them.
 - Analog to digital board
-  - [AD5761](https://www.analog.com/en/products/ad5761.html]) ADCs with ~133 kHz bandwidth
+  - [AD5761](https://www.analog.com/en/products/ad5761.html]) DACs with ~133 kHz bandwidth
     - Enough DACs to supply all the piezos that must be operated simultaneously, in the late-stage prototype (3 fine and 2 coarse, 5 total). Also, a DAC for the bias voltage.
     - High voltage setting: 20 Vpp range (-10 V / +10 V or 0 V / +20 V)
     - Low voltage setting: 6 Vpp range (-3 V / +3 V or 0 V / +5 V)
+    - 16 bits, enough for picometer step size (the problem is increasing the range at the voltage peak; LiNbO3 has a small piezo constant)
+    - DACs used as piezo drivers will be fed into the high-voltage amplification board, jumping from +/-10 V to +/-110 V (11 V/V amplification factor).
     - Analog Devices made some [open-source code](https://github.com/analogdevicesinc/no-OS/blob/main/drivers/dac/ad5761r/ad5761r.h) to operate this chip, which is nice.
   - [AD7746](https://www.analog.com/en/products/ad7746.html) CDC with 10-100 Hz bandwidth
     - "Capacitance to digital converter", fuses high-resolution capacitance detection circuitry with a 24-bit sigma-delta ADC
