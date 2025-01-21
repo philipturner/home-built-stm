@@ -119,7 +119,7 @@ System modules:
     - No need to sample significantly higher than the true bandwidth.
   - Bandwidth switching circuitry and high-order filters, potentially multiplexing through a finite set of bandwidths.
     - Theoretical limit is the 50 fA bias current of the pre-amplifier.
-    - Ultra low bandwidth (1-2 kHz, the circuit's natural corner frequency without correction) = 250 fA noise, mostly Johnson noise at 300 K
+    - Ultra low bandwidth (1—2 kHz, the circuit's natural corner frequency without correction) = 250 fA noise, mostly Johnson noise at 300 K
     - Low bandwidth (4.4 kHz) = 500 fA noise
     - High bandwidth (40 kHz) = 7 pA noise, mostly e<sub>n</sub>C noise
   - Current amplifier will not be needed for early capacitance testing experiments
@@ -127,7 +127,7 @@ System modules:
   - Accepts mains power (170 V amplitude AC power)
   - Three lines: +120 V, GND, -120 V
   - Third op amp in the fast low-noise TIA (+/-50 V output capability) can use a resistive voltage divider to supply rails with +/-60 V
-  - Voltage divider for +/-20 V may or may not be implemented on the analog to digital board. Especially if the 18-bit ADC is migrated up there.
+  - Voltage divider for +/-20 V may or may not be implemented on the analog-to-digital board. Especially if the 18-bit ADC is migrated up there.
 - Teensy 4.0 CPU
   - I don't need the extra memory of the 4.1. It's slower than main memory, so it's of no use anyway.
   - I don't need the extra ports of the 4.1, at least when counting the number of DAC lines and harnessing a few built-in ADCs.
@@ -136,10 +136,10 @@ Safety mechanisms for high-voltage electronics: major importance
 - -110 V and +110 V away from electrical ground, or perhaps 220 V since the circuit's ground may float away from Earth.
 - Anything above 40 V can generate a great enough electric field to break down human skin.
 - It's often not the voltage, per se, that is the reason for danger (40 V is already way above the band gap of the toughest insulator).
-- Rather, it's the magnitude of electric field, given the typical thicknesses of a thin film in context.
-- Plus, high voltage generating high current, and the two multiplying to give a high power through the human body.
+  - Rather, it's the magnitude of the electric field, given the typical thicknesses of a thin film in context.
+  - Also, high voltage generates high current, and the two multiply to give a high power through the human body.
 - I'll reach up a bunch more, litter the PCB silkscreens with HV safety signs, add redundant mechanisms to physically prevent exposure to HV, etc.
-- I'm not an expert on HV safety yet, so the above precautions are not good enough to protect someone.
+  - I'm not an expert on HV safety yet, so the above precautions are not good enough to protect someone.
 
 ## Lithium Niobate
 
