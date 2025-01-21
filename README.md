@@ -77,5 +77,14 @@ System modules:
   - Might multiplex op-amps to the subset of piezoactuators in use at any moment.
   - Can be recycled for late-stage prototype with coarse piezoactuators under ambient conditions. Might keep one of the electrodes at GND for PZT plates, to avoid depoling them.
 - Analog to digital board
-  - Enough DACs to supply all the piezos that must be operated simultaneously, in the late-stage prototype (3 fine and 2 coarse, 5 total).
-  - Analog Devices made some [open-source code](https://github.com/analogdevicesinc/no-OS/blob/main/drivers/dac/ad5761r/ad5761r.h) to operate this chip, which is nice.
+  - [AD5761]([https://www.analog.com/en/products/ad5761.html]) ADCs with ~133 kHz bandwidth
+    - Enough DACs to supply all the piezos that must be operated simultaneously, in the late-stage prototype (3 fine and 2 coarse, 5 total). Also, a DAC for the bias voltage.
+    - High voltage setting: 20 Vpp range (-10 V / +10 V or 0 V / +20 V)
+    - Low voltage setting: 6 Vpp range (-3 V / +3 V or 0 V / +5 V)
+    - Analog Devices made some [open-source code](https://github.com/analogdevicesinc/no-OS/blob/main/drivers/dac/ad5761r/ad5761r.h) to operate this chip, which is nice.
+  - [AD7746](https://www.analog.com/en/products/ad7746.html) CDC with 10-100 Hz bandwidth
+    - "Capacitance to digital converter", fuses high-resolution capacitance detection circuitry with a 24-bit sigma-delta ADC
+    - 10 Hz = 4 aF resolution
+    - 100 Hz = 40 aF resolution
+    - Removes the need for bulky, expensive "capacitance bridges" based on a four-element bridge with inductors and mechanical DACs (unsure how they work fully)
+    - Useful the early-stage prototype measuring capacitance, and could serve as a sensor to aid in tip-sample approach later on.
