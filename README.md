@@ -43,8 +43,10 @@ Sequence of experiments:
   - Resolve individual atoms on Au(111), which Dan Berard could not do. Or find the reason it cannot be imaged under ambient conditions.
 - Complete, end-goal iteration with 100 nm range X/Y/Z and vacuum compatibility
   - Remove the stepper motor Z coarse stage
-  - Add slip-stick interial drive for X and Z axes
-  - X axis is needed to enable a "tripod assembly line" for reducing a sample swapping bottleneck during atom building
+  - Add slip-stick/stick-slip inertial drive for X and Z axes, clamped by gravity
+  - X coarse stage enables "tripod assembly line", reducing a sample swapping bottleneck during atom building
+  - Coarse stage uses shear piezos, but potentially out of the inferior PZT just to increase their range
+  - PZT has piezo creep, but it has a similar effect to thermal drift with stepper motors. Wait until the coarse stage settles.
 - Ultra-high vacuum system at room temperature
   - Prove that evaporation of lithium atoms from LiNbO3 is not a concern
   - Prove that evaporation of atoms from the conductive epoxy is not a concern
