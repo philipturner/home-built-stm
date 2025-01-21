@@ -27,6 +27,8 @@ I also read a few hundred pages of literature on:
 - Ferroelectric materials (Landau Theory)
 - A substantial portion of "Art of Electronics, 3rd Edition"
 
+I have gotten through at least 50% of the tutorials I plan to take, for FreeCAD and KiCad.
+
 ## High-Level Overview
 
 The current high-level plan is very rough. It will be split into different modules, which can be constructed once and recycled multiple times. I will conduct multiple experiments in sequence, some of which will reuse this equipment. For example, the very first capacitance measurement experiment can use the same vibration isolator as a late-stage STM iteration. It could even opt to only use the interior isolation stage.
