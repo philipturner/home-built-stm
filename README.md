@@ -57,4 +57,9 @@ System modules:
   - A custom design that minimizes parasitic capacitance, might need to be discarded with the broken tip
   - This is similar to qPlus sensors, which have some MEMS circuitry on whatever the tuning fork is glued to
   - Minimize the magnitude of thermal drift caused by the op-amp's ~7 mW power consumption
-
+- Two-stage spring suspension system
+  - Viton high-frequency dampers are incompatible with UHV. They're compatible with HV, but not UHV (Viton has a vapor pressure of 10^-8 or 10^-7 torr).
+  - Use a single-stage, compact spring for the high-frequency part. This is small enough to fit inside a UHV chamber.
+  - Use a single-stage low-frequency isolator with ~1.7 Hz vertical resonance frequency. Copying the "Open STM" design.
+  - The low-frequency isolator models a pessimistic outcome, where you need an air table, and you can't utilize Minus K technology.
+  - This table would hold the entire UHV chamber in the far-term prototype. Near-term, it serves to conveniently hold the electronics.
