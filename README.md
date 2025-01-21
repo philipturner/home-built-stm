@@ -39,6 +39,10 @@ Sequence of experiments:
     - Use the FreeCAD finite element simulator to model the capacitance, which needs corrections to the parallel plate model.
   - Verify the predicted behavior, that it shears in both X and Y.
 - 1DOF scanning tunneling spectroscopy machine, that can maintain tunneling current without crashing the tip
+  - 30 nm range single LiNbO3 plate, with 440 V effective (+/-110 V plus polarity reversal)
+  - 3 nm coarse stepping size with Dan Berard style stepper motor stage, just 1 motor?
+    - Although there is severe thermal drift, the handoff between fine Z range and coarse Z step might catch up
+    - Otherwise, need to stack multiple piezo plates for Z. This is a topic of major importance.
   - Verify the measurement of 100 fA currents (100x more sensitive than the Mech Panda STM)
 - 3DOF scanning tunneling microscope with limited range
   - 30 nm range on each axis, verified for the X/Y axes by counting number of HOPG unit cells.
