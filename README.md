@@ -2,6 +2,10 @@
 Philip Turner, Nanoscience Student (2025)
 philipturner@vt.edu
 
+## Project Overview
+
+Vacuum-compatible STM with no nonlinearities in the relationship between piezo voltage and position.
+
 ## Progress (Jan 2025)
 
 This project is officially a NANO 4994 research project for Spring 2025, worth 3 credits. After months of research, I found a potential solution to my main goal of building an STM, solving piezo creep. I discovered a new material that could make better piezoelectric actuators: <b>lithium niobate</b>. I am listing some of the calculations and scripts I have done. Currently, I am speed-running the tutorials for FreeCAD and KiCad.
@@ -25,9 +29,7 @@ I also read a few hundred pages of literature on:
 
 The remainder of this document is outdated. I will update it when I have fleshed out the concrete details of my device.
 
-## Project Overview
 
-A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses.
 
 <b>Near-term goals:</b> Reproducing Mech Panda's DIY STM, a low-cost device that can image graphite. Will place a layer of tripod nano-tips under the device, verify that they can also be imaged.
 
