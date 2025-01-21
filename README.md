@@ -35,7 +35,9 @@ The current high-level plan is very rough. It will be split into different modul
 
 Sequence of experiments:
 - Measuring capacitance change between two parallel plates, to verify piezoelectricity of LiNbO3
-  - Verify the predicted behavior, that it shears in both X and Y
+  - Using glass cover slides to enforce a pre-determined distance of ~300 μm. Then, verify that capacitance behavior matches the simulations.
+    - Use the FreeCAD finite element simulator to model the capacitance, which needs corrections to the parallel plate model.
+  - Verify the predicted behavior, that it shears in both X and Y.
 - 1DOF scanning tunneling spectroscopy machine, that can maintain tunneling current without crashing the tip
   - Verify the measurement of 100 fA currents (100x more sensitive than the Mech Panda STM)
 - 3DOF scanning tunneling microscope with limited range
@@ -70,5 +72,10 @@ System modules:
     - ["The industry's first 220 Vpp op amp"](https://www.analog.com/en/resources/design-notes/adhv4702-1-24-v-to-220-v-precision-operational-amplifier.html), invented in 2018.
     - There are 350 Vpp (-175 V / +175 V) designs out there, but they have triple the cost ($10 -> $28)
     - Might be more economical to use custom, discrete components to reach even higher voltages (Art of Electronics mentioned 0 V / +1 kV piezo driver)
-  - Unused op amps can be turned off to reduce power consumption
-  - Can be recycled for late-stage prototype with coarse piezoactuators under ambient conditions
+  - Each LiNbO3 stack needs 2 decidated op amps, so one electrode is +110 V while the other is -110 V. LiNbO3 can withstand extremely high electric fields.
+  - Unused op amps should be turned off to reduce power consumption.
+  - Might multiplex op-amps to the subset of piezoactuators in use at any moment.
+  - Can be recycled for late-stage prototype with coarse piezoactuators under ambient conditions. Might keep one of the electrodes at GND for PZT plates, to avoid depoling them.
+- Analog to digital board
+  - Enough DACs to supply all the piezos that must be operated simultaneously, in the late-stage prototype (3 fine and 2 coarse, 5 total).
+  - Analog Devices made some [open-source code](https://github.com/analogdevicesinc/no-OS/blob/main/drivers/dac/ad5761r/ad5761r.h) to operate this chip, which is nice.
