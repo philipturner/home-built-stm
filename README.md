@@ -77,7 +77,7 @@ System modules:
   - Might multiplex op-amps to the subset of piezoactuators in use at any moment.
   - Can be recycled for late-stage prototype with coarse piezoactuators under ambient conditions. Might keep one of the electrodes at GND for PZT plates, to avoid depoling them.
 - Analog to digital board
-  - [AD5761]([https://www.analog.com/en/products/ad5761.html]) ADCs with ~133 kHz bandwidth
+  - [AD5761](https://www.analog.com/en/products/ad5761.html]) ADCs with ~133 kHz bandwidth
     - Enough DACs to supply all the piezos that must be operated simultaneously, in the late-stage prototype (3 fine and 2 coarse, 5 total). Also, a DAC for the bias voltage.
     - High voltage setting: 20 Vpp range (-10 V / +10 V or 0 V / +20 V)
     - Low voltage setting: 6 Vpp range (-3 V / +3 V or 0 V / +5 V)
