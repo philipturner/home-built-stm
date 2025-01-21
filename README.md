@@ -89,5 +89,7 @@ System modules:
     - "Capacitance to digital converter", fuses high-resolution capacitance detection circuitry with a 24-bit sigma-delta ADC
     - 10 Hz = 4 aF resolution
     - 100 Hz = 40 aF resolution
+    - Accepts up to 4 pF variation range during dynamic operation, with 17 pF able to be accessed by a slow capacitance offsetting mechanism
+    - The capacitance measurement setup in the paper that studied piezo creep, was 3.2 pF with 10 mm x 10 mm x 300 μm parallel plate capacitor
     - Removes the need for bulky, expensive "capacitance bridges" based on a four-element bridge with inductors and mechanical DACs (unsure how they work fully)
     - Useful the early-stage prototype measuring capacitance, and could serve as a sensor to aid in tip-sample approach later on.
