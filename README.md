@@ -8,7 +8,7 @@ Vacuum-compatible STM with no nonlinearities in the relationship between piezo v
 
 ## Progress (Jan 2025)
 
-This project is officially a NANO 4994 research project for Spring 2025, worth 3 credits. After months of research, I found a potential solution to my main goal of building an STM, solving piezo creep. I discovered a new material that could make better piezoelectric actuators: <b>lithium niobate</b>. I am listing some of the calculations and scripts I have done. Currently, I am speed-running the tutorials for FreeCAD and KiCad.
+This project is officially a NANO 4994 research project for Spring 2025, worth 3 credits. After months of research, I found a potential solution to my main goal of building an STM, solving piezo creep. I discovered a new material that could make better piezoelectric actuators: <b>lithium niobate</b>. I am listing some of the calculations and scripts I have done. Currently, I am speed-running the tutorials for FreeCAD and KiCad. I have gotten through ~50% of them.
 
 Small-scale studies and tests performed:
 - [Charge Drives (Google Sheets)](https://docs.google.com/spreadsheets/d/1x5uQ4LPubufbuQAfBjDXJuyd1Wf3S6ZZu0C0zVwssfQ/edit?usp=sharing)
@@ -27,11 +27,11 @@ I also read a few hundred pages of literature on:
 - Ferroelectric materials (Landau Theory)
 - A substantial portion of "Art of Electronics, 3rd Edition"
 
-I have gotten through at least 50% of the tutorials I plan to take, for FreeCAD and KiCad.
+<b>Lithium is a high vapor pressure metal, just like zinc.</b> See [Vacuum Compatibility (Google Sheets)](https://docs.google.com/spreadsheets/d/1ahE9a9jptKb8CLytUUoq606xVC4pLZpgXXCualte69o/edit?usp=sharing). To carry this investigation to completion, I would need to validate that lithium niobate and conductive epoxy are UHV compatible. Or whatever else is used to solder SMT/SMD components in vacuum-compatible PCBs. Shear piezo stacks have been made before, and worked under 10^-11 torr backing pressures. It's just, the lithium in LiNbO3 evaporates more than the lead in Pb(Ti,Zr)O3. Liquid nitrogen should annihilate the vapor pressure during STM operation, but not during bakeout (likely the issue with high vapor-pressure metals). Might require longer bakeouts at lower pressures.
 
 ## High-Level Overview
 
-The current high-level plan is very rough. It will be split into different modules, which can be constructed once and recycled multiple times. I will conduct multiple experiments in sequence, some of which will reuse this equipment. For example, the very first capacitance measurement experiment can use the same vibration isolator as a late-stage STM iteration. It could even opt to only use the interior isolation stage.  
+The current high-level plan is very rough. It will be split into different modules, which can be constructed once and recycled multiple times. I will conduct multiple experiments in sequence, some of which will reuse this equipment. For example, the very first capacitance measurement experiment can use the same vibration isolator as a late-stage STM iteration. It could even opt to only use the interior isolation stage.
 
 Sequence of experiments:
 - Measuring capacitance change between two parallel plates, to verify piezoelectricity of LiNbO3
@@ -50,7 +50,7 @@ Sequence of experiments:
   - X coarse stage enables "tripod assembly line", reducing a sample swapping bottleneck during atom building
   - Coarse stage uses shear piezos, but potentially out of the inferior PZT just to increase their range
   - PZT has piezo creep, but it has a similar effect to thermal drift with stepper motors. Wait until the coarse stage settles.
-- Ultra-high vacuum system at room temperature
+- Ultra-high vacuum system at room temperature (far term development stage, beyond my work at Virginia Tech)
   - Prove that evaporation of lithium atoms from LiNbO3 is not a concern
   - Prove that evaporation of atoms from the conductive epoxy is not a concern
   - Prove that the system can withstand bakeout, if STM modules are typically required to undergo bakeout
