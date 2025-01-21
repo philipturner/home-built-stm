@@ -31,7 +31,7 @@ I have gotten through at least 50% of the tutorials I plan to take, for FreeCAD 
 
 ## High-Level Overview
 
-The current high-level plan is very rough. It will be split into different modules, which can be constructed once and recycled multiple times. I will conduct multiple experiments in sequence, some of which will reuse this equipment. For example, the very first capacitance measurement experiment can use the same vibration isolator as a late-stage STM iteration. It could even opt to only use the interior isolation stage.
+The current high-level plan is very rough. It will be split into different modules, which can be constructed once and recycled multiple times. I will conduct multiple experiments in sequence, some of which will reuse this equipment. For example, the very first capacitance measurement experiment can use the same vibration isolator as a late-stage STM iteration. It could even opt to only use the interior isolation stage.  
 
 Sequence of experiments:
 - Measuring capacitance change between two parallel plates, to verify piezoelectricity of LiNbO3
@@ -55,6 +55,12 @@ Sequence of experiments:
   - Prove that evaporation of atoms from the conductive epoxy is not a concern
   - Prove that the system can withstand bakeout, if STM modules are typically required to undergo bakeout
   - Verify that the previously designed system can function (take an image) while producing a vapor pressure of under 10^-10 torr
+ 
+Mechanical loop:
+- The system modules are everything besides the tip-sample mechanical loop (which will change from experiment to experiment).
+- The mechanical loop should be designed to have maximum resonance frequency.
+- The mechanical loop should be designed to have minimum coefficient of thermal expansion.
+- The electrical shielding should have minimum possible tip-ground parasitic capacitance (the limiter to current sensitivity).
 
 System modules:
 - UHV compatible spare pre-amplifiers
@@ -62,6 +68,10 @@ System modules:
   - A custom design that minimizes parasitic capacitance, might need to be discarded with the broken tip
   - This is similar to qPlus sensors, which have some MEMS circuitry on whatever the tuning fork is glued to
   - Minimize the magnitude of thermal drift caused by the op-amp's ~7 mW power consumption
+- Reversibly bondable piezo plates
+  - Use magnets to make piezos reversibly stickable to something. You can stack them up, or instead distribute then across different axes (X/Y/Z).
+  - Need to understand whether you can do this, without the magnetic force crushing the crystalline material.
+  - Issues with isolating nearby circuitry (such as the grounded STM tip) from very high electric fields
 - Two-stage spring suspension system
   - Viton high-frequency dampers are incompatible with UHV. They're compatible with HV, but not UHV (Viton has a vapor pressure of 10^-8 or 10^-7 torr).
   - Use a single-stage, compact spring for the high-frequency part. This is small enough to fit inside a UHV chamber.
@@ -93,3 +103,17 @@ System modules:
     - The capacitance measurement setup in the paper that studied piezo creep, was 3.2 pF with 10 mm x 10 mm x 300 μm parallel plate capacitor
     - Removes the need for bulky, expensive "capacitance bridges" based on a four-element bridge with inductors and mechanical DACs (unsure how they work fully)
     - Useful the early-stage prototype measuring capacitance, and could serve as a sensor to aid in tip-sample approach later on.
+- Second half of TIA board
+  - Processed the output of the pre-amplifier, which doesn't need as much shielding
+  - Complex analog circuitry for the 0.1 pA–50 nA, [fast low-noise transimpedance amplifier](https://pubs.aip.org/aip/rsi/article-abstract/91/7/074701/967357/Fast-low-noise-transimpedance-amplifier-for).
+  - Contains the expensive (~$30) 18-bit ADC.
+    - Plan to buy the low-bandwidth 250 kHz one. The way ADC bandwidths work, is they have either a fixed frequency or they are on sleep.
+    - The analog part of this circuit has no more than 50 kHz (anything higher would have unacceptable e<sub>n</sub>C noise anyway.
+    - No need to sample significantly higher than the true bandwidth.
+  - Bandwidth switching circuitry and high-order filters, potentially multiplexing through a finite set of bandwidths.
+    - Theoretical limit is the 50 fA bias current of the pre-amplifier.
+    - Ultra low bandwidth (1-2 kHz, the circuit's natural corner frequency without correction) = 250 fA noise, mostly Johnson noise at 300 K
+    - Low bandwidth (4.4 kHz) = 500 fA noise
+    - High bandwidth (40 kHz) = 7 pA noise, mostly e<sub>n</sub>C noise
+  - Current amplifier will not be needed for early capacitance testing experiments
+  
