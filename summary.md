@@ -2,7 +2,7 @@
 Philip Turner
 
 # Summary
-A device that can image with atomic resolution, and rip individual atoms off the sample with voltage pulses
+STM with no nonlinearities in the relationship between piezo voltage and position.
 
 # Date Started
 10-24-2024

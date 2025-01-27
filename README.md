@@ -4,7 +4,7 @@ philipturner@vt.edu
 
 ## Project Overview
 
-Vacuum-compatible STM with no nonlinearities in the relationship between piezo voltage and position.
+STM with no nonlinearities in the relationship between piezo voltage and position.
 
 ## Progress (Jan 2025)
 
