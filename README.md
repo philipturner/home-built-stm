@@ -156,3 +156,19 @@ Images of 10 lithium niobate plates that were delivered. Dimensions: 5 mm x 5 mm
 Crystallographic orientation:
 
 ![Lithium Niobate Orientation](./Documentation/Lithium_Niobate_Orientation.jpg)
+
+## Finite Element Modeling
+
+> TODO: Refine the formatting of this section.
+
+Image 1: Render from Dan Berard's CAD model, of his second prototype that was never built. Image 2: Cross-section of my FreeCAD model. Image 3: Finite element mesh created from the cross-section (~29,000 nodes). Node count of the full STM model, without the cross-section, is TBD.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/stm_rev2_3.png" width="32%">
+&nbsp; &nbsp;
+  <img src="./Documentation/DanBerard2_Model.png" width="30.5%">
+&nbsp; &nbsp;
+  <img src="./Documentation/DanBerard2_Mesh.png" width="27.3%">
+&nbsp;
+</p>
