@@ -159,6 +159,8 @@ Crystallographic orientation:
 
 ## Finite Element Modeling
 
+Source: https://dberard.com/2015/09/13/new-spm-design-progress
+
 Image 1: Render from Dan Berard's CAD model, of his second prototype that was never built. Image 2: Cross-section of my FreeCAD model. Image 3: Finite element mesh created from the cross-section (29,955 nodes). Node count of the full STM model, without the cross-section, is 50,907.
 
 <p align="center">
