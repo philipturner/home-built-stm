@@ -161,7 +161,7 @@ Crystallographic orientation:
 
 > TODO: Refine the formatting of this section.
 
-Image 1: Render from Dan Berard's CAD model, of his second prototype that was never built. Image 2: Cross-section of my FreeCAD model. Image 3: Finite element mesh created from the cross-section (~29,000 nodes). Node count of the full STM model, without the cross-section, is TBD.
+Image 1: Render from Dan Berard's CAD model, of his second prototype that was never built. Image 2: Cross-section of my FreeCAD model. Image 3: Finite element mesh created from the cross-section (29,955 nodes). Node count of the full STM model, without the cross-section, is TBD.
 
 <p align="center">
 &nbsp;
