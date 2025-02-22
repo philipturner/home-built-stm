@@ -184,3 +184,38 @@ This prototype serves as a near-term experience, to get experience with construc
 The offset voltages for ADCs and DACs are non-trivial. However, based on skimming through some online stuff, trimming should be effective. The offsets supposedly stay constant with environmental conditions (temperature is the only thing that changes them? skeptical). DACs have a much greater offset voltage than ADCs. This is especially of note for the bias voltage. Scienta Omicron's overpriced STM has a lower bound to bias voltage dynamic range, of 5 mV. How do they perform sub-millivolt STS graphs? Maybe that instrument does not.
 
 I still haven't tabulated all the chips needed. I likely won't have a Bill of Materials until I spend more time understanding transistors and discrete transistor feedback loop circuits. This is Art of Electronics chapters 2 and 3, some of the last ones I haven't read yet. Transistors are important for over-voltage regulators in the fast low-noise TIA design, so I need to understand how they work and what implications this has.
+
+## Update (February 22, 2025)
+
+This project is way out of scope for a single semester. I don't even want to make a 3D scanning STM first. I just want to solve the stability issue preventing people from taking quantitatively correct current-distance curves. Can I create a stable enough STM to measure the fact than current increases 10x every 80 pm, not 10x every Å? Thermal drift and piezo nonlinearities mean this cannot happen at 300 K. It has only been done at 4 K. I hypothesize that with a lithium niobate coarse approach mechanism, as outlined in [US12174218B2](https://patents.google.com/patent/US12174218B2), such a stability test will be possible at 300 K.
+
+Here, I have a recorded a snapshot of my current priority list. It is constantly under revision, as I answer questions. The answers to these questions result in even more questions appearing. The stable 1DOF nanopositioning system would be "Prototype 5". However, v5 is out of scope for a semester. Even v4 might be out of scope, due to the need for high-voltage electronics.
+
+For Prototype 3:
+- Find the best DAC chip
+- First project:
+  - Before next Tuesday, come back with a plan for this
+  - Making a PCB that measures the values of resistors and capacitors
+
+For Prototype 4:
+- Learning about epoxy
+- AoE x-Chapters part about inductors
+- Understanding tilting and bowing in the capacitance sensor
+- Understanding the reason for a sensor shaped like concentric cylinders
+- Learning KiCad StepUp
+
+For Prototype 5:
+- Understanding the shear stress, and whether differences in polarization will break bonds in the frictional contact
+- Calculate the critical amplitude for a coarse actuator design
+
+To explain the current roadmap, I made a table. It lists the previous design iterations (1, 2) and the ones on my priority list.
+
+| Prototype | Purpose |
+| :-------: | ------- |
+| 1         | First TIA on breadboard |
+| 2         | Second TIA on breadboard, with ordered parts |
+| 3         | Experience using the IC chips needed for the STM |
+| 4         | Test rig for properly orienting piezo stacks |
+| 5         | Stable 1DOF nanopositioner with kinematic mount |
+
+There are technically 11 weeks between now and graduation. But more realistically, the budget is 9 weeks or less. I feel that, by putting these tasks on this project document, I might feel better. About crossing off a few of them, without taking the time to finish them. I can be more motivated to work on the near-term "Prototype 3" while also not forgetting the other tasks, in the future.
