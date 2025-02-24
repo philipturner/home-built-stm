@@ -222,6 +222,10 @@ There are technically 11 weeks between now and graduation. But more realisticall
 
 ## First Draft of TIA Subsystem
 
-![First Draft TIA Subsystem - 1](./Documentation/First_Draft_TIA_Subsystem-1.jpeg)
-
-![First Draft TIA Subsystem - 2](./Documentation/First_Draft_TIA_Subsystem-2.jpeg)
+<p align="center">
+&nbsp;
+  <img src="./Documentation/First_Draft_TIA_Subsystem-1.jpg" width="45.0%">
+&nbsp; &nbsp;
+  <img src="./Documentation/First_Draft_TIA_Subsystem-2.jpg" width="45.0%">
+&nbsp;
+</p>
