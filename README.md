@@ -219,3 +219,9 @@ To explain the current roadmap, I made a table. It lists the previous design ite
 | 5         | Stable 1DOF nanopositioner with kinematic mount |
 
 There are technically 11 weeks between now and graduation. But more realistically, the budget is 9 weeks or less. I feel that, by putting these tasks on this project document, I might feel better. About crossing off a few of them, without taking the time to finish them. I can be more motivated to work on the near-term "Prototype 3" while also not forgetting the other tasks, in the future.
+
+## First Draft of TIA Subsystem
+
+![First Draft TIA Subsystem - 1](./Documentation/First_Draft_TIA_Subsystem-1.jpeg)
+
+![First Draft TIA Subsystem - 2](./Documentation/First_Draft_TIA_Subsystem-2.jpeg)
