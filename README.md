@@ -229,3 +229,16 @@ There are technically 11 weeks between now and graduation. But more realisticall
   <img src="./Documentation/First_Draft_TIA_Subsystem-2.jpg" width="45.0%">
 &nbsp;
 </p>
+
+## Update (February 26, 2025)
+
+I will have to reduce the scope again. I still have the following questions:
+- How does the successive approximation algorithm work?
+- How does delta-sigma modulation work?
+- What are the parasitics for the "capacitance bridge", and why was the 2550A supposedly better than the AD7746?
+
+I am writing the questions on this document, hoping it will convince me to remove them from my TODO list (for now). I will remove the TIA, ADC, and CDC from the near-term initial prototype. Just the DAC remains. It will be powered by a battery (±5 V), and the output will be read with a multimeter.
+
+I now only have the following questions left on my TODO list:
+- Decide between the AD5761RBRUZ ([$14.49](https://www.mouser.com/ProductDetail/Analog-Devices/AD5761RBRUZ?qs=sGAEpiMZZMtgJDuTUz7Xu4AqHG%252BNl4bmQrNkJ2FPlwUUtx9Id5RwyQ%3D%3D)) and DAC81401 ([$13.23](https://www.mouser.com/ProductDetail/Texas-Instruments/DAC81401PWR?qs=mELouGlnn3e7ARpnyM2zAA%3D%3D)). Currently, the former appears to have better offset stability (unusually optimized around bipolar zero). The latter has better INL. Furthermore, the DAC8140x product line would readily facilitate future prototypes with multiple DAC channels.
+- Understand what effects the instrumentation amplifier (bias voltage) or high-voltage amplifier (piezo driver) would have. Regarding offset, temperature drift of the offset, and temperature drift in general. These are chips that post-process the DAC's output. Their errors combine with the errors from the DAC.
