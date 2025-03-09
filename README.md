@@ -252,3 +252,17 @@ Next, I will:
 - Create a prototype PCB with the Teensy and the DAC.
 - Perform "The Recipe" on the PCB traces.
 - If I can get away with just a single 0.1 μF capacitor on each supply pin, I will do that.
+
+## Update (March 6, 2025)
+
+I reverted back to the original plan, of stuffing all three analog-to-digital ICs onto the near-term PCB. I am currently understanding the effects of parasitics, particularly "Header Sockets". These are parts that emulate the connections in breadboards. Header sockets allow reversible bonding of through-hole components as "devices under test". One can also reversibly connect different test points in the circuit, with jumper wires. Or interface them with a multimeter/oscilloscope. Such connections have a large amount of parasitic inductance.
+
+I developed 8 different permutations of lumped element models, for simple "devices under test" between the DAC and the ADC. It starts with the parasitic output resistance of the DAC, 0.05 Ω. Then, it goes through a network of resistors, capacitors, and/or inductors (which may connect to GND). It ends with the parasitic input resistance of the ADC, 1 MΩ. I am using the SPICE functionality embedded in KiCad to understand the behavior of these parasitics. I previously invested well over 10 person-hours learning how to use KiCad's SPICE.
+- 2 resistor geometries × 3 resistance values (1 Ω, 1 kΩ, 1 MΩ) = 6 permutations
+- 2 short circuit geometries (THT with 1 cm jumper wire, SMT pads with 1 cm PCB trace)
+
+I will put the following on this README:
+- Screenshots of the KiCad schematic models
+- Screenshots of the transient analysis (voltages and appropriate currents)
+  - Units for time, voltage, and current in each transient analysis
+- Screenshots of the AC small-signal analysis, for the DAC → ADC transfer function
