@@ -274,3 +274,7 @@ Power source for transient analysis:
 Power source for AC small-signal analysis:
 
 ![Power for AC Small Signal](./Documentation/KiCadSPICE/PowerForACSmallSignal.png)
+
+| Device Under Test | Model |
+| ----------------- | ----- |
+| Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Model.png) |
