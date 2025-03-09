@@ -266,3 +266,11 @@ I will put the following on this README:
 - Screenshots of the transient analysis (voltages and appropriate currents)
   - Units for time, voltage, and current in each transient analysis
 - Screenshots of the AC small-signal analysis, for the DAC → ADC transfer function
+
+Power source for transient analysis:
+
+![Power For Transient](./Documentation/KiCadSPICE/PowerForTransient.png)
+
+Power source for AC small-signal analysis:
+
+![Power for AC Small Signal](./Documentation/KiCadSPICE/PowerForACSmallSignal.png)
