@@ -283,6 +283,7 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | Device Under Test | Description | Model |
 | ----------------- | ----------- | ----- |
 | Circuit 1 | Simplified version of SMT short circuit | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Model.png) |
+| Circuit 2 | SMT short circuit from 1 cm PCB trace | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_Model.png) |
 
 </details>
 
@@ -292,6 +293,7 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | Device Under Test | V(Vout) | I(V2) |
 | ----------------- | ------- | ----- |
 | Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(V2).jpg) |
+| Circuit 2 | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_Tran_I(V2).jpg) |
 
 </details>
 
@@ -301,5 +303,6 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | Device Under Test | V(Vout) | I(V1) |
 | ----------------- | ------- | ----- |
 | Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_AC_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_AC_I(V1).jpg) |
+| Circuit 2 | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_AC_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_AC_I(V1).jpg) |
 
 </details>
