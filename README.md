@@ -284,6 +284,9 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | ----------------- | ----------- | ----- |
 | Circuit 1 | Simplified version of SMT short circuit | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Model.png) |
 | Circuit 2 | SMT short circuit from 1 cm PCB trace | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_Model.png) |
+| Circuit 3 | THT resistor in header socket, 1 Ω | ![](./Documentation/KiCadSPICE/Circuit3/Circuit3_Model.png) |
+| Circuit 4 | THT resistor in header socket, 1 kΩ |
+| Circuit 5 | THT resistor in header socket, 1 MΩ |
 
 </details>
 
@@ -294,6 +297,7 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | ----------------- | ------- | ----- |
 | Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(V2).jpg) |
 | Circuit 2 | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_Tran_I(V2).jpg) |
+| Circuit 3 | ![](./Documentation/KiCadSPICE/Circuit3/Circuit3_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit3/Circuit3_Tran_I(V2).jpg) |
 
 </details>
 
@@ -304,5 +308,6 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | ----------------- | ------- | ----- |
 | Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_AC_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_AC_I(V1).jpg) |
 | Circuit 2 | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_AC_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit2/Circuit2_AC_I(V1).jpg) |
+| Circuit 3 | ![](./Documentation/KiCadSPICE/Circuit3/Circuit3_AC_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit3/Circuit3_AC_I(V1).jpg) |
 
 </details>
