@@ -293,13 +293,13 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 | ----------------- | ------- | ----- |
 | Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(V2).jpg) |
 
-| Device Under Test | I(C1) | I(C2) |
-| ----------------- | ----- | ----- |
-| Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(C1).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(C2).jpg) |
-
 </details>
 
 <details>
 <summary>AC Small-Signal Analysis</summary>
+
+| Device Under Test | V(Vout) | I(V1) |
+| ----------------- | ------- | ----- |
+| Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_AC_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_AC_I(V1).jpg) |
 
 </details>
