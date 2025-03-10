@@ -275,6 +275,27 @@ Power source for AC small-signal analysis:
 
 ![Power for AC Small Signal](./Documentation/KiCadSPICE/PowerForACSmallSignal.png)
 
-| Device Under Test | Model |
-| ----------------- | ----- |
-| Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Model.png) |
+To save time, I revised the number of models to 5. The first one is a simple test to get the hang of setting up simulations.
+
+<details>
+<summary>KiCad SPICE Models</summary>
+
+| Device Under Test | Description | Model |
+| ----------------- | ----------- | ----- |
+| Circuit 1 | Simplified version of SMT short circuit | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Model.png) |
+
+</details>
+
+<details>
+<summary>Transient Analysis</summary>
+
+| Device Under Test | V(Vout) | I(V2) | I(C1) | I(C2) |
+| ----------------- | ------- | ----- | ----- | ----- |
+| Circuit 1 | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_V(Vout).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(V2).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(C1).jpg) | ![](./Documentation/KiCadSPICE/Circuit1/Circuit1_Tran_I(C2).jpg) |
+
+</details>
+
+<details>
+<summary>AC Small-Signal Analysis</summary>
+
+</details>
