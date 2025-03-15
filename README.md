@@ -349,7 +349,7 @@ No, all of that is out of scope. Just have a PCB with a DAC and ADC. Include the
 - All test points are through-hole header sockets.
 - I can cover the entire PCB with a construct of aluminum foil, for first-order shielding.
 - The power supply is six 9V batteries, fed into a network of linear regulator ICs.
-- The Teensy will bond directly to the PCB, a carefully placed array of header sockets. No need for ribbon cable and extra boards between the Teensy and PCB.
+- The Teensy will bond directly to the PCB, via a carefully placed array of header sockets. No need for ribbon cables and intermediate boards between the Teensy and PCB.
 - Separate ground plane for the Teensy (digital) and ADC/DAC SPI pins (analog). Each of the two chips has a quad-channel digital isolator (not an opto-isolator, but similar).
 
-From the time budget in the February 22 update, I have effectively 6 weeks left. But spring break (the most productive week) is mostly over. The workload will get harder. I am participating in a group project, to plan and execute an organic synthesis. I will be very engaged, as it's invaluable to my future aspirations to synthesize tripods. Although that motivation has faded away; the even greater barrier might be time to construct a minimal-cost UHV SPM. Regardless, I have little time to waste.
+From the time budget in the February 22 update, I have effectively 6 weeks left. But Spring Break (the most productive week) is mostly over. The workload will get harder. I am participating in a group project, to plan and execute an organic synthesis. I will be very engaged, as it's invaluable to my future aspirations to synthesize tripods. Although that motivation has faded away; the even greater barrier might be time to construct a minimal-cost UHV SPM. Regardless, I have little time to waste.
