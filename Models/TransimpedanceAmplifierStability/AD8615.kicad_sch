@@ -683,18 +683,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 93.98 68.58)
-		(end 233.68 121.92)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5a3e66e3-2cac-4954-9113-ccd38ec90439)
-	)
 	(text "Input Gain Stage\n103.5 dB"
 		(exclude_from_sim no)
 		(at 97.282 73.66 0)
@@ -735,16 +723,6 @@
 			)
 		)
 		(uuid "91a4675d-f468-4772-9112-dece7aac0410")
-	)
-	(text "AD8615 Operational Amplifier"
-		(exclude_from_sim no)
-		(at 111.506 62.992 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f842f4bf-d690-443e-b0d3-4e441c15c87a")
 	)
 	(junction
 		(at 138.43 96.52)
