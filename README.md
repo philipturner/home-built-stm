@@ -384,13 +384,13 @@ I keep going back and forth about which tool I want to use. Generally, if I was 
 
 Finally!
 
-![Op Amp Transfer Functions](./Documentation/KiCadSPICE/OpAmpTransferFunctions.png)
+![Op Amp Transfer Functions](./Documentation/TransimpedanceAmplifierStability/OpAmpTransferFunctions.png)
 
 ## Update (March 20, 2025)
 
 I have successfully created lumped-element models of the op-amps in KiCad SPICE, by referring to the code from the script. They reproduce the transfer functions shown above. I used voltage-controlled voltage sources to create unity-gain buffers, which prevent different filter sections from "loading" each other.
 
-![Op Amp Code to KiCad Translation](./Documentation/KiCadSPICE/OpAmpCodeToKiCadTranslation.png)
+![Op Amp Code to KiCad Translation](./Documentation/TransimpedanceAmplifierStability/OpAmpCodeToKiCadTranslation.png)
 
 <i>Lumped-element model of the AD8615, configured for an AC small-signal analysis.</i>
 
