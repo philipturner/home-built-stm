@@ -385,3 +385,13 @@ I keep going back and forth about which tool I want to use. Generally, if I was 
 Finally!
 
 ![Op Amp Transfer Functions](./Documentation/KiCadSPICE/OpAmpTransferFunctions.png)
+
+## Update (March 20, 2025)
+
+I have successfully created lumped-element models of the op-amps in KiCad SPICE, by referring to the code from the script. They reproduce the transfer functions shown above. I used voltage-controlled voltage sources to create unity-gain buffers, which prevent different filter sections from "loading" each other.
+
+![Op Amp Code to KiCad Translation](./Documentation/KiCadSPICE/OpAmpCodeToKiCadTranslation.png)
+
+<i>Lumped-element model of the AD8615, configured for an AC small-signal analysis.</i>
+
+I organized the KiCad project by creating multiple pages. One of the pages holds the models for the op-amps. There is text denoting which circuit is which op-amp model. This page is excluded from simulation. To set up a simulation, I can copy and paste the elements from this reference page, into the main page. This is similar to how I host reference code for MD simulations in a repository [(1)](https://github.com/philipturner/rod-logic) [(2)](https://github.com/philipturner/bootstrapping-code-archive), they copy it into an [Xcode project](https://github.com/philipturner/molecular-renderer) for customization.
