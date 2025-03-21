@@ -1022,6 +1022,39 @@
 		)
 		(uuid "f9219951-6059-434d-a5e7-7a1ef9cc12f8")
 	)
+	(hierarchical_label "output"
+		(shape output)
+		(at 215.9 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d52be680-f74c-4b61-b5e9-df02292213d6")
+	)
+	(hierarchical_label "(-) input"
+		(shape input)
+		(at 101.6 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df7de1a6-b57b-4ffa-8dcf-cff6cf4e55d5")
+	)
+	(hierarchical_label "(+) input"
+		(shape input)
+		(at 101.6 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8d0d3ef-0315-414f-b179-b9d569995aeb")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 138.43 111.76 0)
@@ -1077,12 +1110,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "62f3dafb-03d7-4682-b4b7-bb1e0360125c")
+			(uuid "cf5cfeed-67e9-4514-9a4c-b65aba622853")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1171,21 +1208,25 @@
 			)
 		)
 		(pin "3"
-			(uuid "02e6d498-6db9-4528-a054-3df75ee1bada")
+			(uuid "f060d3db-059a-4f97-941b-bcf1f0e777bb")
 		)
 		(pin "4"
-			(uuid "f121b4fb-58c3-43c6-aa3c-3fed35a7ff6d")
+			(uuid "074a0b89-c2fe-469c-8b4c-f0d3baba038a")
 		)
 		(pin "1"
-			(uuid "33661532-3c12-4365-ac15-bbdd6a839d5a")
+			(uuid "eb069ae4-c82f-4285-9bc5-5ebd2e739596")
 		)
 		(pin "2"
-			(uuid "8fb1d5cd-aed4-457d-b846-7cb4e4f35eeb")
+			(uuid "addf067d-f110-43c0-80e4-b2a74fc71ec6")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "E8")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "E12")
 					(unit 1)
 				)
 			)
@@ -1246,12 +1287,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ea1dd6c-e6d5-4b61-9461-e83aa85c8b69")
+			(uuid "2ad01de7-2c77-4d3a-9078-1b17d99f11a8")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1312,12 +1357,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3fcd46c-2beb-4637-8c3a-aa4a017f5619")
+			(uuid "cda956f9-d583-4899-b07b-c36cd81932bf")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1379,15 +1428,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "84d563cc-7b1a-41a5-9a30-d68d6bd680b5")
+			(uuid "5cab79c6-9571-424a-b129-d2bfbae6f65b")
 		)
 		(pin "2"
-			(uuid "191108d0-5454-4cf6-9e73-3306e517d407")
+			(uuid "f06f0235-f7a1-4e68-a398-782611fd3079")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1447,15 +1500,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "18a69a7c-8b05-456a-8c4c-08db136d3bde")
+			(uuid "e1f9e465-e11c-4802-a610-c43635149690")
 		)
 		(pin "2"
-			(uuid "e061eb5c-606d-4576-932d-173d70a93d04")
+			(uuid "1069de7e-6861-49a8-afd8-f733ed3b7b71")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1516,12 +1573,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "85501279-d668-4463-b426-cb3379b56c87")
+			(uuid "03b4ef57-f40b-4198-886f-e615add6d38f")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1582,12 +1643,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fff4c2b5-c215-427e-bc16-3c728610e82e")
+			(uuid "8d0f0905-fa41-4ec2-b7a3-bb5530bab237")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1648,12 +1713,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1eb30114-8d43-445f-9a0b-c076abce0807")
+			(uuid "5d99b9e4-d3f1-4215-8e15-15e1c8ca0cd7")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1714,12 +1783,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e937d934-151b-49f4-9b26-c2c7e91a980a")
+			(uuid "45433769-b218-4995-b351-99e4f77741fa")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1808,21 +1881,25 @@
 			)
 		)
 		(pin "3"
-			(uuid "1f69b77e-0d71-4a69-9a76-c0641e94817e")
+			(uuid "6b04e029-1f24-4bf1-8978-e0cdb8f8416e")
 		)
 		(pin "4"
-			(uuid "847c53af-c4ac-434f-a3ca-48baf408f2e9")
+			(uuid "2311fca7-37a1-4d77-8266-ee75db225b7b")
 		)
 		(pin "1"
-			(uuid "6f9d6619-ef6a-481e-90c8-88ebfc7aaf48")
+			(uuid "44d9ac62-4518-4184-a3a8-6738a975a504")
 		)
 		(pin "2"
-			(uuid "2b6ee119-7558-4ad3-867a-d938ef42f349")
+			(uuid "170702f3-7274-43cb-b64a-831d586baa52")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "E7")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "E11")
 					(unit 1)
 				)
 			)
@@ -1883,12 +1960,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "0710b5d2-044f-4aca-85f7-28d03949012a")
+			(uuid "d3519757-3e47-4101-a3fe-c2f813815bf9")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1948,15 +2029,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fe25d33-4a39-46e6-a755-8e7f981b96df")
+			(uuid "46a0825e-b720-4e55-bab0-e31fa14b53eb")
 		)
 		(pin "2"
-			(uuid "31f1e488-2cb2-4671-98de-4e817e905003")
+			(uuid "f286dd0b-60d6-4aee-a713-65b66326eb3c")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2017,7 +2102,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "552fb274-f9d0-4684-95ba-2e2e45273d41")
+			(uuid "1f76dd93-3123-46d0-b3a0-b4b2056666fc")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
@@ -2025,70 +2110,8 @@
 					(reference "#PWR028")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15f75b0-340f-4fa1-80fe-c299dfc6e4b5")
-		(property "Reference" "#PWR07"
-			(at 101.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3872a45-16aa-4850-b6f3-fc5b7058c045")
-		)
-		(instances
-			(project "TransimpedanceAmplifierStability"
-				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
-					(reference "#PWR07")
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2177,21 +2200,25 @@
 			)
 		)
 		(pin "3"
-			(uuid "a3891f31-7857-4d9f-affc-341987ccb53d")
+			(uuid "4e792b47-800e-469e-ada9-d9e313ab83b3")
 		)
 		(pin "4"
-			(uuid "add5aea2-3423-44f1-b46f-c34fe82199a1")
+			(uuid "07a0814c-6b3e-4584-93f5-5dccaf1c8f8f")
 		)
 		(pin "1"
-			(uuid "b3331df4-0c02-415b-bf78-42a7633b543e")
+			(uuid "fbe3fddf-1d52-4e60-9e18-6c3ccf5a8aa2")
 		)
 		(pin "2"
-			(uuid "096baaef-68d5-40e0-b166-e68d4e753fc2")
+			(uuid "9b0f6b19-6237-44db-bd16-93ef936de011")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "E10")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "E14")
 					(unit 1)
 				)
 			)
@@ -2251,15 +2278,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "16e94a4f-690a-479b-9780-c657d811ea56")
+			(uuid "705932ef-67ff-41c7-9b32-f3c47facb0e4")
 		)
 		(pin "2"
-			(uuid "b71d4470-ed95-4827-b1f2-204e0536f420")
+			(uuid "0d637134-d8d0-418a-87f8-226eb879b9e9")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2321,15 +2352,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ecb75f34-7048-4c58-9d85-a074f42eac25")
+			(uuid "e120a5e6-0b34-436c-a284-c51b03f2533b")
 		)
 		(pin "2"
-			(uuid "905d81db-d5e0-4366-b63a-ab6d30fa9428")
+			(uuid "c5c8dbc4-aac1-4866-9c79-a7b4ae6216f7")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "C7")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2390,12 +2425,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "01c5c773-10ba-4b3d-ab2c-71c4273cc7ea")
+			(uuid "153986d0-2393-4fa3-bd75-622f668106b6")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2484,21 +2523,25 @@
 			)
 		)
 		(pin "3"
-			(uuid "8e0ff00c-b338-4cca-8503-d37879888353")
+			(uuid "839e0537-2b93-4190-84a6-e11895b0f8bb")
 		)
 		(pin "4"
-			(uuid "e197f9f8-4c66-40d3-a1f7-e1ce043605a7")
+			(uuid "5ae31191-8fb1-4301-8a40-00e4a6216ee0")
 		)
 		(pin "1"
-			(uuid "62ff9884-1566-44bd-ab66-77bfff16a95a")
+			(uuid "9d6ad702-07a5-4afe-8537-dcd555921a33")
 		)
 		(pin "2"
-			(uuid "f5ba535b-629d-4fab-82e1-25b2c6de1c44")
+			(uuid "d051c28e-c9a0-4b69-8fbe-c98a19c4eb93")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "E9")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "E13")
 					(unit 1)
 				)
 			)
@@ -2560,15 +2603,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "05a0dcd5-eaa4-4b1b-9a37-b5dab06f6997")
+			(uuid "0e079771-1556-40c6-a108-454c296a9b94")
 		)
 		(pin "2"
-			(uuid "2ea94893-6e52-42c3-a2a7-432db47b2606")
+			(uuid "2636dd3c-f226-4385-8b5b-ce13b668c1fa")
 		)
 		(instances
 			(project "TransimpedanceAmplifierStability"
 				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/350a7392-f8dd-4a96-b4e8-c2f5595b2b98"
 					(reference "C8")
+					(unit 1)
+				)
+				(path "/b282eeea-1083-4bd9-aef5-c78f2e129a69/83a2ffcb-675c-4711-b7ba-b056f35f4220"
+					(reference "C11")
 					(unit 1)
 				)
 			)
