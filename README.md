@@ -415,3 +415,5 @@ I got the general structure of the custom design figured out. Instead of three i
 Response to a triangle wave + 1.0 pF device under test, after calibration. Note that the "mid-f compensation" appears to not affect the response when the current is a triangle wave. Only when the current is an infinitely sharp step. It eliminates the peaking that appears when input capacitance exceeds 90 pF and goes toward 95 pF, 130 pF.
 
 ![Custom Design Calibration](./Documentation/TransimpedanceAmplifierStability/CustomDesign_Calibration.png)
+
+Note that for this design, the second stage can be very sensitive to the parasitic capacitance between the terminals of OP2. If C<sub>in</sub> for OP1 is 130 pF, the circuit oscillates when C<sub>in</sub> for OP2 reaches ~350 pF. If C<sub>in</sub> for OP1 is 12 pF, the circuit oscillates when C<sub>in</sub> for OP2 reaches ~120 pF. This can be remedied by using tactics traditionally used for transmissing preamplifier input wires. Put the actual preamplifier in vacuum, and use what "once was" its 35 pF parasitic as the input capacitor for OP2. This ensures that (10 + 35 =) 45 pF < 120 pF.
