@@ -408,7 +408,7 @@ It's also easier to model, because the entire circuit (except the power supply a
 
 ## Update (March 21, 2025)
 
-I got the general structure of the custom design figured out. Instead of three inverting states, there is one inverting stage (AD8615) followed by a noninverting stage (OP37G). This configuration is different from the problematic combination of a noninverting preamplifier with an inverting second stage. The frequency response should theoretically be identical to the amplifier from the fast low-noise TIA paper.
+I got the general structure of the custom design figured out. Instead of three inverting stages, there is one inverting stage (AD8615) followed by a noninverting stage (OP37G). This configuration is different from the problematic combination of a noninverting preamplifier with an inverting second stage. The frequency response should theoretically be identical to the amplifier from the fast low-noise TIA paper.
 
 ![Custom Design Schematic](./Documentation/TransimpedanceAmplifierStability/CustomDesign_Schematic.png)
 
