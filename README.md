@@ -253,7 +253,7 @@ Next, I will:
 - Perform "The Recipe" on the PCB traces.
 - If I can get away with just a single 0.1 μF capacitor on each supply pin, I will do that.
 
-## Update (March 6, 2025)
+## March 6, 2025
 
 I reverted back to the original plan, of stuffing all three analog-to-digital ICs onto the near-term PCB. I am currently understanding the effects of parasitics, particularly "Header Sockets". These are parts that emulate the connections in breadboards. Header sockets allow reversible bonding of through-hole components as "devices under test". One can also reversibly connect different test points in the circuit, with jumper wires. Or interface them with a multimeter/oscilloscope. Such connections have a large amount of parasitic inductance.
 
@@ -316,7 +316,7 @@ To save time, I revised the number of models to 5. The first one is a simple tes
 
 </details>
 
-## Update (March 15, 2025)
+## March 15, 2025
 
 To minimize the risk of running out of time, I will cut the AD7745 out of this project for now. It might be needed in the future, in the control electronics for a capacitive displacement sensor. That sensor's purpose is primarily to aid in testing LiNbO3 piezo stacks.
 
@@ -354,7 +354,7 @@ No, all of that is out of scope. Just have a PCB with a DAC and ADC. Include the
 
 From the time budget in the February 22 update, I have effectively 6 weeks left. But Spring Break (the most productive week) is mostly over. The workload will get harder. I am participating in a group project, to plan and execute an organic synthesis. I will be very engaged, as it's invaluable to my future aspirations to synthesize tripods. Although that motivation has faded away; the even greater barrier might be time to construct a minimal-cost UHV SPM. Regardless, I have little time to waste.
 
-## Update (March 18, 2025)
+## March 18, 2025
 
 Correct control-loop model of the fast low-noise transimpedance amplifier:
 
@@ -378,7 +378,7 @@ Interestingly, I learned something about "LTspice" used in college electronics c
 
 I don't have to worry about the incorrectness for LTC6090-5, as I won't use that chip in the real device. The inner feedback loops will likely be >500 kHz. But I'm not concerned about the moderately inaccurate phase shift for inner loops. Just that they are stable (which is pretty easy to guarantee). I care more about the detailed frequency response of the outer loop, which is far below 500 kHz. Therefore, I should be justified in parameterizing only a single-pole model. This saves time.
 
-## Update (March 19, 2025)
+## March 19, 2025
 
 I keep going back and forth about which tool I want to use. Generally, if I was not pressured for time, I would do everything custom. I only learned FreeCAD because there was an immense overhead to set up the geometry for finite element simulations. For electrical circuit simulations, the equations and algorithms are much simpler. In addition, scripting opens up the flexibility to explore more details, which are inaccessible from a UI-based program. Solving this problem with scripting would be a valuable experience, and prepare me to tackle future problems that existing tools can't address.
 
@@ -386,7 +386,7 @@ Finally!
 
 ![Op Amp Transfer Functions](./Documentation/TransimpedanceAmplifierStability/OpAmpTransferFunctions.png)
 
-## Update (March 20, 2025)
+## March 20, 2025
 
 I have successfully created lumped-element models of the op-amps in KiCad SPICE, by referring to the code from the script. They reproduce the transfer functions shown above. I used voltage-controlled voltage sources to create unity-gain buffers, which prevent different filter sections from "loading" each other.
 
@@ -406,7 +406,7 @@ Another scope reduction: omit the ADC, DAC, Teensy, and optocouplers. We'll be u
 
 It's also easier to model, because the entire circuit (except the power supply and overvoltage protection) can be represented in the SPICE simulation. Everything is linearly dependent, given a fixed frequency. All the non-power pins and devices under test (impedances) can be described with linear algebra.
 
-## Update (March 21, 2025)
+## March 21, 2025
 
 I got the general structure of the custom design figured out. Instead of three inverting stages, there is one inverting stage (AD8615) followed by a noninverting stage (OP37G). This configuration is different from the problematic combination of a noninverting preamplifier with an inverting second stage. The frequency response should theoretically be identical to the amplifier from the fast low-noise TIA paper.
 
@@ -417,3 +417,49 @@ Response to a triangle wave + 1.0 pF device under test, after calibration. Note 
 ![Custom Design Calibration](./Documentation/TransimpedanceAmplifierStability/CustomDesign_Calibration.png)
 
 Note that for this design, the second stage can be very sensitive to the parasitic capacitance between the terminals of OP2. If C<sub>in</sub> for OP1 is 130 pF, the circuit oscillates when C<sub>in</sub> for OP2 reaches ~350 pF. If C<sub>in</sub> for OP1 is 12 pF, the circuit oscillates when C<sub>in</sub> for OP2 reaches ~120 pF. This can be remedied by using tactics traditionally used for transmitting preamplifier input wires. Put the actual preamplifier in vacuum, and use what "once was" its 35 pF parasitic as the input capacitor for OP2. This ensures that (10 + 35 =) 45 pF < 120 pF.
+
+## March 22, 2025
+
+Capacitances that make the amplifier unstable. The tests are conducted when the "mid-f compensation" trimpot is at 25 kΩ, and the "main compensation" trimpot is tuned for a flat frequency response.
+
+Custom design:
+
+| OP1 C<sub>in</sub> | OP2 C<sub>in</sub> |
+| -----------------: | -----------------: |
+|   2 pF |  ≥ 26 pF |
+|  12 pF | ≥ 121 pF |
+|  45 pF | ≥ 264 pF |
+| 130 pF | ≥ 370 pF |
+
+Fast low-noise TIA:
+
+| OP1 C<sub>in</sub> | OP2 C<sub>in</sub> | OP3 C<sub>in</sub> |
+| -----------------: | -----------------: | -----------------: |
+|   2 pF | unstable | unstable |
+|   2 pF | unstable | unstable |
+|   2 pF | unstable | unstable |
+|  12 pF |  ≥ 50 pF |    10 pF |
+|  12 pF |    10 pF |  ≥ 12 pF |
+|  12 pF |  ≥ 12 pF |  ≥ 12 pF |
+|  45 pF | ≥ 705 pF |    10 pF |
+|  45 pF |    10 pF | ≥ 122 pF |
+|  45 pF | ≥ 121 pF | ≥ 121 pF |
+| 130 pF | ≥ 725 pF |    10 pF |
+| 130 pF |    10 pF | ≥ 242 pF |
+| 130 pF | ≥ 238 pF | ≥ 238 pF |
+
+Tolerance for capacitance between terminals of post-amplifier stages:
+
+| OP1 C<sub>in</sub> | OP2 C<sub>in</sub> (2-stage) | OP2 C<sub>in</sub> (3-stage) | OP3 C<sub>in</sub> (3-stage) |
+| -----------------: | ------: | ------: | ------: |
+|   2 pF |  ≤ 26 pF | unstable | unstable |
+|  12 pF | ≤ 121 pF |  ≤ 50 pF |  ≤ 12 pF |
+|  45 pF | ≤ 264 pF | ≤ 705 pF | ≤ 121 pF |
+| 130 pF | ≤ 370 pF | ≤ 725 pF | ≤ 238 pF |
+
+Interesting behavior with the three-stage design:
+- When OP1 C<sub>in</sub> = 12 pF, reducing the "mid-f compensation" trimpot to 15 kΩ causes instability.
+- When OP1 C<sub>in</sub> = 2 pF, the amplifier is always unstable. Even when the "mid-f compensation" trimpot is at 100 kΩ, and the resistance in series to C<sub>c</sub> is 1470 Ω.
+- When OP1 C<sub>in</sub> = 45 pF, reducing the "mid-f compensation" trimpot to 15 kΩ does not cause instability.
+
+Next, I must design an analog 2-stage lowpass filter that mimics the ADS8699's lowpass. It's important to include this test in the semester's project, as I likely won't actually test the ADS8699. The filter will not take much effort to include.
