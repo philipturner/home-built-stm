@@ -563,9 +563,9 @@ Summarize the information above:
 | OP37G     |  -12 V |  12 V | 2.8&ndash;5.4 mA |
 | OP37G     |  -15 V |  15 V | 3.1&ndash;5.7 mA |
 | OP37G     |  -18 V |  18 V | 3.3&ndash;5.9 mA |
-| LM4040-10 |    0 V |  12 V | 0.13&ndash;3.4 mA |
-| LM4040-10 |    0 V |  15 V | 0.13&ndash;2.2 mA |
-| LM4040-10 |    0 V |  18 V | 0.13&ndash;1.7 mA |
+| LM4040D10 |    0 V |  12 V | 0.13&ndash;3.4 mA |
+| LM4040D10 |    0 V |  15 V | 0.13&ndash;2.2 mA |
+| LM4040D10 |    0 V |  18 V | 0.13&ndash;1.7 mA |
 | AD8676    |   -5 V |   5 V | 4.6&ndash;6.4 mA |
 | AD8676    |  -10 V |  10 V | 5.0&ndash;6.6 mA |
 | AD8676    |  -15 V |  15 V | 5.4&ndash;6.8 mA |
