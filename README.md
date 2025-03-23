@@ -465,7 +465,6 @@ Interesting behavior with the three-stage design:
 Next, I must design an analog 2-stage lowpass filter that mimics the ADS8699's lowpass. It's important to include this test in the semester's project, as I likely won't actually test the ADS8699. The filter will not take much effort to include.
 
 ## March 23, 2025
-
 Second-order lowpass filters to emulate the ADS8699 are out of scope. I need to figure out which voltage regulators to use. Also, I wonder how to/whether one should switch off the triangle wave generator.
 
 Voltages required:
@@ -554,3 +553,8 @@ Currents required:
     - up to 14 μA (5 V supply)
     - up to 16 μA (10 V supply)
   - front page quotes 6 μA per comparator at 2.7 V supply
+
+Summarize the information above:
+
+| Chip | Voltage from (+) Supply to GND | Voltage from (-) Supply to GND | Quiescent Current from (+) to (-) Supply | Max Possible Current from (+) to (-) Supply |
+| --- | --- | --- | --- | --- |
