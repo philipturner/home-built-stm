@@ -559,23 +559,22 @@ Summarize the information above:
 
 | Chip | Voltage from (-) Supply to GND | Voltage from (+) Supply to GND | Quiescent Current from (+) to (-) Supply | Max Possible Current from (+) to (-) Supply |
 | --- | ---: | ---: | --: | --: |
-| AD8615            | -1.5 V | 2.5 V | 1.6&ndash;1.9 mA |
-| OP37G (option 1)  |  -12 V |  12 V | 2.8&ndash;5.4 mA |
-| OP37G (option 2)  |  -15 V |  15 V | 3.1&ndash;5.7 mA |
-| OP37G (option 3)  |  -18 V |  18 V | 3.3&ndash;5.9 mA |
-| LM4040-10         |    0 V |  12 V | 0.13&ndash;3.4 mA |
-| LM4040-10         |    0 V |  15 V | 0.13&ndash;2.2 mA |
-| LM4040-10         |    0 V |  18 V | 0.13&ndash;1.7 mA |
-| AD8676 (option 1) |   -5 V |   5 V | 4.6&ndash;6.4 mA |
-| AD8676 (option 2) |  -10 V |  10 V | 5.0&ndash;6.6 mA |
-| AD8676 (option 3) |  -15 V |  15 V | 5.4&ndash;6.8 mA |
-| TS861             |   -5 V |   5 V | 0.007&ndash;0.016 mA | 0&ndash;40 mA |
+| AD8615    | -1.5 V | 2.5 V | 1.6&ndash;1.9 mA |
+| OP37G     |  -12 V |  12 V | 2.8&ndash;5.4 mA |
+| OP37G     |  -15 V |  15 V | 3.1&ndash;5.7 mA |
+| OP37G     |  -18 V |  18 V | 3.3&ndash;5.9 mA |
+| LM4040-10 |    0 V |  12 V | 0.13&ndash;3.4 mA |
+| LM4040-10 |    0 V |  15 V | 0.13&ndash;2.2 mA |
+| LM4040-10 |    0 V |  18 V | 0.13&ndash;1.7 mA |
+| AD8676    |   -5 V |   5 V | 4.6&ndash;6.4 mA |
+| AD8676    |  -10 V |  10 V | 5.0&ndash;6.6 mA |
+| AD8676    |  -15 V |  15 V | 5.4&ndash;6.8 mA |
+| TS861     |   -5 V |   5 V | 0.007&ndash;0.016 mA | 0&ndash;40 mA |
 
 Tradeoffs between supply voltages for OP37G. The difference in voltage noise is negligible.
 
-| Option | Supply Voltages | Open-Loop Gain | Common-Mode Range | Slew Rate, Falling | Slew Rate, Rising |
-| ------ | --------------: | -------------: | ----------------: | -----------------: | ----------------: |
-| OP37G (option 1) | ±12 V | 1.6 million    | -9.5 V to 9.5 V   | -16.0 V/μs         | 17.0 V/μs         |
-| OP37G (option 2) | ±15 V | 1.8 million    |  -13 V to  13 V   | -17.0 V/μs         | 18.0 V/μs         |
-| OP37G (option 3) | ±18 V | 2.0 million    |  -16 V to  16 V   | -18.0 V/μs         | 18.5 V/μs         |
-
+| Supply Voltages | Open-Loop Gain | Common-Mode Range | Slew Rate, Falling | Slew Rate, Rising |
+| --------------: | -------------: | ----------------: | -----------------: | ----------------: |
+| ±12 V           | 1.6 million    | -9.5 V to 9.5 V   | -16.0 V/μs         | 17.0 V/μs         |
+| ±15 V           | 1.8 million    |  -13 V to  13 V   | -17.0 V/μs         | 18.0 V/μs         |
+| ±18 V           | 2.0 million    |  -16 V to  16 V   | -18.0 V/μs         | 18.5 V/μs         |
