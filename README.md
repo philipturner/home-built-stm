@@ -466,10 +466,11 @@ Next, I must design an analog 2-stage lowpass filter that mimics the ADS8699's l
 
 ## March 23, 2025
 
-I need to figure out which voltage regulators to use.
+Second-order lowpass filters to emulate the ADS8699 are out of scope. I need to figure out which voltage regulators to use. Also, I wonder how to/whether one should switch off the triangle wave generator.
 
 Voltages required:
 - AD8615
+  - rail-to-rail input and output
   - no GND pin
   - positive supply: 2.5 V
   - negative supply: -2.5 V
@@ -488,11 +489,17 @@ Voltages required:
     - ±100 mV (D grade)
   - 1 mA current change:
     - up to 1.5 mV voltage change (A, B, C grade)
-    - up to 2.0 mV voltage chnage (D grade)
+    - up to 2.0 mV voltage change (D grade)
   - 15 mA current change:
     - up to 14 mV voltage change (A, B, C grade)
     - up to 18 mV voltage change (D grade)
 - AD8676
+  - rail-to-rail output
+  - no GND pin
+  - positive supply: 5 V to 15 V
+  - negative supply: -5 V to -15 V
+  - up to ±0.7 V input differential voltage tolerated
+  - If power supplies are established awkwardly with respect to input signals, input current should not exceed 10 mA.
 - TS861
 
 Currents required:
@@ -512,8 +519,9 @@ Currents required:
     - 4.8 mA (3 kΩ)
     - 14 mA (1 kΩ)
     - 37 mA (300 Ω)
-    - 45 mA (200 Ω))
+    - 45 mA (200 Ω)
     - 50 mA (100 Ω)
+  - For best linearity, the output current should not exceed ±10 mA.
 - LM4040-10
   - recommended operating conditions: 0 to 15 mA
   - minimum cathode current:
@@ -524,6 +532,12 @@ Currents required:
     - 4.7 kΩ, ±18 V: 1.7 mA
     - 10 kΩ, ±15 V: 0.5 mA
     - 10 kΩ, ±18 V: 0.8 mA
+  - short-circuit "current": -39 mA to +45 mA
 - AD8676
+  - short-circuit "limit": +40 mA
+  - output current: ±20 mA typical
+  - supply current per amplifier:
+    - up to 3.2 mA (±5 V supply)
+    - up to 3.4 mA (±15 V supply)
+  - ±50 μA output current used in the application
 - TS861
-
