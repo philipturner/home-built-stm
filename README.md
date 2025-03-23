@@ -553,23 +553,22 @@ Currents required:
     - up to 14 μA (2.7 V supply)
     - up to 14 μA (5 V supply)
     - up to 16 μA (10 V supply)
-  - front page quotes 6 μA per comparator at 2.7 V supply
+  - Front page quotes 6 μA per comparator at 2.7 V supply.
+  - Can source/sink up to 40 mA at 5 V supply. Likely higher at 10 V supply.
 
 Summarize the information above:
 
-| Chip | Voltage from (-) Supply to GND | Voltage from (+) Supply to GND | Quiescent Current from (+) to (-) Supply | Max Possible Current from (+) to (-) Supply |
-| --- | ---: | ---: | --: | --: |
-| AD8615    | -1.5 V | 2.5 V | 1.6&ndash;1.9 mA |
-| OP37G     |  -12 V |  12 V | 2.8&ndash;5.4 mA |
-| OP37G     |  -15 V |  15 V | 3.1&ndash;5.7 mA |
-| OP37G     |  -18 V |  18 V | 3.3&ndash;5.9 mA |
-| LM4040D10 |    0 V |  12 V | 0.13&ndash;3.4 mA |
-| LM4040D10 |    0 V |  15 V | 0.13&ndash;2.2 mA |
-| LM4040D10 |    0 V |  18 V | 0.13&ndash;1.7 mA |
-| AD8676    |   -5 V |   5 V | 4.6&ndash;6.4 mA |
-| AD8676    |  -10 V |  10 V | 5.0&ndash;6.6 mA |
-| AD8676    |  -15 V |  15 V | 5.4&ndash;6.8 mA |
-| TS861     |   -5 V |   5 V | 0.007&ndash;0.016 mA | 0&ndash;40 mA |
+| Chip | Voltage from (-) Supply to GND | Voltage from (+) Supply to GND | Quiescent Current from (+) to (-) Supply | Maximum Output Current |
+| --------- | -----: | ----: | -------------------: | ------------: |
+| AD8615    | -1.5 V | 2.5 V | 1.6&ndash;1.9 mA | 3 μA    |
+| OP37G     |  -12 V |  12 V | 2.8&ndash;5.4 mA | 1.95 mA |
+| OP37G     |  -15 V |  15 V | 3.1&ndash;5.7 mA | 1.95 mA |
+| OP37G     |  -18 V |  18 V | 3.3&ndash;5.9 mA | 1.95 mA |
+| LM4040D10 |    0 V |  10 V | 0.8&ndash;1.1 mA | n/a     |
+| AD8676    |   -5 V |   5 V | 4.6&ndash;6.4 mA | 0.32 mA |
+| AD8676    |  -10 V |  10 V | 5.0&ndash;6.6 mA | 0.32 mA |
+| AD8676    |  -15 V |  15 V | 5.4&ndash;6.8 mA | 0.32 mA |
+| TS861     |   -5 V |   5 V | 7&ndash;16 μA    | 0.32 mA |
 
 Tradeoffs between supply voltages for OP37G. The difference in voltage noise is negligible.
 
