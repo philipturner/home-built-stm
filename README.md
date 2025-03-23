@@ -463,3 +463,45 @@ Interesting behavior with the three-stage design:
 - When OP1 C<sub>in</sub> = 45 pF, reducing the "mid-f compensation" trimpot to 15 kΩ does not cause instability.
 
 Next, I must design an analog 2-stage lowpass filter that mimics the ADS8699's lowpass. It's important to include this test in the semester's project, as I likely won't actually test the ADS8699. The filter will not take much effort to include.
+
+## March 23, 2025
+
+I need to figure out which voltage regulators to use.
+
+Voltages required:
+- AD8615
+  - no GND pin
+  - positive supply: 2.5 V
+  - negative supply: -2.5 V
+  - If an input pin voltage exceeds the supplies, place resistor in series with the input, so that the current doesn't exceed 5 mA.
+- OP37G
+  - no GND pin
+  - positive supply: 12 V to 18 V
+  - negative supply: -12 V to -18 V
+  - If differential input voltage exceeds 0.7 V, the input current should not exceed 25 mA.
+- LM4040-10
+- AD8676
+- TS861
+
+Currents required:
+- AD8615
+  - up to 2 mA quiescent supply current
+  - output current:
+    - up to 50 mA (2.7 V supply)
+    - up to 150 mA (5 V supply)
+- OP37G
+  - total supply current:
+    - 2.8 mA (24 V)
+    - 3.1 mA (30 V)
+    - 3.3 mA (36 V)
+    - 5.7 mA (from 170 mW maximum at 30 V)
+  - output current via maximum output voltage:
+    - 1.5 mA (10 kΩ)
+    - 4.8 mA (3 kΩ)
+    - 14 mA (1 kΩ)
+    - 37 mA (300 Ω)
+    - 45 mA (200 Ω))
+    - 50 mA (100 Ω)
+- LM4040-10
+- AD8676
+- TS861
