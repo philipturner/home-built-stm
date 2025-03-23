@@ -480,6 +480,18 @@ Voltages required:
   - negative supply: -12 V to -18 V
   - If differential input voltage exceeds 0.7 V, the input current should not exceed 25 mA.
 - LM4040-10
+  - 10 V reverse breakdown voltage between cathode and anode
+  - tolerance in reverse breakdown voltage: 
+    - ±10 mV (A grade)
+    - ±20 mV (B grade)
+    - ±50 mV (C grade)
+    - ±100 mV (D grade)
+  - 1 mA current change:
+    - up to 1.5 mV voltage change (A, B, C grade)
+    - up to 2.0 mV voltage chnage (D grade)
+  - 15 mA current change:
+    - up to 14 mV voltage change (A, B, C grade)
+    - up to 18 mV voltage change (D grade)
 - AD8676
 - TS861
 
@@ -503,5 +515,15 @@ Currents required:
     - 45 mA (200 Ω))
     - 50 mA (100 Ω)
 - LM4040-10
+  - recommended operating conditions: 0 to 15 mA
+  - minimum cathode current:
+    - up to 120 μA (A, B, C grade)
+    - up to 130 μA (D grade)
+  - example application: 4.7&ndash;10 kΩ resistance separating Zener from supplies
+    - 4.7 kΩ, ±15 V: 1.1 mA
+    - 4.7 kΩ, ±18 V: 1.7 mA
+    - 10 kΩ, ±15 V: 0.5 mA
+    - 10 kΩ, ±18 V: 0.8 mA
 - AD8676
 - TS861
+
