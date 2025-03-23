@@ -473,7 +473,7 @@ Voltages required:
   - rail-to-rail input and output
   - no GND pin
   - positive supply: 2.5 V
-  - negative supply: -2.5 V
+  - negative supply: -1.5 V
   - If an input pin voltage exceeds the supplies, place resistor in series with the input, so that the current doesn't exceed 5 mA.
 - OP37G
   - no GND pin
