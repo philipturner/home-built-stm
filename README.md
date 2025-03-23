@@ -501,6 +501,10 @@ Voltages required:
   - up to ±0.7 V input differential voltage tolerated
   - If power supplies are established awkwardly with respect to input signals, input current should not exceed 10 mA.
 - TS861
+  - rail-to-rail input
+  - no GND pin
+  - supply operation from 2.7 to 10 V
+  - tolerates differential input voltages up to ±12 V (absolute maximum rating)
 
 Currents required:
 - AD8615
@@ -541,3 +545,12 @@ Currents required:
     - up to 3.4 mA (±15 V supply)
   - ±50 μA output current used in the application
 - TS861
+  - supply current per comparator, output low:
+    - up to 12 μA (2.7 V supply)
+    - up to 12 μA (5 V supply)
+    - up to 14 μA (10 V supply)
+  - supply current per comparator, output high:
+    - up to 14 μA (2.7 V supply)
+    - up to 14 μA (5 V supply)
+    - up to 16 μA (10 V supply)
+  - front page quotes 6 μA per comparator at 2.7 V supply
