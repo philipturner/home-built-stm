@@ -465,6 +465,7 @@ Interesting behavior with the three-stage design:
 Next, I must design an analog 2-stage lowpass filter that mimics the ADS8699's lowpass. It's important to include this test in the semester's project, as I likely won't actually test the ADS8699. The filter will not take much effort to include.
 
 ## March 23, 2025
+
 Second-order lowpass filters to emulate the ADS8699 are out of scope. I need to figure out which voltage regulators to use. Also, I wonder how to/whether one should switch off the triangle wave generator.
 
 Voltages required:
@@ -558,3 +559,17 @@ Summarize the information above:
 
 | Chip | Voltage from (+) Supply to GND | Voltage from (-) Supply to GND | Quiescent Current from (+) to (-) Supply | Max Possible Current from (+) to (-) Supply |
 | --- | --- | --- | --- | --- |
+| AD8615 |
+| OP37G (option 1) |
+| OP37G (option 2) |
+| OP37G (option 3) |
+
+Tradeoffs between supply voltages for OP37G. The difference in voltage noise is negligible.
+
+| Option | Supply Voltages | Open-Loop Gain | Common-Mode Range | Slew Rate, Falling | Slew Rate, Rising |
+| ------ | --------------- | -------------- | ----------------- | ------------------ | ----------------- |
+| OP37G (option 1) | ±12 V | 1.6 million    | -9.5 V to 9.5 V   | -16.0 V/μs         | 17.0 V/μs         |
+| OP37G (option 2) | ±15 V | 1.8 million    |  -13 V to  13 V   | -17.0 V/μs         | 18.0 V/μs         |
+| OP37G (option 3) | ±18 V | 2.0 million    |  -16 V to  16 V   | -18.0 V/μs         | 18.5 V/μs         |
+
+Tradeoffs between supply voltages for AD8676.
