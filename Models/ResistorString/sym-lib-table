@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CRCW0603357RFKEA")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRCW0603357RFKEA/CRCW0603357RFKEA.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW0603357RFKEAC")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRCW0603357RFKEAC/CRCW0603357RFKEAC.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW0603357RFKEAHP")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRCW0603357RFKEAHP/CRCW0603357RFKEAHP.kicad_sym")(options "")(descr ""))
+)

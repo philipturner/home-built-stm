@@ -577,3 +577,21 @@ Tradeoffs between supply voltages for OP37G. The difference in voltage noise is 
 | ±12 V           | 1.6 million    | -9.5 V to 9.5 V   | -16.0 V/μs         | 17.0 V/μs         |
 | ±15 V           | 1.8 million    |  -13 V to  13 V   | -17.0 V/μs         | 18.0 V/μs         |
 | ±18 V           | 2.0 million    |  -16 V to  16 V   | -18.0 V/μs         | 18.5 V/μs         |
+
+## March 25, 2025
+
+The fight marches on. Only 4 weeks left. I will not fail to produce results this semester.
+
+I spent a few days prying apart the voltage regulators. Created a 16-page Google Sheet.
+
+[Voltage Regulators (Google Sheets)](https://docs.google.com/spreadsheets/d/1mhAkuCKq5BPGl8A8w-LUtCfJhjZLB09bPVywwgDxSec/edit?usp=sharing)
+
+[VoltageDividerDesign.swift](https://gist.github.com/philipturner/36213b186f521f3313a14810f68e0b57)
+
+I ended on investigating the voltage divider that creates +2.5 V and -1.5 V for the AD8615. If my computations are correct, one should use a pair of +5 V and -5 V voltage regulators. Not a pair of +15 V and -15 V regulators. And definitely not an LM317/LM337 pair.
+
+I settled on a divider with three resistors, that touches the ground nowhere. Capacitors for AC stability/noise suppression were out of scope. I started investigating footprints for the SMT resistors, but realized that is an entire ordeal.
+
+All of these capacitors, ground planes, ICs is out of scope. Capacitors grow out of the ICs like apples on a tree, placed haphazardly and sometimes not actually needed. One, two, or three ground planes make a cheap 2-layer PCB into an expensive 4-layer one. One of the 4 different regulated voltages gets to be king of its dedicated plane, the other 3 voltages don't.
+
+I have a simple goal. A PCB with the 3 SMT resistors (357 Ω, 499 Ω, 806 Ω, 1% tolerance, Vishay) and 4 (isolated?) THT header sockets. No ground plane. But the solder paste footprints have the correct dimensions, as specified on Vishay's part datasheet. What specific width should the PCB traces have? That should be doable in 4 weeks of part-time work.

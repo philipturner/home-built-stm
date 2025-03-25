@@ -1,0 +1,907 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "unconnected-(R1-Pad1)")
+	(net 2 "unconnected-(R1-Pad2)")
+	(net 3 "unconnected-(R2-Pad2)")
+	(net 4 "unconnected-(R2-Pad1)")
+	(net 5 "unconnected-(R3-Pad2)")
+	(net 6 "unconnected-(R3-Pad1)")
+	(footprint "CRCW0603357RFKEAHP:RESC1608X55N"
+		(layer "F.Cu")
+		(uuid "3dec6117-b328-4abc-a4c1-f88f2c3bf274")
+		(at 133.78 75)
+		(property "Reference" "R3"
+			(at -0.21 -1.07 0)
+			(layer "F.SilkS")
+			(uuid "f8d79cc9-f0e8-4a60-b768-6b0ac2ee2e8d")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Value" "CRCW0603357RFKEAHP"
+			(at 1.54 1.07 0)
+			(layer "F.Fab")
+			(uuid "42fbab28-5dfb-45f5-bf52-34e4ac0ab240")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfab9c06-883f-4366-90ca-e74b5071e69a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "081a8d5d-b454-4fd9-ad66-94755620e374")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "434d686d-58c8-4a2a-bbfd-5dcf2346ed10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "357 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b15507-bf16-4076-a2ab-c102efdff83f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1608 Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8973b10d-227e-401a-8b0a-8784f0bf54af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb59b933-aa15-44df-9cda-8df1f06fd30c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEAHP/Vishay/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63bcd749-b2ac-4c61-85a3-ec371be45817")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "CRCW0603357RFKEAHP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "441f8b74-c760-4bd8-87a3-76649dc2c2f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb39265a-ec20-4f64-a068-4fd6270509cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEAHP/Vishay/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b890c2b7-f8fe-4d8d-8516-a9072546b2e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f10eb0cd-aec0-4fb7-aae4-dada28d70267")
+		(sheetname "/")
+		(sheetfile "TransimpedanceAmplifier.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.465 -0.74)
+			(end 1.465 -0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2e19a904-631e-40b9-9778-c0e1ce983b8b")
+		)
+		(fp_line
+			(start -1.465 0.74)
+			(end -1.465 -0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f541a97-3ac0-4424-8d02-535356007bd0")
+		)
+		(fp_line
+			(start -1.465 0.74)
+			(end 1.465 0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47ca4e4d-ed9d-44eb-a555-827a305c389b")
+		)
+		(fp_line
+			(start 1.465 0.74)
+			(end 1.465 -0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ce24e7c-fdd6-4230-9481-3b4f2d34e960")
+		)
+		(fp_line
+			(start -0.85 0.47)
+			(end -0.85 -0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "629e13a6-be82-4163-bb88-013c3552d48d")
+		)
+		(fp_line
+			(start 0.85 -0.47)
+			(end -0.85 -0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73ce84f4-9aa7-4388-89ba-7a151c33c569")
+		)
+		(fp_line
+			(start 0.85 0.47)
+			(end -0.85 0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dabf6eec-2f61-4f1d-88c2-4b114edef48d")
+		)
+		(fp_line
+			(start 0.85 0.47)
+			(end 0.85 -0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "adc0d892-3546-487e-a525-0c96ccf7ac56")
+		)
+		(pad "1" smd rect
+			(at -0.78 0)
+			(size 0.87 0.98)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "unconnected-(R3-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d84f2f75-f1c7-4409-8bc0-7007cea2f346")
+		)
+		(pad "2" smd rect
+			(at 0.78 0)
+			(size 0.87 0.98)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "unconnected-(R3-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "33b7b227-5388-42cc-9548-6a459e274df1")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/CRCW0603357RFKEAHP/CRCW0603357RFKEAHP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "CRCW0603357RFKEAC:RESC1608X55N"
+		(layer "F.Cu")
+		(uuid "88175750-372e-40e1-aac5-b281f63df721")
+		(at 133.78 72)
+		(property "Reference" "R2"
+			(at -0.21 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "32d68a97-f11e-4ce5-a683-5726ebe89af8")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Value" "CRCW0603357RFKEAC"
+			(at 1.54 1.05 0)
+			(layer "F.Fab")
+			(uuid "a8db7f90-0d82-401d-90c6-b7d893c65cb3")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08d9362e-e4c5-4090-8d01-6bee40b60f19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c38b4c85-48b9-47b4-828d-457c26c6f39a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "784145c9-3ace-45b6-8999-033e10f9888e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "357 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0bd3437-bddb-4924-9cec-d361821c46f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1608 Rohm Semiconductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cabee17-d8b4-4f6c-8836-14200f5ea8cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f80ddc8-90f9-4715-bd67-639c72ac5208")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEAC/Vishay/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5a1e9b3-1844-4ebc-8918-29021ecb5161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "CRCW0603357RFKEAC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00fc6daf-1adf-437b-b898-f5732d8ce51c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68e677b8-1dac-4708-bb5a-8b416fdae8e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEAC/Vishay/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c46e328-0121-41d5-ba7a-c4270a5fb96c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1956ba62-46a8-425e-a679-87291324686a")
+		(sheetname "/")
+		(sheetfile "TransimpedanceAmplifier.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "869d884e-398e-4253-a06c-a4510fea7776")
+		)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df6ccaf7-ffe8-405a-84de-a827dc5cc04c")
+		)
+		(fp_line
+			(start -1.465 0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4278b677-b714-403b-973b-bcec3c7907b0")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "56564eb1-cd5f-4fcc-9bf8-9923f3aff2b1")
+		)
+		(fp_line
+			(start -0.85 0.45)
+			(end -0.85 -0.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f0322af-ebd3-4b07-8d89-f001f22d70ad")
+		)
+		(fp_line
+			(start 0.85 -0.45)
+			(end -0.85 -0.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f70790be-db28-45a8-951a-8293bc0cfcae")
+		)
+		(fp_line
+			(start 0.85 0.45)
+			(end -0.85 0.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a961befa-d23e-440e-98af-c988be2994a3")
+		)
+		(fp_line
+			(start 0.85 0.45)
+			(end 0.85 -0.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2817483-f5a9-496b-8b2b-772e881de923")
+		)
+		(pad "1" smd rect
+			(at -0.78 0)
+			(size 0.87 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "unconnected-(R2-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "673d9800-7954-480a-a336-ac76702c62bf")
+		)
+		(pad "2" smd rect
+			(at 0.78 0)
+			(size 0.87 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(R2-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "12604b4d-8b5a-42ca-a6d0-d942b069dbab")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/CRCW0603357RFKEAC/CRCW0603357RFKEAC.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "CRCW0603357RFKEA:RESC1508X50N"
+		(layer "F.Cu")
+		(uuid "fd7d6213-f677-43c6-91d7-c4e57989f797")
+		(at 133.765 69)
+		(property "Reference" "R1"
+			(at -0.19 -1.07 0)
+			(layer "F.SilkS")
+			(uuid "bbe26736-1603-4577-a42f-4b0ae5ff8f3b")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Value" "CRCW0603357RFKEA"
+			(at 1.56 1.07 0)
+			(layer "F.Fab")
+			(uuid "3e6f08a2-01ad-4f0f-a676-f85574564f09")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.098425)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f91aa2e5-1622-4834-9746-7d96001458b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cf1512f-1727-44fa-83c5-2869e7270063")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c872645e-aab1-429c-8ec4-973d0a63b539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Resistor;Thick Film;357 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603357RFKEA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f87897fa-cc18-4cc9-9ee8-56f657dc5efb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fdcc551-f263-4137-b90c-2884c4b2a79a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7528c033-da58-4de9-9bc8-5f890236e48a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bb5011b-f106-4cde-a6d3-9a90a1f60cbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "CRCW0603357RFKEA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9bbf56e-bb1b-4437-8e33-d01b4fff7334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "724ad6fd-8f87-41d4-81d5-dce85bf1e7a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f86caa5c-9bdf-43cb-9dec-d31a63a542b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/96331873-30d1-4dc6-97bd-ad127b966f13")
+		(sheetname "/")
+		(sheetfile "TransimpedanceAmplifier.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.444 -0.74)
+			(end 1.444 -0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "752d8ebd-9e23-4766-87b2-cb5541d0bbd2")
+		)
+		(fp_line
+			(start -1.444 0.74)
+			(end -1.444 -0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a45ccfb-86c5-4e09-bb46-32b6301802df")
+		)
+		(fp_line
+			(start -1.444 0.74)
+			(end 1.444 0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f54eafa-a963-47ff-b322-42422bfaf260")
+		)
+		(fp_line
+			(start 1.444 0.74)
+			(end 1.444 -0.74)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "28cd2734-3194-42c2-9e83-c7d90e478292")
+		)
+		(fp_line
+			(start -0.83 0.47)
+			(end -0.83 -0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a18be03-63cb-470a-9276-e97df155c73c")
+		)
+		(fp_line
+			(start 0.83 -0.47)
+			(end -0.83 -0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d7b1f4c-e461-48cf-8df7-3475f3668fd9")
+		)
+		(fp_line
+			(start 0.83 0.47)
+			(end -0.83 0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "46e40cdf-b464-4735-9361-c437138feec2")
+		)
+		(fp_line
+			(start 0.83 0.47)
+			(end 0.83 -0.47)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f239e8e3-b4b0-4dd4-a075-c4e0a4261726")
+		)
+		(pad "1" smd rect
+			(at -0.765 0)
+			(size 0.86 0.98)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "unconnected-(R1-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "56a4ab84-8b7e-43ad-a6f7-22dd234b6b63")
+		)
+		(pad "2" smd rect
+			(at 0.765 0)
+			(size 0.86 0.98)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "unconnected-(R1-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "87cda408-d606-44da-a9b2-22dba4823595")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libraries/CRCW0603357RFKEA/CRCW0603357RFKEA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(gr_rect
+		(start 131 67)
+		(end 140 77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d42bca25-58c3-41dd-92af-cc7ff9326de1")
+	)
+	(embedded_fonts no)
+)
