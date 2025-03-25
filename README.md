@@ -594,4 +594,4 @@ I settled on a divider with three resistors, that touches the ground nowhere. Ca
 
 All of these capacitors, ground planes, ICs is out of scope. Capacitors grow out of the ICs like apples on a tree, placed haphazardly and sometimes not actually needed. One, two, or three ground planes make a cheap 2-layer PCB into an expensive 4-layer one. One of the 4 different regulated voltages gets to be king of its dedicated plane, the other 3 voltages don't.
 
-I have a simple goal. A PCB with the 3 SMT resistors (357 Ω, 499 Ω, 806 Ω, 1% tolerance, Vishay) and 4 (isolated?) THT header sockets. No ground plane. But the solder paste footprints have the correct dimensions, as specified on Vishay's part datasheet. What specific width should the PCB traces have? That should be doable in 4 weeks of part-time work.
+I have a simple goal. A PCB with the 3 SMT resistors (357 Ω, 499 Ω, 806 Ω, 1% tolerance, 0603, Vishay) and 4 (isolated?) THT header sockets. No ground plane. But the solder paste footprints have the correct dimensions, as specified on Vishay's part datasheet. What specific width should the PCB traces have? That should be doable in 4 weeks of part-time work.
