@@ -607,7 +607,7 @@ I will wrap the extensive computational and theoretical research on the transimp
 | Today | 3-28-2025 | 0 days |
 | Classes End | 5-7-2025 | 40 days |
 | Graduation | 5-16-2025 | 49 days |
-| Return To Blacksburg | 6-16-2025 | ~1 month after graduation |
+| Brief Return to Campus | 6-16-2025 | ~1 month after graduation |
 
 I'm using the remaining weeks to gain valuable experience, on lab hardware I'll lose access to after graduation. The AMP lab has a reflow oven, decent hand soldering stations, oscilloscopes, CNC machining, etc. I'll get a very simple PCB designed, ordered, and soldered. Learn how to place the SMT components and operate the reflow oven myself. Then, learn how to operate the "high-end" CNC machine with G-code generated in FreeCAD.
 
