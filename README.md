@@ -595,3 +595,34 @@ I settled on a divider with three resistors, that touches the ground nowhere. Ca
 All of these capacitors, ground planes, ICs is out of scope. Capacitors grow out of the ICs like apples on a tree, placed haphazardly and sometimes not actually needed. One, two, or three ground planes make a cheap 2-layer PCB into an expensive 4-layer one. One of the 4 different regulated voltages gets to be king of its dedicated plane, the other 3 voltages don't.
 
 I have a simple goal. A PCB with the 3 SMT resistors (357 Ω, 499 Ω, 806 Ω, 1% tolerance, 0603, Vishay) and 4 (isolated?) THT header sockets. No ground plane. But the solder paste footprints have the correct dimensions, as specified on Vishay's part datasheet. What specific width should the PCB traces have? That should be doable in 4 weeks of part-time work.
+
+# March 28, 2025
+
+The semester did not go as expected (there was no plan, really). I tried my hardest to build something related to the STM. I just lacked critical prerequisites in precision analog electronics and precision mechanical engineering. Stuff people might gloss over, and then build a device with inferior performance. I refuse to make anything other than the best possible hardware for a given set of constraints.
+
+I will wrap the extensive computational and theoretical research on the transimpedance amplifier, into this semester's "deliverable." Likely not publishing a video about it (to save time, and there's not much to say) but instead a short PPTX to count for credit. Return to it in the far future, when I can work on it full-time.
+
+| Event | Date | Time Until |
+| ----- | ---- | ---------- |
+| Today | 3-28-2025 | 0 days |
+| Classes End | 5-7-2025 | 40 days |
+| Graduation | 5-16-2025 | 49 days |
+| Return To Blacksburg | 6-16-2025 | ~1 month after graduation |
+
+I'm using the remaining weeks to gain valuable experience, on lab hardware I'll lose access to after graduation. The AMP lab has a reflow oven, decent hand soldering stations, oscilloscopes, CNC machining, etc. I'll get a very simple PCB designed, ordered, and soldered. Learn how to place the SMT components and operate the reflow oven myself. Then, learn how to operate the "high-end" CNC machine with G-code generated in FreeCAD.
+
+| Accessible Now | Alternative at Home Lab |
+| -------------- | ----------------------- |
+| Reflow oven | Sand bath in a frying pan |
+| Oscilloscope | Custom mixed-signal DAQ boards |
+| CNC machine | Online CNC services |
+| - | Two-component epoxy systems |
+| Sputtering | Electrochemical deposition |
+
+Simultaneously, I'm trying very hard to get gold sputtered onto a silicon wafer. Not the $1,000 gold samples you can order, but being in the same room when the sputtering is taking place. I do not foresee having access to UHV equipment until the very far future. I'll try to build it myself, and avoid sample preparation processes that require explosive gases. There's a half-possible chance I can build diamond-like spaghetti carbon (only C and H atoms) in a garage lab, without moving out to a dedicated lab building. Or at least hydrogen depassivation lithography. Depends on whether I can do without an argon ion gun (literal particle accelerator) and XPS sensor. And the timing/logistics of germa-adamantane tripods.
+
+[Demonstration of mechanosynthesis with only carbon dimers on pre-charged germanium tooltips](https://www.youtube.com/watch?v=whvXCeEwlmI)
+
+I need the flexibility to do graduate school full-time, without the bureaucracy and restrictions associated with a graduate degree. Being able to work full-time in a personal lab like [NileRed](https://www.youtube.com/@NileRed/videos). Until that happens, even a "simple" piezo stack with lithium niobate is out of scope.
+
+No time to waste! There is work to do.
