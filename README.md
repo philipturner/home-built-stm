@@ -596,7 +596,7 @@ All of these capacitors, ground planes, ICs is out of scope. Capacitors grow out
 
 I have a simple goal. A PCB with the 3 SMT resistors (357 Ω, 499 Ω, 806 Ω, 1% tolerance, 0603, Vishay) and 4 (isolated?) THT header sockets. No ground plane. But the solder paste footprints have the correct dimensions, as specified on Vishay's part datasheet. What specific width should the PCB traces have? That should be doable in 4 weeks of part-time work.
 
-# March 28, 2025
+## March 28, 2025
 
 The semester did not go as expected (there was no plan, really). I tried my hardest to build something related to the STM. I just lacked critical prerequisites in precision analog electronics and precision mechanical engineering. Stuff people might gloss over, and then build a device with inferior performance. I refuse to make anything other than the best possible hardware for a given set of constraints.
 
