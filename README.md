@@ -629,4 +629,4 @@ No time to waste! There is work to do.
 
 ## March 29, 2025
 
-Why is it so hard and complicated to specify a printed circuit board for manufacturing? There are at least 20 different parameters relevant to the process. And OSH Park, what I thought was the best services, doesn't ship steel stencils. You have to defer that to OSH Stencils. Other manufacturers (PCBWay, JLCPCB) might bundle stencils with your order. You need steel stencils to apply solder paste in a way other than randomly "dabbing" a "bit" on each precison pad.
+Why is it so hard and complicated to specify a printed circuit board for manufacturing? There are at least 20 different parameters relevant to the process. And OSH Park, what I thought was the best service, doesn't ship steel stencils. You have to defer that to OSH Stencils. Other manufacturers (PCBWay, JLCPCB) might bundle stencils with your order. You need steel stencils to apply solder paste in a way other than randomly "dabbing" a "bit" on each precison pad.
