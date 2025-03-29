@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "684bd1ea-20b4-44e9-99b3-d6b8f93f0f25")
+	(uuid "839cd6d8-2dea-4e69-a2c1-d23cf621b587")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CRCW0603357RFKEA:CRCW0603357RFKEA"
@@ -286,7 +286,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CRCW0603357RFKEAC:CRCW0603357RFKEAC"
+		(symbol "CRCW0603499RFKEA:CRCW0603499RFKEA"
 			(pin_names
 				(offset 1.016)
 			)
@@ -302,7 +302,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "CRCW0603357RFKEAC"
+			(property "Value" "CRCW0603499RFKEA"
 				(at -7.63 -5.0866 0)
 				(effects
 					(font
@@ -311,7 +311,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CRCW0603357RFKEAC:RESC1608X55N"
+			(property "Footprint" "CRCW0603499RFKEA:RESC1508X50N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "357 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film"
+			(property "Description_1" "Resistor, Thick Film, 499 Ohms, 0.1 W, 1%, SMT, TCR 37 ppm/DegC, Tape and Reel | Vishay Dale CRCW0603499RFKEA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -359,7 +359,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "1608 Rohm Semiconductor"
+			(property "Package" "1508 Vishay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -379,7 +379,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEAC/Vishay/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -389,7 +389,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "CRCW0603357RFKEAC"
+			(property "MP" "CRCW0603499RFKEA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -409,7 +409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEAC/Vishay/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -419,7 +419,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CRCW0603357RFKEAC_0_0"
+			(symbol "CRCW0603499RFKEA_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.445 1.905)
@@ -567,7 +567,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CRCW0603357RFKEAHP:CRCW0603357RFKEAHP"
+		(symbol "CRCW0603806RFKEA:CRCW0603806RFKEA"
 			(pin_names
 				(offset 1.016)
 			)
@@ -583,7 +583,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "CRCW0603357RFKEAHP"
+			(property "Value" "CRCW0603806RFKEA"
 				(at -7.63 -5.0866 0)
 				(effects
 					(font
@@ -592,7 +592,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CRCW0603357RFKEAHP:RESC1608X55N"
+			(property "Footprint" "CRCW0603806RFKEA:RESC1508X50N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -630,7 +630,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "357 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+			(property "Description_1" "Resistor;Thick Film;806 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603806RFKEA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -640,7 +640,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "1608 Vishay"
+			(property "Package" "1508 Vishay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -660,7 +660,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEAHP/Vishay/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -670,7 +670,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "CRCW0603357RFKEAHP"
+			(property "MP" "CRCW0603806RFKEA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -690,7 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEAHP/Vishay/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -700,7 +700,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CRCW0603357RFKEAHP_0_0"
+			(symbol "CRCW0603806RFKEA_0_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.445 1.905)
@@ -841,6 +841,251 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -849,44 +1094,248 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Footprints:\n- Resistors: manufacturer's custom footprint\n- Pin Headers: KiCad's default symbol and footprint"
+		(exclude_from_sim no)
+		(at 88.646 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09069d88-b2b3-4d64-9cce-c447c5923b75")
+	)
+	(text "3D Models:\n- Resistors: manufacturer's custom model\n- Pin Headers: manufacturer's custom model (tin-colored leads)"
+		(exclude_from_sim no)
+		(at 150.114 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eae5193-becb-48d8-8bb2-09f6f8a71263")
+	)
+	(junction
+		(at 142.24 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ebd6a71-a136-4f15-bdad-aff6c29e901d")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d878447-e1e0-47a8-b625-26c362d3de9b")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3541dc-3001-4268-86df-bd97c9c94e0d")
+	)
+	(wire
+		(pts
+			(xy 142.24 142.24) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108285a8-9cd1-46f9-b75e-6f304f3bb5d5")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b40ca9f-32d6-49da-aff4-ad34788213b0")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d21e2ea-f137-4215-abe2-3d50dc613f95")
+	)
+	(wire
+		(pts
+			(xy 142.24 144.78) (xy 132.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49600078-e18d-41d8-a64b-6ab64a8ae134")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef42223-7676-4fe4-b0ea-18115f0cb666")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b203cc-011e-4a1f-b454-a9b86b4455fe")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddb08f7-fc6d-44cf-9c70-cec804213344")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bffaa9-1bf3-4583-97fa-ca61b9332e0d")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9024ebc5-25c7-49ea-83b4-4ba654fe08a1")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 132.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2239f3-623b-42ca-b3b0-eafdfeca1b05")
+	)
+	(wire
+		(pts
+			(xy 116.84 110.49) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c464a4e1-497e-4cde-9bc0-cec14d8e2f27")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ca3479-4ab8-4815-8a5f-e14939254f12")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6640471-38a7-4838-8c46-c4f89a898abc")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db86024c-b9ba-4d8a-8af9-de4980840629")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08ba8d5-1179-467e-949c-a8fbeef6dac3")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dc4c1f-1868-4805-bae0-e3e48bbc0e35")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9140079-1ae7-4df0-a4de-1649fe23c7ca")
+	)
 	(symbol
-		(lib_id "CRCW0603357RFKEAC:CRCW0603357RFKEAC")
-		(at 111.76 63.5 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 111.76 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1956ba62-46a8-425e-a679-87291324686a")
-		(property "Reference" "R2"
-			(at 111.76 57.15 0)
+		(uuid "1bab3e92-b3a8-4166-a4c3-d8030fcabc2d")
+		(property "Reference" "J1"
+			(at 112.395 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CRCW0603357RFKEAC"
-			(at 111.76 59.69 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 112.395 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CRCW0603357RFKEAC:RESC1608X55N"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 63.5 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,8 +1343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 111.76 63.5 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/181/M20-999-1218971.pdf"
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,129 +1352,84 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 111.76 63.5 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Description_1" "357 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film"
-			(at 111.76 63.5 0)
+		(property "Price" "$0.15"
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Package" "1608 Rohm Semiconductor"
-			(at 111.76 63.5 0)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Harwin/M20-9990446?qs=ulE8k0yEMYaW%252BOM7jiG6%252Bw%3D%3D"
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEAC/Vishay/view-part/?ref=snap"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW0603357RFKEAC"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEAC/Vishay/view-part/?ref=eda"
-			(at 111.76 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "489db55d-7e28-4c28-9f9d-829c94409c22")
+			(uuid "a6ee8f45-0a91-49f4-9610-2e848a1618dd")
 		)
 		(pin "2"
-			(uuid "a686b906-6ad0-411f-9878-b2ffaa09ae7f")
+			(uuid "609c5483-7e27-4a09-ba36-63ec272a53d0")
+		)
+		(pin "4"
+			(uuid "39312ed8-bab3-4088-a7ca-30900b4e9d26")
+		)
+		(pin "3"
+			(uuid "71fb3bff-777a-4eed-9090-f83f0ab180fd")
 		)
 		(instances
 			(project ""
-				(path "/684bd1ea-20b4-44e9-99b3-d6b8f93f0f25"
-					(reference "R2")
+				(path "/839cd6d8-2dea-4e69-a2c1-d23cf621b587"
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CRCW0603357RFKEA:CRCW0603357RFKEA")
-		(at 111.76 50.8 0)
+		(lib_id "CRCW0603499RFKEA:CRCW0603499RFKEA")
+		(at 142.24 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "96331873-30d1-4dc6-97bd-ad127b966f13")
-		(property "Reference" "R1"
-			(at 111.76 44.45 0)
+		(uuid "9d073cdf-9021-4fc1-951f-c220fb213f0b")
+		(property "Reference" "R3"
+			(at 146.05 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "CRCW0603357RFKEA"
-			(at 111.76 46.99 0)
+		(property "Value" "499"
+			(at 146.05 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "CRCW0603357RFKEA:RESC1508X50N"
-			(at 111.76 50.8 0)
+		(property "Footprint" "CRCW0603499RFKEA:RESC1508X50N"
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,8 +1438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 50.8 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 50.8 0)
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1457,7 @@
 			)
 		)
 		(property "MF" "Vishay"
-			(at 111.76 50.8 0)
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,8 +1466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Resistor;Thick Film;357 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603357RFKEA"
-			(at 111.76 50.8 0)
+		(property "Description_1" "Resistor, Thick Film, 499 Ohms, 0.1 W, 1%, SMT, TCR 37 ppm/DegC, Tape and Reel | Vishay Dale CRCW0603499RFKEA"
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1477,7 @@
 			)
 		)
 		(property "Package" "1508 Vishay"
-			(at 111.76 50.8 0)
+			(at 142.24 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,8 +1486,328 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 111.76 50.8 0)
+		(property "Price" "$0.10"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=snap"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW0603499RFKEA"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=eda"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603499RFKEA?qs=2rshWTB%2FmZwofo5Byx1Zxw%3D%3D"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f112c8-0b87-4a5b-8309-e984c1f0117e")
+		)
+		(pin "2"
+			(uuid "189562c6-8c03-46c3-8157-327f07279e0f")
+		)
+		(instances
+			(project ""
+				(path "/839cd6d8-2dea-4e69-a2c1-d23cf621b587"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW0603806RFKEA:CRCW0603806RFKEA")
+		(at 142.24 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7588457-6504-4775-a30a-cde6e5286c4c")
+		(property "Reference" "R2"
+			(at 146.05 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "806"
+			(at 146.05 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRCW0603806RFKEA:RESC1508X50N"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Resistor;Thick Film;806 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603806RFKEA"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.10"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=snap"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW0603806RFKEA"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=eda"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603806RFKEA?qs=muAHfP4b4FJaY3AavhdB%252Bg%3D%3D"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e14c4ce-b23f-4a6d-a2e2-e4fa5ad90daf")
+		)
+		(pin "2"
+			(uuid "c9390e1f-d880-477f-be4a-79782f2e7a74")
+		)
+		(instances
+			(project ""
+				(path "/839cd6d8-2dea-4e69-a2c1-d23cf621b587"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW0603357RFKEA:CRCW0603357RFKEA")
+		(at 142.24 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfba0403-f2c8-42b3-bf8f-c521fe9801dd")
+		(property "Reference" "R1"
+			(at 146.05 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "357"
+			(at 146.05 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRCW0603357RFKEA:RESC1508X50N"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Resistor;Thick Film;357 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603357RFKEA"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.10"
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1817,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=snap"
-			(at 111.76 50.8 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1827,7 @@
 			)
 		)
 		(property "MP" "CRCW0603357RFKEA"
-			(at 111.76 50.8 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1837,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 111.76 50.8 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1847,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=eda"
-			(at 111.76 50.8 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,165 +1856,25 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603357RFKEA?qs=WYhlUnBk1VGEs5OU2dKNYA%3D%3D"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "d866e207-0ef6-40db-9137-5de6dc4f06b0")
+			(uuid "e995e989-3f3f-4559-bed3-98e1a9cb9a9d")
 		)
 		(pin "1"
-			(uuid "c2d6ad58-8ae2-4a60-b83d-849c2826b088")
+			(uuid "b9e687b2-088d-4fb2-8177-937ace05d376")
 		)
 		(instances
 			(project ""
-				(path "/684bd1ea-20b4-44e9-99b3-d6b8f93f0f25"
+				(path "/839cd6d8-2dea-4e69-a2c1-d23cf621b587"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRCW0603357RFKEAHP:CRCW0603357RFKEAHP")
-		(at 111.76 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f10eb0cd-aec0-4fb7-aae4-dada28d70267")
-		(property "Reference" "R3"
-			(at 111.76 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW0603357RFKEAHP"
-			(at 111.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRCW0603357RFKEAHP:RESC1608X55N"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "357 Ohms ±1% 0.333W, 1/3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608 Vishay"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEAHP/Vishay/view-part/?ref=snap"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW0603357RFKEAHP"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEAHP/Vishay/view-part/?ref=eda"
-			(at 111.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e01a5c5a-7b72-490e-b65d-02e31fbaba33")
-		)
-		(pin "2"
-			(uuid "d0dc8bbf-437d-408d-a388-3b841d649538")
-		)
-		(instances
-			(project ""
-				(path "/684bd1ea-20b4-44e9-99b3-d6b8f93f0f25"
-					(reference "R3")
 					(unit 1)
 				)
 			)
