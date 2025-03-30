@@ -632,3 +632,10 @@ No time to waste! There is work to do.
 Why is it so hard and complicated to specify a printed circuit board for manufacturing? There are at least 20 different parameters relevant to the process. And OSH Park, what I thought was the best service, doesn't ship steel stencils. You have to defer that to OSH Stencils. Other manufacturers (PCBWay, JLCPCB) might bundle stencils with your order. You need steel stencils to apply solder paste in a way other than randomly "dabbing" a "bit" on each precison pad.
 
 OSH Park won't accept `.kicad_pcb` files from KiCad 9; they need files from KiCad 8. I find these practical implementation issues amusing.
+
+## March 30, 2025
+
+A few random notes (don't know where to put them):
+- The issue with lithium and vacuum compatibility is still a concern. Its vapor pressure falls between zinc and lead. Perhaps baking out at a lower temperature (400 K instead of 500&ndash;800 K), for a longer time, will be needed.
+- I don't want to have to wash parts in a bath of boiling trichloroacetylene. This step might be an unscientific method for cleaning UHV parts.
+- Wear a face mask while handling UHV parts, so you don't sneeze and add a layer of filmic contaminant.
