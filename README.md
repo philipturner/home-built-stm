@@ -637,5 +637,5 @@ OSH Park won't accept `.kicad_pcb` files from KiCad 9; they need files from KiCa
 
 A few random notes (don't know where to put them):
 - The issue with lithium and vacuum compatibility is still a concern. Its vapor pressure falls between zinc and lead. Perhaps baking out at a lower temperature (400 K instead of 500&ndash;800 K), for a longer time, will be needed.
-- I don't want to have to wash parts in a bath of boiling trichloroacetylene. This step might be an unscientific method for cleaning UHV parts.
+- I don't want to have to wash parts in a bath of boiling trichloroethylene. This step might be an unscientific method for cleaning UHV parts.
 - Wear a face mask while handling UHV parts, so you don't sneeze and add a layer of filmic contaminant.
