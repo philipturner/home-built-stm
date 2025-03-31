@@ -639,3 +639,10 @@ A few random notes (don't know where to put them):
 - The issue with lithium and vacuum compatibility is still a concern. Its vapor pressure falls between zinc and lead. Perhaps baking out at a lower temperature (400 K instead of 500&ndash;800 K), for a longer time, will be needed.
 - I don't want to have to wash parts in a bath of boiling trichloroethylene. This step might be an unscientific method for cleaning UHV parts.
 - Wear a face mask while handling UHV parts, so you don't sneeze and add a layer of filmic contaminant.
+
+## March 31, 2025
+
+Helpful note. In the KiCad PCB editor, change all silkscreen items to be 0.635 mm x 0.127 mm. It allows the text to match the manufacturing tolerance of OSH Park. In the board setup constraints, set:
+- Minimum item clearance: 0.127 mm
+- Minimum text height: 0 mm
+- Minimum text thickness: 0.127 mm
