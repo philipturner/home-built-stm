@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CRCW0603357RFKEA")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRCW0603357RFKEA/CRCW0603357RFKEA.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW0603499RFKEA")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRCW0603499RFKEA/CRCW0603499RFKEA.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW0603806RFKEA")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRCW0603806RFKEA/CRCW0603806RFKEA.kicad_sym")(options "")(descr ""))
+  (lib (name "LM78L05ACMX_NOPB")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM78L05ACMX_NOPB/LM78L05ACMX_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "LM78L15ACMX_NOPB")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM78L15ACMX_NOPB/LM78L15ACMX_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "LM79L05ACMX_NOPB")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM79L05ACMX_NOPB/LM79L05ACMX_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "LM79L15ACMX_NOPB_NOPB")(type "KiCad")(uri "${KIPRJMOD}/libraries/LM79L15ACMX_NOPB_NOPB/LM79L15ACMX_NOPB_NOPB.kicad_sym")(options "")(descr ""))
+)
