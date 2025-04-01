@@ -646,3 +646,32 @@ Helpful note. In the KiCad PCB editor, change all silkscreen items to be 0.635 m
 - Minimum item clearance: 0.127 mm
 - Minimum text height: 0 mm
 - Minimum text thickness: 0.127 mm
+
+# April 1, 2025
+
+Rule: Keep the symbols as close as possible to a generic chip,
+no special op amp symbols or special linear regulator symbols.
+Prefer the Snapeda symbols.
+- Link datasheet and price to library symbol.
+
+Rule: Use a standard set of footprints derived from the
+KiCad library. Link them to the symbols, which are unique
+for each part model.
+- Delete the unique footprints and 3D models to reduce file size.
+
+Avoid open-frame potentiometers.
+
+Valid series (single-turn):
+- 3313/3314/PVG3 ($1.23)
+- 3329/3345/PV32
+- 3361 ($1.10)
+- 3362/3386 ($0.56)
+
+Valid series (multi-turn):
+- 3005/3006/3009/3057/3059/3082 ($1.79)
+- 3214/3224/PVG5 ($2.44)
+- 3223
+- 3250/3252/3260/3262/3266/PV37 ($2.23)
+- 3269
+- 3290/3292/3296/3299/PV36 ($1.53)
+- 3339/PV12
