@@ -1,116 +1,371 @@
-
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "AD8615AUJZ-REEL" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 2.54 3.175 0)
-      (effects (font (size 1.27 1.27)) (justify bottom left))
-    )
-    (property "Value" "AD8615AUJZ-REEL" (id 1) (at 2.54 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify bottom left))
-    )
-    (property "Footprint" "AD8615AUJZ-REEL:SOT95P280X100-5N" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MF" "Analog Devices" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "1mm" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Package" "TSOT-5 Analog Devices" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Price" "None" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Check_prices" "https://www.snapeda.com/parts/AD8615AUJZ-REEL/Analog+Devices/view-part/?ref=eda" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "STANDARD" "IPC-7351B" (id 9) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "PARTREV" "G" (id 10) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8615AUJZ-REEL/Analog+Devices/view-part/?ref=snap" (id 11) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MP" "AD8615AUJZ-REEL" (id 12) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Description" "\n                        \n                            Precision 20 MHz CMOS Single RRIO Operational Amplifier\n                        \n" (id 13) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Availability" "In Stock" (id 14) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MANUFACTURER" "Analog Devices" (id 15) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (symbol "AD8615AUJZ-REEL_0_0"
-      (polyline
-        (pts (xy -5.08 5.08) (xy -5.08 -5.08)) (stroke (width 0.4064))
-      )
-      (polyline
-        (pts (xy -5.08 -5.08) (xy 5.08 0.0)) (stroke (width 0.4064))
-      )
-      (polyline
-        (pts (xy 5.08 0.0) (xy -5.08 5.08)) (stroke (width 0.4064))
-      )
-      (polyline
-        (pts (xy -3.81 -1.905) (xy -3.81 -3.175)) (stroke (width 0.1524))
-      )
-      (polyline
-        (pts (xy -4.445 2.54) (xy -3.175 2.54)) (stroke (width 0.1524))
-      )
-      (polyline
-        (pts (xy -4.445 -2.54) (xy -3.175 -2.54)) (stroke (width 0.1524))
-      )
-      (text "V+" (at 1.27 3.175 900)
-        (effects (font (size 0.8128 0.8128)) (justify bottom left))
-      )
-      (text "V-" (at 1.27 -4.445 900)
-        (effects (font (size 0.8128 0.8128)) (justify bottom left))
-      )
-      (pin input line (at -10.16 -2.54 0) (length 5.08)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "3"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin input line (at -10.16 2.54 0) (length 5.08)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "4"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin power_in line (at 0.0 7.62 270.0) (length 5.08)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "5"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin output line (at 10.16 0.0 180.0) (length 5.08)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "1"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin power_in line (at 0.0 -7.62 90.0) (length 5.08)
-        (name "~"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "2"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "AD8615AUJZ-REEL"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 2.54 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AD8615AUJZ"
+			(at 2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AD8615AUJZ-REEL:SOT95P280X100-5N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT-5 Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.57"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8615AUJZ-REEL/Analog+Devices/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8615AUJZ-REEL/Analog+Devices/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8615AUJZ-REEL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Precision 20 MHz CMOS Single RRIO Operational Amplifier"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AD8615AUJZ-REEL_0_0"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.905) (xy -3.81 -3.175)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "V+"
+				(at 1.27 3.175 900)
+				(effects
+					(font
+						(size 0.8128 0.8128)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "V-"
+				(at 1.27 -4.445 900)
+				(effects
+					(font
+						(size 0.8128 0.8128)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

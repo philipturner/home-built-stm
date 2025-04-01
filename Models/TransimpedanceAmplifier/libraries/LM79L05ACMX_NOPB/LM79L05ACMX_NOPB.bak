@@ -18,7 +18,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LM79L05ACMX_NOPB"
+		(property "Value" "LM79L05ACMX"
 			(at -12.7 -14.16 0)
 			(effects
 				(font

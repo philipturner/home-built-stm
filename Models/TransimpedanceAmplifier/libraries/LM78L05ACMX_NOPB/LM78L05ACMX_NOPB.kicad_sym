@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "LM78L05ACMX"
-			(at -12.7 -16.7 0)
+			(at -12.7 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,8 +27,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LM78L05ACMX_NOPB:SOIC127P599X175-8N"
-			(at 0 0 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,36 +55,6 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "$0.62"
 			(at 0 0 0)
 			(effects
@@ -95,88 +65,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "L"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM78L05ACMX/NOPB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoB6DSs7gdhGSM%3D"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,10 +76,10 @@
 		)
 		(symbol "LM78L05ACMX_NOPB_0_0"
 			(rectangle
-				(start -12.7 -12.7)
-				(end 12.7 12.7)
+				(start -12.7 12.7)
+				(end 12.7 -7.62)
 				(stroke
-					(width 0.254)
+					(width 0.41)
 					(type default)
 				)
 				(fill
@@ -235,43 +125,7 @@
 			(pin power_in line
 				(at 17.78 5.08 180)
 				(length 5.08)
-				(name "GND_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 2.54 180)
-				(length 5.08)
-				(name "GND_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 0 180)
-				(length 5.08)
-				(name "GND_6"
+				(name "GND-3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -287,9 +141,45 @@
 				)
 			)
 			(pin power_in line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "GND-2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "GND-1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 17.78 -2.54 180)
 				(length 5.08)
-				(name "GND_7"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -297,42 +187,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -7.62 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -10.16 180)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)

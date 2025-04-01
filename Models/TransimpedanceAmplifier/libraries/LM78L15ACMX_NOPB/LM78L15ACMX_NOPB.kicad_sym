@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 11.16 0)
+			(at -12.7 9.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "LM78L15ACMX"
-			(at -12.7 -14.16 0)
+			(at -12.7 -15.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,8 +27,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LM78L15ACMX_NOPB:SOIC127P599X175-8N"
-			(at 0 0 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,78 +55,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "$0.58"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L15ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM78L15ACMX/NOPB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM78L15ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +66,7 @@
 			)
 		)
 		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L15ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBfRwEFEGPtJc%3D"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,8 +76,8 @@
 		)
 		(symbol "LM78L15ACMX_NOPB_0_0"
 			(rectangle
-				(start -12.7 -10.16)
-				(end 12.7 10.16)
+				(start -12.7 -11.43)
+				(end 12.7 8.89)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -157,7 +87,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 7.62 0)
+				(at -17.78 6.35 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -175,7 +105,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 7.62 180)
+				(at 17.78 6.35 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -193,7 +123,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 2.54 180)
+				(at 17.78 1.27 180)
 				(length 5.08)
 				(name "GND-3"
 					(effects
@@ -211,7 +141,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 0 180)
+				(at 17.78 -1.27 180)
 				(length 5.08)
 				(name "GND-2"
 					(effects
@@ -229,7 +159,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -2.54 180)
+				(at 17.78 -3.81 180)
 				(length 5.08)
 				(name "GND-1"
 					(effects
@@ -247,7 +177,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -5.08 180)
+				(at 17.78 -6.35 180)
 				(length 5.08)
 				(name "GND"
 					(effects

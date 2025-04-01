@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "OP37GSZ"
-			(at -12.7 -19.24 0)
+			(at -12.954 -18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OP37GSZ:SOIC127P600X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,87 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Analog Devices"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Noise, Precision, High Speed Operational Amplifier (AVCL≥5)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Analog Devices"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "$5.00"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/OP37GSZ/Analog+Devices/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OP37GSZ/Analog+Devices/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "OP37GSZ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Analog Devices"
 			(at 0 0 0)
 			(effects
 				(font

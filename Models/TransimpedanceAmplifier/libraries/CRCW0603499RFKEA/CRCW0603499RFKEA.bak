@@ -18,7 +18,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRCW0603499RFKEA"
+		(property "Value" "499"
 			(at -7.63 -5.0866 0)
 			(effects
 				(font

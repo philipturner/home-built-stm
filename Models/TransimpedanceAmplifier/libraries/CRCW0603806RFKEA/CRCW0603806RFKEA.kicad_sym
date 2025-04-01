@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CRCW0603806RFKEA:RESC1508X50N"
+		(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,77 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Vishay"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor;Thick Film;806 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603806RFKEA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Price" "$0.10"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW0603806RFKEA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font

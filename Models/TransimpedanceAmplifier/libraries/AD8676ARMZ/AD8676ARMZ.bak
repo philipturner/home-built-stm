@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "LM79L15ACMX_NOPB_NOPB"
+	(symbol "AD8676ARMZ"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 11.16 0)
+			(at -12.7 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,8 +18,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LM79L15ACMX_NOPB_NOPB"
-			(at -12.7 -14.16 0)
+		(property "Value" "AD8676ARMZ"
+			(at -12.7 -20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LM79L15ACMX_NOPB_NOPB:SOIC127P599X175-8N"
+		(property "Footprint" "AD8676ARMZ:SOP65P490X110-8N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm79l.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/609/AD8676-1502359.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
+		(property "MF" "Analog Devices"
 			(at 0 0 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "100-mA, negative linear voltage regulator"
+		(property "Description_1" "Ultra Precision, 36 V, 2.8 nV/√Hz Dual RRO Op Amp"
 			(at 0 0 0)
 			(effects
 				(font
@@ -75,7 +75,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SOIC-8 Texas Instruments"
+		(property "PACKAGE" "MSOP-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.72"
+		(property "MPN" "AD8676ARMZ"
 			(at 0 0 0)
 			(effects
 				(font
@@ -95,7 +95,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM79L15ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
+		(property "Price" "$4.80"
 			(at 0 0 0)
 			(effects
 				(font
@@ -105,7 +105,57 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LM79L15ACMX/NOPB"
+		(property "Package" "MSOP-8 Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1776909"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8676ARMZ/Analog+Devices/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8676ARMZ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "ANALOG DEVICES"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "45P6471"
 			(at 0 0 0)
 			(effects
 				(font
@@ -125,7 +175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM79L15ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8676ARMZ/Analog+Devices/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -135,7 +185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM79L15ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBzVUR6cCDCEU%3D"
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8676ARMZ?qs=%2FtpEQrCGXCxFPxjqoni9gw%3D%3D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -144,29 +194,29 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM79L15ACMX_NOPB_NOPB_0_0"
+		(symbol "AD8676ARMZ_0_0"
 			(rectangle
-				(start -12.7 -10.16)
+				(start -12.7 -17.78)
 				(end 12.7 10.16)
 				(stroke
-					(width 0.41)
+					(width 0.4064)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin input line
-				(at -17.78 7.62 0)
+			(pin power_in line
+				(at -17.78 5.08 0)
 				(length 5.08)
-				(name "-VIN"
+				(name "V+"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -175,9 +225,9 @@
 				)
 			)
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -17.78 0 0)
 				(length 5.08)
-				(name "-VIN-1"
+				(name "+IN_A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -193,27 +243,9 @@
 				)
 			)
 			(pin input line
-				(at -17.78 2.54 0)
+				(at -17.78 -2.54 0)
 				(length 5.08)
-				(name "-VIN-2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 0 0)
-				(length 5.08)
-				(name "-VIN-3"
+				(name "-IN_A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -228,10 +260,64 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 7.62 180)
+			(pin input line
+				(at -17.78 -5.08 0)
 				(length 5.08)
-				(name "-VOUT"
+				(name "+IN_B"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "-IN_B"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -12.7 0)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "OUT_A"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -246,17 +332,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -7.62 180)
+			(pin output line
+				(at 17.78 2.54 180)
 				(length 5.08)
-				(name "GND"
+				(name "OUT_B"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)

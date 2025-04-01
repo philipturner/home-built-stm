@@ -5,6 +5,713 @@
 	(uuid "8f9b03dc-a434-4230-ab3b-a0c5e77b1a43")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AD8615AUJZ-REEL:AD8615AUJZ-REEL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AD8615AUJZ"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "$3.57"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD8615AUJZ-REEL_0_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.905) (xy -3.81 -3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "V+"
+					(at 1.27 3.175 900)
+					(effects
+						(font
+							(size 0.8128 0.8128)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "V-"
+					(at 1.27 -4.445 900)
+					(effects
+						(font
+							(size 0.8128 0.8128)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AD8676ARMZ:AD8676ARMZ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AD8676ARMZ"
+				(at -12.7 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "$4.80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8676ARMZ?qs=%2FtpEQrCGXCxFPxjqoni9gw%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD8676ARMZ_0_0"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "+IN_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "-IN_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "+IN_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "-IN_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT_B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CRCW0603330MJPEAHR:CRCW0603330MJPEAHR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "330Meg"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20022/dcrcwhre3.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "$0.29"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330MJPEAHR?qs=hGKcGTfECNId0T%2FfsjXxDg%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0603330MJPEAHR_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CRCW0603357RFKEA:CRCW0603357RFKEA"
 			(pin_names
 				(offset 1.016)
@@ -30,7 +737,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CRCW0603357RFKEA:RESC1508X50N"
+			(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,77 +765,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Resistor;Thick Film;357 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603357RFKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "1508 Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CRCW0603357RFKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,7 +957,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CRCW0603499RFKEA:RESC1508X50N"
+			(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
 				(at 0 0 0)
 				(effects
 					(font
@@ -348,77 +985,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Resistor, Thick Film, 499 Ohms, 0.1 W, 1%, SMT, TCR 37 ppm/DegC, Tape and Reel | Vishay Dale CRCW0603499RFKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "1508 Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CRCW0603499RFKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -610,7 +1177,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CRCW0603806RFKEA:RESC1508X50N"
+			(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
 				(at 0 0 0)
 				(effects
 					(font
@@ -638,77 +1205,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Resistor;Thick Film;806 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603806RFKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "1508 Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CRCW0603806RFKEA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -892,7 +1389,7 @@
 				)
 			)
 			(property "Value" "LM78L05ACMX"
-				(at -12.7 -16.7 0)
+				(at -12.7 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -900,8 +1397,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM78L05ACMX_NOPB:SOIC127P599X175-8N"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -911,7 +1408,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-				(at 0 0 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -928,36 +1425,6 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOIC-8 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.62"
 				(at 0 0 0)
 				(effects
@@ -968,88 +1435,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LM78L05ACMX/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoB6DSs7gdhGSM%3D"
-				(at 0 0 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1059,10 +1446,10 @@
 			)
 			(symbol "LM78L05ACMX_NOPB_0_0"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
+					(start -12.7 12.7)
+					(end 12.7 -7.62)
 					(stroke
-						(width 0.254)
+						(width 0.41)
 						(type default)
 					)
 					(fill
@@ -1108,43 +1495,7 @@
 				(pin power_in line
 					(at 17.78 5.08 180)
 					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "GND_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "GND_6"
+					(name "GND-3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1160,9 +1511,45 @@
 					)
 				)
 				(pin power_in line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "GND-2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "GND-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 17.78 -2.54 180)
 					(length 5.08)
-					(name "GND_7"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1170,42 +1557,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "NC_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -10.16 180)
-					(length 5.08)
-					(name "NC_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1224,7 +1575,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 11.16 0)
+				(at -12.7 9.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,7 +1584,7 @@
 				)
 			)
 			(property "Value" "LM78L15ACMX"
-				(at -12.7 -14.16 0)
+				(at -12.7 -15.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1241,8 +1592,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM78L15ACMX_NOPB:SOIC127P599X175-8N"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1252,7 +1603,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1269,78 +1620,8 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOIC-8 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.58"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L15ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LM78L15ACMX/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LM78L15ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1350,7 +1631,7 @@
 				)
 			)
 			(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L15ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBfRwEFEGPtJc%3D"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1360,8 +1641,8 @@
 			)
 			(symbol "LM78L15ACMX_NOPB_0_0"
 				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
+					(start -12.7 -11.43)
+					(end 12.7 8.89)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -1371,7 +1652,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 7.62 0)
+					(at -17.78 6.35 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -1389,7 +1670,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 7.62 180)
+					(at 17.78 6.35 180)
 					(length 5.08)
 					(name "VOUT"
 						(effects
@@ -1407,7 +1688,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 2.54 180)
+					(at 17.78 1.27 180)
 					(length 5.08)
 					(name "GND-3"
 						(effects
@@ -1425,7 +1706,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 0 180)
+					(at 17.78 -1.27 180)
 					(length 5.08)
 					(name "GND-2"
 						(effects
@@ -1443,7 +1724,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -2.54 180)
+					(at 17.78 -3.81 180)
 					(length 5.08)
 					(name "GND-1"
 						(effects
@@ -1461,7 +1742,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -5.08 180)
+					(at 17.78 -6.35 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1506,7 +1787,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM79L05ACMX_NOPB:SOIC127P599X175-8N"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1534,77 +1815,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "100-mA, negative linear voltage regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOIC-8 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.69"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM79L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LM79L05ACMX/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LM79L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1746,7 +1957,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM79L15ACMX_NOPB_NOPB:LM79L15ACMX_NOPB_NOPB"
+		(symbol "LM79L15ACMX_NOPB:LM79L15ACMX_NOPB"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1771,7 +1982,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM79L15ACMX_NOPB_NOPB:SOIC127P599X175-8N"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1799,77 +2010,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "100-mA, negative linear voltage regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOIC-8 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "Price" "$0.72"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM79L15ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LM79L15ACMX/NOPB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LM79L15ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1888,10 +2029,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM79L15ACMX_NOPB_NOPB_0_0"
+			(symbol "LM79L15ACMX_NOPB_0_0"
 				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -2011,46 +2152,277 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OP37GSZ:OP37GSZ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 16.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "OP37GSZ"
+				(at -12.954 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/op37.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "$5.00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/OP37GSZ?qs=sGAEpiMZZMutXGli8Ay4kD%2F4TpDpCbliTjLJtHIfeD8%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OP37GSZ_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 15.24)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "V_OSTRIM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "V_OSTRIM-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "Chips:\n[X] AD8615 - AD8615AUJZ-REEL\n[X] OP37G - OP37GSZ\n[ ] LM4040D10\n[ ] AD8676\n[ ] TS861\n\nPassive components:\n[ ] Potentiometers\n[X] 300 MΩ resistor - CRCW0603330MJPEAHR"
+	(text "Rule: Keep the symbols as close as possible to a generic chip,\nno special op amp symbols or special linear regulator symbols.\nPrefer the Snapeda symbols.\n- Link datasheet and price to library symbol.\n\nRule: Use a standard set of footprints derived from the\nKiCad library. Link them to the symbols, which are unique\nfor each part model.\n- Delete the unique footprints and 3D models to reduce file size.\n\nChips:\n[X] AD8615 - AD8615AUJZ-REEL\n[X] OP37G - OP37GSZ\n[X] AD8676 - AD8676ARMZ\n[ ] TS861\n\nDiscrete components:\n[ ] LM4040D10\n[ ] diodes\n[ ] BJTs\n\nPassive components:\n[ ] Potentiometers\n[X] 300 MΩ resistor - CRCW0603330MJPEAHR\n\nTODO: Save to GitHub after cleaning up the libraries, deleting unnecessary\nfiles."
 		(exclude_from_sim no)
-		(at 149.86 38.354 0)
+		(at 151.638 22.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "c612f9e1-4cd5-4ab0-9884-0b77815ef6e7")
 	)
 	(symbol
-		(lib_id "LM78L15ACMX_NOPB:LM78L15ACMX_NOPB")
-		(at 68.58 40.64 0)
+		(lib_id "LM78L05ACMX_NOPB:LM78L05ACMX_NOPB")
+		(at 66.04 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "02517efd-71b1-49e0-9e97-999118c7ead7")
-		(property "Reference" "U1"
-			(at 68.58 25.4 0)
+		(uuid "1e2467eb-bf5b-4d40-8fb4-079dfddb8915")
+		(property "Reference" "U3"
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM78L15ACMX"
-			(at 68.58 27.94 0)
+		(property "Value" "LM78L05ACMX"
+			(at 66.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LM78L15ACMX_NOPB:SOIC127P599X175-8N"
-			(at 68.58 40.64 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 66.04 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2432,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-			(at 68.58 40.64 0)
+			(at 66.04 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 40.64 0)
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,8 +2449,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Texas Instruments"
-			(at 68.58 40.64 0)
+		(property "Price" "$0.62"
+			(at 66.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,8 +2459,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-			(at 68.58 40.64 0)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoB6DSs7gdhGSM%3D"
+			(at 66.04 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "969abf21-ddd2-4d32-a7b4-517f51377da5")
+		)
+		(pin "1"
+			(uuid "78815f74-a0e9-4b0b-9917-526d22c9f6f0")
+		)
+		(pin "8"
+			(uuid "4e6beb1d-bc94-4ae4-9a0b-38ad6fb5bc38")
+		)
+		(pin "3"
+			(uuid "07c82245-778e-4489-a6f4-962016a3dbdb")
+		)
+		(pin "7"
+			(uuid "d0b07517-c5d3-4152-8ce6-ad15474aaa0b")
+		)
+		(pin "2"
+			(uuid "77aa16bd-f69b-4a3c-b2d7-c90a5940326a")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM78L15ACMX_NOPB:LM78L15ACMX_NOPB")
+		(at 66.04 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d041228-103e-46b3-8c14-05db0d4fae1f")
+		(property "Reference" "U1"
+			(at 66.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM78L15ACMX"
+			(at 66.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,58 +2531,26 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 68.58 40.64 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Price" "$0.58"
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L15ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM78L15ACMX/NOPB"
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM78L15ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 68.58 40.64 0)
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2560,7 @@
 			)
 		)
 		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L15ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBfRwEFEGPtJc%3D"
-			(at 68.58 40.64 0)
+			(at 66.04 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,23 +2568,23 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "088d0a17-9494-44a3-8053-0379a38b8735")
-		)
 		(pin "8"
-			(uuid "9885aca9-9370-4e49-a1e4-1d89e6237663")
+			(uuid "e94f52f7-0fc7-4f7a-a8a8-54b7453443e4")
 		)
 		(pin "3"
-			(uuid "c35e4f61-9d00-4568-9a01-8ee20f27e6bd")
-		)
-		(pin "6"
-			(uuid "1e6d0ac0-4b21-4816-a040-98886ff542b2")
-		)
-		(pin "1"
-			(uuid "97616839-70af-41bb-adbe-ae2abd324c75")
+			(uuid "4b06169f-7341-425f-a1e8-9118384ec01e")
 		)
 		(pin "7"
-			(uuid "917c1ac1-c6cb-41bd-8254-06955713f392")
+			(uuid "3c7af158-e596-4337-adb6-8f1edb3fa274")
+		)
+		(pin "2"
+			(uuid "8199b67c-1ddb-44a3-bd4b-5d7dcb2cf105")
+		)
+		(pin "6"
+			(uuid "6ded01bb-3fcb-49d0-8d87-2790b65ed06a")
+		)
+		(pin "1"
+			(uuid "4a60c0f3-4ee9-413c-8c0f-0cf95608a4ab")
 		)
 		(instances
 			(project ""
@@ -2194,403 +2596,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LM78L05ACMX_NOPB:LM78L05ACMX_NOPB")
-		(at 68.58 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "181bb12c-49a8-469b-8c48-8d0b3455bc3f")
-		(property "Reference" "U5"
-			(at 68.58 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM78L05ACMX"
-			(at 68.58 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM78L05ACMX_NOPB:SOIC127P599X175-8N"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.62"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "L"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM78L05ACMX/NOPB"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoB6DSs7gdhGSM%3D"
-			(at 68.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "eda24c07-3b3b-4199-ba57-9d0010b29e1f")
-		)
-		(pin "5"
-			(uuid "02b20784-cd8a-4d80-bd87-30013c9e6d13")
-		)
-		(pin "4"
-			(uuid "2f1abdb8-9806-4190-924d-01549e64e488")
-		)
-		(pin "8"
-			(uuid "abb40115-f19c-4187-a8f2-136262c26652")
-		)
-		(pin "1"
-			(uuid "fa2f300d-a78c-4b88-b48d-df8b71ed74a0")
-		)
-		(pin "3"
-			(uuid "d32f0dc0-ca5b-4201-8163-7072cee29cb7")
-		)
-		(pin "2"
-			(uuid "f3c96096-8a42-4a50-8a1b-05b64ed4f2c9")
-		)
-		(pin "7"
-			(uuid "21359e90-0942-4a35-ba2a-609377b5575e")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM79L15ACMX_NOPB_NOPB:LM79L15ACMX_NOPB_NOPB")
-		(at 119.38 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37540cbf-1fd8-499b-a1d1-f0cd36bdd912")
-		(property "Reference" "U2"
-			(at 119.38 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM79L15ACMX"
-			(at 119.38 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM79L15ACMX_NOPB_NOPB:SOIC127P599X175-8N"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm79l.pdf"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, negative linear voltage regulator"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.72"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM79L15ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM79L15ACMX/NOPB"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM79L15ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM79L15ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBzVUR6cCDCEU%3D"
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "2ca7c0a0-ee69-432e-9672-614f479d6aac")
-		)
-		(pin "3"
-			(uuid "cf98e05e-ce51-4a9e-bfaf-31f1b92a302c")
-		)
-		(pin "7"
-			(uuid "61fa68ad-fcd5-4298-961d-191d193979b3")
-		)
-		(pin "2"
-			(uuid "ad38c529-bec8-4063-bc3d-5bd909b8ef7c")
-		)
-		(pin "1"
-			(uuid "d05b228d-36c7-439b-94b1-02680f71608b")
-		)
-		(pin "5"
-			(uuid "c650b564-705b-461e-9c26-eaaaf6c9d100")
-		)
-		(instances
-			(project ""
-				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LM79L05ACMX_NOPB:LM79L05ACMX_NOPB")
-		(at 119.38 68.58 0)
+		(at 114.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50c584c3-5eae-4072-8632-9f6746a7c11f")
-		(property "Reference" "U4"
-			(at 119.38 53.34 0)
+		(uuid "3db23a47-e989-4261-8026-a8a0758252a2")
+		(property "Reference" "U6"
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,15 +2614,15 @@
 			)
 		)
 		(property "Value" "LM79L05ACMX"
-			(at 119.38 55.88 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LM79L05ACMX_NOPB:SOIC127P599X175-8N"
-			(at 119.38 68.58 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2632,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm79l.pdf"
-			(at 119.38 68.58 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,86 +2641,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 68.58 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, negative linear voltage regulator"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Price" "$0.69"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM79L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM79L05ACMX/NOPB"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 119.38 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM79L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 119.38 68.58 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2660,7 @@
 			)
 		)
 		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM79L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBDlmVavAFpbI%3D"
-			(at 119.38 68.58 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,23 +2668,123 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "ac596418-796a-4c90-a7e0-b46c78799b5d")
-		)
-		(pin "7"
-			(uuid "310b4f05-ed59-4eaf-bf90-1e614b9370b9")
-		)
-		(pin "2"
-			(uuid "5d6aa5aa-4399-4158-aaca-9d1268a1b164")
-		)
-		(pin "3"
-			(uuid "d89f0f40-9ef4-4750-8a00-95dc4495b21b")
-		)
 		(pin "1"
-			(uuid "a925429e-1f03-452a-86de-4d698562e820")
+			(uuid "350cef37-4a9d-43a6-b69f-5747a6294c6c")
 		)
 		(pin "5"
-			(uuid "0eba330d-dccc-479c-ae01-e7d72b41794c")
+			(uuid "91a001e4-9e5d-4f2c-952a-03576f8b7948")
+		)
+		(pin "6"
+			(uuid "3cecbd29-1b87-404a-9840-4dfcf01a81a7")
+		)
+		(pin "7"
+			(uuid "0578a9a5-a3d0-4b59-b983-4c5a39e57ffc")
+		)
+		(pin "2"
+			(uuid "c91bdcbd-0a87-4a52-a080-c4f43cb15007")
+		)
+		(pin "3"
+			(uuid "2a416f2a-67af-4214-a9fd-23c91fc082f2")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM79L05ACMX_NOPB:LM79L05ACMX_NOPB")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "421917de-7b97-438d-95cf-9fd7ffd0e63f")
+		(property "Reference" "U4"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM79L05ACMX"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm79l.pdf"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.69"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM79L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBDlmVavAFpbI%3D"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50b2d94d-11fb-4e77-87f5-1da2398f6171")
+		)
+		(pin "5"
+			(uuid "72d361c9-e4f9-4600-ba9a-0f867220ec91")
+		)
+		(pin "6"
+			(uuid "1ed1cb7f-dc0c-457b-8ec8-afc061bf8507")
+		)
+		(pin "7"
+			(uuid "18a328e5-eabe-488c-9bb4-5fad6ad4700f")
+		)
+		(pin "2"
+			(uuid "6dfb1b66-cf80-446f-8cee-27d7887bd217")
+		)
+		(pin "3"
+			(uuid "299a4fc6-daa4-4477-8a22-aaa82a41b310")
 		)
 		(instances
 			(project ""
@@ -2751,16 +2797,16 @@
 	)
 	(symbol
 		(lib_id "CRCW0603499RFKEA:CRCW0603499RFKEA")
-		(at 26.67 68.58 90)
+		(at 22.86 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2a0c650-b55d-4081-9f8e-75aaefa90504")
-		(property "Reference" "R2"
-			(at 30.48 67.3099 90)
+		(uuid "76331d9f-02eb-41d5-9206-d382199cd321")
+		(property "Reference" "R3"
+			(at 26.67 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2815,7 @@
 			)
 		)
 		(property "Value" "499"
-			(at 30.48 69.8499 90)
+			(at 26.67 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,8 +2823,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0603499RFKEA:RESC1508X50N"
-			(at 26.67 68.58 0)
+		(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
+			(at 22.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 26.67 68.58 0)
+			(at 22.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,86 +2843,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 68.58 0)
+			(at 22.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor, Thick Film, 499 Ohms, 0.1 W, 1%, SMT, TCR 37 ppm/DegC, Tape and Reel | Vishay Dale CRCW0603499RFKEA"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Price" "$0.10"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=snap"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW0603499RFKEA"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603499RFKEA/Vishay/view-part/?ref=eda"
-			(at 26.67 68.58 0)
+			(at 22.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2862,7 @@
 			)
 		)
 		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603499RFKEA?qs=2rshWTB%2FmZwofo5Byx1Zxw%3D%3D"
-			(at 26.67 68.58 0)
+			(at 22.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,556 +2871,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac93bce7-72b4-404c-949e-eced3023bc49")
+			(uuid "03810517-613e-467f-8af6-3dac5c85cba9")
 		)
 		(pin "1"
-			(uuid "3ea9d5c8-5dcc-475b-9753-9a2d4c14cb3f")
-		)
-		(instances
-			(project ""
-				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM78L05ACMX_NOPB:LM78L05ACMX_NOPB")
-		(at 68.58 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b47635a4-ab98-445c-8a74-f090eb5b1fc5")
-		(property "Reference" "U3"
-			(at 68.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM78L05ACMX"
-			(at 68.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM78L05ACMX_NOPB:SOIC127P599X175-8N"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.62"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "L"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM78L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM78L05ACMX/NOPB"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, 30-V, linear voltage regulator"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoB6DSs7gdhGSM%3D"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7d6da39e-a9f2-41fc-86ee-ef72f491f299")
-		)
-		(pin "5"
-			(uuid "15052234-1082-4551-aa39-b99527bb51df")
-		)
-		(pin "4"
-			(uuid "14c7b7aa-bd3f-4a04-9f77-1f6759a9a4a0")
-		)
-		(pin "8"
-			(uuid "e2d0a381-9f8e-455b-8c55-7ef2100fab50")
-		)
-		(pin "1"
-			(uuid "703a64aa-b275-4224-831a-9f482b57af99")
-		)
-		(pin "3"
-			(uuid "e30bf8e2-06af-48c6-a2b5-3ef00585c27e")
-		)
-		(pin "2"
-			(uuid "be763ef7-601c-4ed4-b977-babaecadad8b")
-		)
-		(pin "7"
-			(uuid "ee6757d9-296a-47d8-82d2-07908b8724dd")
-		)
-		(instances
-			(project ""
-				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM79L05ACMX_NOPB:LM79L05ACMX_NOPB")
-		(at 119.38 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd772cbb-7ab5-452d-8f0f-3573dd6f1023")
-		(property "Reference" "U6"
-			(at 119.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM79L05ACMX"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM79L05ACMX_NOPB:SOIC127P599X175-8N"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm79l.pdf"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100-mA, negative linear voltage regulator"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.69"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM79L05ACMX/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM79L05ACMX/NOPB"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM79L05ACMX/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM79L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBDlmVavAFpbI%3D"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "5d00aa4c-3db0-4744-94ab-78a449361941")
-		)
-		(pin "7"
-			(uuid "42c0fbb7-acdd-4b57-935c-176a2ffbdb86")
-		)
-		(pin "2"
-			(uuid "626e209c-1abc-4f2c-9aee-ef1afa8826b6")
-		)
-		(pin "3"
-			(uuid "2bab669b-3c9b-4978-9ad1-50d04a4649bc")
-		)
-		(pin "1"
-			(uuid "b27c2b0f-fb5d-4e72-b39f-9928fda79010")
-		)
-		(pin "5"
-			(uuid "baa88e5b-e937-4e54-ae9b-ff1892f69c46")
-		)
-		(instances
-			(project "TransimpedanceAmplifier"
-				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRCW0603806RFKEA:CRCW0603806RFKEA")
-		(at 26.67 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e27f7174-3a68-4bfd-81db-dc3aadca5585")
-		(property "Reference" "R3"
-			(at 30.48 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "806"
-			(at 30.48 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CRCW0603806RFKEA:RESC1508X50N"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor;Thick Film;806 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603806RFKEA"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=snap"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW0603806RFKEA"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603806RFKEA/Vishay/view-part/?ref=eda"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603806RFKEA?qs=muAHfP4b4FJaY3AavhdB%252Bg%3D%3D"
-			(at 26.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdee7bb1-81ad-4143-93c6-81c09dac8252")
-		)
-		(pin "2"
-			(uuid "48f62535-79f0-4fb4-8859-1328505122ed")
+			(uuid "75b13c44-81e6-4e49-bb7e-ae96d775c4e8")
 		)
 		(instances
 			(project ""
@@ -3456,17 +2886,323 @@
 		)
 	)
 	(symbol
-		(lib_id "CRCW0603357RFKEA:CRCW0603357RFKEA")
-		(at 26.67 43.18 90)
+		(lib_id "AD8676ARMZ:AD8676ARMZ")
+		(at 157.48 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ece21b4c-3183-4c6a-91ac-849729ac59fe")
-		(property "Reference" "R1"
-			(at 30.48 41.9099 90)
+		(uuid "7b199a2c-d249-481d-85de-b6c1880329f5")
+		(property "Reference" "U9"
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8676ARMZ"
+			(at 157.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf"
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$4.80"
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8676ARMZ?qs=%2FtpEQrCGXCxFPxjqoni9gw%3D%3D"
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "560dcfbe-0b27-45f6-9026-9ce8869c7a7f")
+		)
+		(pin "6"
+			(uuid "44aaa9c0-de1f-4305-9a28-99836e615b48")
+		)
+		(pin "8"
+			(uuid "41fa79f3-b8f1-4826-bc1a-8a6208e7e264")
+		)
+		(pin "3"
+			(uuid "d6fba22e-f754-4b66-8c63-45b3d8a6d981")
+		)
+		(pin "2"
+			(uuid "115dd9f4-f822-4977-a6cf-1a037919fca3")
+		)
+		(pin "4"
+			(uuid "6019210c-ae65-49a5-89e3-ee2fc33acbd1")
+		)
+		(pin "1"
+			(uuid "ede623b2-cdf6-46f8-8aab-3d8b46c28782")
+		)
+		(pin "7"
+			(uuid "cfc7c1d9-ebe3-4b91-b3f3-d8df3da5221b")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM78L05ACMX_NOPB:LM78L05ACMX_NOPB")
+		(at 66.04 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "807e2a3f-72c3-4e70-b49f-4c270bc1fc7f")
+		(property "Reference" "U5"
+			(at 66.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM78L05ACMX"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 66.04 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm78l.pdf"
+			(at 66.04 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.62"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM78L05ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoB6DSs7gdhGSM%3D"
+			(at 66.04 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "70c72867-316c-4b03-8509-545764e03410")
+		)
+		(pin "1"
+			(uuid "9612143c-b8c1-4289-a765-c128cbbc2fb4")
+		)
+		(pin "8"
+			(uuid "bb1f42ed-f0fb-4b1c-be90-c1fda6453053")
+		)
+		(pin "3"
+			(uuid "3c1b2ae2-dd80-46d7-9b44-1362e5278852")
+		)
+		(pin "7"
+			(uuid "a95ed645-d475-4894-b6c3-301c9c4b86f2")
+		)
+		(pin "2"
+			(uuid "eeef62c7-0a57-4e8a-8dc2-200aa227521f")
+		)
+		(instances
+			(project "TransimpedanceAmplifier"
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM79L15ACMX_NOPB:LM79L15ACMX_NOPB")
+		(at 114.3 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81687cb8-e397-42a0-8d58-a044681715e5")
+		(property "Reference" "U2"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM79L15ACMX"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm79l.pdf"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.72"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Texas-Instruments/LM79L15ACMX-NOPB?qs=sGAEpiMZZMuLLNXTG1MZau16jGmWCqoBzVUR6cCDCEU%3D"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee1b2b4f-fa1f-438b-904a-b575614a0f46")
+		)
+		(pin "6"
+			(uuid "c44f67d0-c92b-49cb-a85a-8d21d9d22693")
+		)
+		(pin "7"
+			(uuid "7d92dfea-8217-4bc1-80e4-5ed805403d05")
+		)
+		(pin "5"
+			(uuid "082c7e8f-4eaa-41ad-bf2f-240cd320fb1f")
+		)
+		(pin "2"
+			(uuid "8b5dee09-5c6f-4b6e-83c3-653ad3baa330")
+		)
+		(pin "1"
+			(uuid "5c998957-5a03-49fd-bdd9-25ed37844548")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW0603806RFKEA:CRCW0603806RFKEA")
+		(at 22.86 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b76e48f7-026d-43c1-a47f-b0656f8a5776")
+		(property "Reference" "R2"
+			(at 26.67 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,8 +3210,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "357"
-			(at 30.48 44.4499 90)
+		(property "Value" "806"
+			(at 26.67 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,8 +3219,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CRCW0603357RFKEA:RESC1508X50N"
-			(at 26.67 43.18 0)
+		(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
+			(at 22.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 26.67 43.18 0)
+			(at 22.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,46 +3239,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 43.18 0)
+			(at 22.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 26.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor;Thick Film;357 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Tape and Reel | Vishay Dale CRCW0603357RFKEA"
-			(at 26.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 26.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Price" "$0.10"
-			(at 26.67 43.18 0)
+			(at 22.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,8 +3257,60 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=snap"
-			(at 26.67 43.18 0)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603806RFKEA?qs=muAHfP4b4FJaY3AavhdB%252Bg%3D%3D"
+			(at 22.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb80b2bb-2893-4755-82c4-30b1765d95ef")
+		)
+		(pin "2"
+			(uuid "5ea2648d-6d0d-4d1a-86bd-5cfbdaac11e1")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW0603330MJPEAHR:CRCW0603330MJPEAHR")
+		(at 22.86 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4bdd9da-4368-4126-baae-e38f2a842843")
+		(property "Reference" "R4"
+			(at 26.67 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330Meg"
+			(at 26.67 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
+			(at 22.86 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,8 +3319,26 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CRCW0603357RFKEA"
-			(at 26.67 43.18 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20022/dcrcwhre3.pdf"
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.29"
+			(at 22.86 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,8 +3347,58 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 26.67 43.18 0)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603330MJPEAHR?qs=hGKcGTfECNId0T%2FfsjXxDg%3D%3D"
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca9ecf2-b6d2-4cb0-b448-f15ea163e2bf")
+		)
+		(pin "2"
+			(uuid "2d0797b0-ed04-46ca-adf4-bd0d435ebdd1")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AD8615AUJZ-REEL:AD8615AUJZ-REEL")
+		(at 63.5 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e91ade-8348-475d-99f4-68e835f2d083")
+		(property "Reference" "U7"
+			(at 76.2 136.1692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8615AUJZ"
+			(at 76.2 138.7092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 63.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,8 +3407,125 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0603357RFKEA/Vishay/view-part/?ref=eda"
-			(at 26.67 43.18 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.57"
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b99dae33-d086-456c-bfec-3c690a7e554a")
+		)
+		(pin "3"
+			(uuid "50776cf2-b124-4e29-833e-48cd1587e7f1")
+		)
+		(pin "5"
+			(uuid "96e5597f-efc2-4e20-9bf9-67241f0344c1")
+		)
+		(pin "2"
+			(uuid "3dde55f4-46ec-4b03-a9d3-055738e6273f")
+		)
+		(pin "1"
+			(uuid "837fb9c4-ba05-4599-b271-9890b048af17")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW0603357RFKEA:CRCW0603357RFKEA")
+		(at 22.86 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5f173c-1231-4e0a-a8d8-a921b3d30521")
+		(property "Reference" "R1"
+			(at 26.67 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "357"
+			(at 26.67 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Generic_SMD_Fixed:R_0603_Fixed"
+			(at 22.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 22.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.10"
+			(at 22.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3535,7 @@
 			)
 		)
 		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603357RFKEA?qs=WYhlUnBk1VGEs5OU2dKNYA%3D%3D"
-			(at 26.67 43.18 0)
+			(at 22.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,15 +3544,121 @@
 			)
 		)
 		(pin "1"
-			(uuid "a41e4d47-2ad9-46fe-84f2-f66998d04782")
+			(uuid "68a2ba7d-6151-4381-abfe-d14726d4bdb3")
 		)
 		(pin "2"
-			(uuid "171c5f4f-5f13-4879-a940-2f660f774642")
+			(uuid "9f680832-7470-4884-9b4a-928ef5c68ed2")
 		)
 		(instances
 			(project ""
 				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OP37GSZ:OP37GSZ")
+		(at 109.22 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25ebfd9-abce-40d1-a43e-037833fc16c8")
+		(property "Reference" "U8"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OP37GSZ"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/op37.pdf"
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$5.00"
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase_Link" "https://www.mouser.com/ProductDetail/Analog-Devices/OP37GSZ?qs=sGAEpiMZZMutXGli8Ay4kD%2F4TpDpCbliTjLJtHIfeD8%3D"
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0018d9-d85c-40d4-99f8-c7491576e560")
+		)
+		(pin "8"
+			(uuid "df8fef4a-f1a9-4ba3-b266-e68a482bb969")
+		)
+		(pin "6"
+			(uuid "d258428f-7a15-451f-b466-4aff5bf3aeb4")
+		)
+		(pin "4"
+			(uuid "2a39a178-9130-464d-8193-aabdc5b5df71")
+		)
+		(pin "7"
+			(uuid "c320c3c6-4a75-4923-be29-e8f69699823e")
+		)
+		(pin "3"
+			(uuid "6126af54-2186-48f8-a921-be7e40b75b29")
+		)
+		(pin "2"
+			(uuid "b9f178ab-4c6c-4d95-a3a5-592cad163bd4")
+		)
+		(pin "5"
+			(uuid "9374c49f-2289-42b1-96ce-da06ccb0035d")
+		)
+		(instances
+			(project ""
+				(path "/8f9b03dc-a434-4230-ab3b-a0c5e77b1a43"
+					(reference "U8")
 					(unit 1)
 				)
 			)
