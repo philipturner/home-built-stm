@@ -2012,6 +2012,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Chips:\n[X] AD8615 - AD8615AUJZ-REEL\n[X] OP37G - OP37GSZ\n[ ] LM4040D10\n[ ] AD8676\n[ ] TS861\n\nPassive components:\n[ ] Potentiometers\n[X] 300 MΩ resistor - CRCW0603330MJPEAHR"
+		(exclude_from_sim no)
+		(at 149.86 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c612f9e1-4cd5-4ab0-9884-0b77815ef6e7")
+	)
 	(symbol
 		(lib_id "LM78L15ACMX_NOPB:LM78L15ACMX_NOPB")
 		(at 68.58 40.64 0)
