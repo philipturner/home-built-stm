@@ -675,3 +675,16 @@ Valid series (multi-turn):
 - 3269
 - 3290/3292/3296/3299/PV36 ($1.53)
 - 3339/PV12
+
+## April 2, 2025
+
+I found myself having an unexpected few days with a few hours of free time. I used it to make another attempt at the transimpedance amplifier. I went through another design iteration of fixing problems with setting up the KiCad project. Made custom symbols and footprints for the ~12 different ICs.
+
+I was preparing to set up the last dozen distinct circuit components. I got stuck on the enormous combinatorial space for trimming potentiometer types, and read a few dozen pages in a potentiometer handbook. I only got halfway through a Google Sheet characterizing the entire product catalog for Bourns trimpots.
+
+Since final exams are coming up, I will likely not have another large block of free time like this. Or if I do, it's too risky to invest it into finishing the TIA. I can put the TIA to the side, and have it be the first thing I return to after graduation.
+
+I must spend as much of this remaining time as possible:
+- Getting experience with assembling mixed-technology PCBs
+- Getting experience with CNC machining
+- Attempting to get experience with a vacuum system capable of 10^-8 torr (10^-9 torr on a very good day)
