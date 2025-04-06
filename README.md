@@ -647,7 +647,7 @@ Helpful note. In the KiCad PCB editor, change all silkscreen items to be 0.635 m
 - Minimum text height: 0 mm
 - Minimum text thickness: 0.127 mm
 
-# April 1, 2025
+## April 1, 2025
 
 Rule: Keep the symbols as close as possible to a generic chip,
 no special op amp symbols or special linear regulator symbols.
@@ -688,3 +688,17 @@ I must spend as much of this remaining time as possible:
 - Getting experience with assembling mixed-technology PCBs
 - Getting experience with CNC machining
 - Attempting to get experience with a vacuum system capable of 10^-8 torr (10^-9 torr on a very good day)
+
+## April 6, 2025
+
+So I finally broke ground with real hardware. I did reflow soldering. Next, I am working on setting up an appointment to learn advanced hand soldering. I added 36 JPG images to the repository, with no effort to reduce data footprint. So the amount of data jumped 43 MB, dwarfing previous efforts to minimize disk consumption. Oh well, caught up in the moment.
+
+![Image 4341](./Documentation/ReflowSoldering/IMG_4341.JPG)
+
+I followed some online Environmental Health and Safety modules and applied for swipe access to the AMP Lab. If granted, it would let me work on the CNC machine on my own schedule, just like my style for fixing the AFM last semester. Go into the lab every day, spending hours, without waiting on other people's schedule conflicts to restrict how much time I can spend. Schedule conflicts are the reason I have to wait until at least next week to make further progress on soldering.
+
+The lab has a Denford 2600 / 2600 Pro CNC router. There are two main categories of 3-axis CNC machines for general-purpose 3D shaping. Routers and mills. Routers are less mechanically stable, and for machining softer materials like wood. Luckily, routers can machine the softest metals (6061 aluminum and brass) with the right tools and techniques. I can across an interesting realization about Dan Berard's aluminum blocks. He didn't use a CNC machine, but instead hand tools from a machine shop. That poses questions about what geometry can be CNC machined, such as the V-grooves. V-grooves might be important for kinematic mounts in my future STM design iterations. Worth looking into.
+
+I found another unexpected bout of free time. Internal conflict: continue work on the spreadsheet about potentiometers, or read the Denford 2600 manual. What to do while waiting for the ability to access the machine, and download the manual on the lab's PC.
+
+![Image 4363](./Documentation/ReflowSoldering/IMG_4363.JPG)
