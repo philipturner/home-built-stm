@@ -753,3 +753,16 @@ Wow, I've mastered the art of changing my state of mind. The way the brain works
 ![Image 4409](./Documentation/HandSoldering/IMG_4409.JPG)
 
 The printed circuit board functions correctly. I've completed the "basic" level of soldering training. Didn't have time to clean up the back with isopropyl alcohol.
+
+| Event | Date | Time Until |
+| ----- | ---- | ---------- |
+| Today | 4-8-2025 | 0 days |
+| Classes End | 5-7-2025 | 29 days |
+| Graduation | 5-16-2025 | 38 days |
+| Brief Return to Campus | 6-16-2025 | ~1 month after graduation |
+
+I have confirmation that the person I contacted about gold sputtering, is actively trying to schedule a time. I trust him. If the stars don't align in my favor, DIY gold sputtering doesn't require UHV. Anything creating a particle beam, where particles must fly somewhere in O(1 second), has relatively light demands on vacuum. High vacuum is good enough. Example: mass spectrometers, e-beams like scanning electron microscopes, tin plasma EUV lasers. The challenge is making particles uninterrupted for O(10,000 seconds) or longer, which is ultra-high vacuum. Specifically, the half-life for a free radical to be oxidized, must be longer than sample preparation time (either minutes or hours, needs more research). Trying to make both the atomically sharp tripod tip and the tungsten wire/silicon cantilever flat ~10 nm diameter build surface/workpiece immune to oxidation, e.g. hydrogen passivation via HF etching, adds complexity to the process.
+
+I imagine an experimental effort to really stretch how fast you can prepare a sample. Flash anneal an NaOH-etched tungsten wire, open the door to another chamber in 10 seconds, close the door in another 10 seconds while simultaneously putting the W tip into the holder. Coarse approach in 30 seconds with optical assist and reproducible capacitive sensing. Locate the first tripod in inverted mode in 60 seconds. Rip apart the C-Br bond with a 1 ms voltage pulse. Place a carbon dimer on the unpassivated W tip. Takes 110 seconds, you can make do with 10^-8 torr O2/H2O partial pressure. Unsure whether this is plausible, or just wishful thinking. Optical tip approach doesn't work when the chamber must be cryo-cooled, because the light reflecting from the chamber back to your eyes/CCD brings thermal energy with it.
+
+Instead of speaking in torr and distinct HV vs. UHV regimes, we should talk in acceptable half-lives of surfaces where carbon dimers will stick. Or of exposure time for the surface the tripods will stick to, if they have alcohol linkers (which necessitates a surface susceptible to oxidation). Half-life of 100 seconds, 10 hours, 1 day? Radioactive nucleus.
