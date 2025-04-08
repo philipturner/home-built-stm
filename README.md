@@ -749,3 +749,7 @@ I do not see the way to artificial life, being to use the framework of existing 
 One thing is for certain. I will not make the same mistakes as my predecessors. I am already breaking all rules and norms. Intellectual property from CBN, fried. Obligation to travel to California for Foresight workshops, I'd rather troubleshoot an AFM in Virginia. I can outperform everybody on both hardware/software, both theory/experiment. There's a lot of work left on the theory, but it's not in molecular dynamics simulations. It's figuring out what life actually is, what it does at the lowest level. How to build a replicator in spite of imperfect vacuum or error rates much greater than 10<sup>-15</sup>. The way forward, is to go 100% experimental, get experience building SPMs and redefining what's "accessible." We all want to build individual atoms, that's what we've always secretly wanted to do. I finally have the means to actually do it myself.
 
 Wow, I've mastered the art of changing my state of mind. The way the brain works, if you think it's true, it actually is true. Feel excited about the long, difficult journey ahead. Revived my interest in building atoms.
+
+![Image 4409](./Documentation/HandSoldering/IMG_4409.JPG)
+
+The printed circuit board functions correctly. I've completed the "basic" level of soldering training. Didn't have time to clean up the back with isopropyl alcohol.
