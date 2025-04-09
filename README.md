@@ -814,3 +814,15 @@ For aluminum or brass, order dedicated tool bits not yet in the lab. Tools made 
 Don't machine fiberglass, the dust is toxic. Requires a wierd lubricant. The system doesn't have a vacuum exhaust installed to collect dust. The port for the vacuum insert is taped over. The inside is covered in wood dust. Actuating the axes for the first time, I saw them push the dust off a sliding surface.
 
 CNC machining is a lot like mechanosynthesis. There's 3DOF linear control, swappable tooltips, and a workpiece with a known material. G-code could be similar to assembly language programs for atom manipulation.
+
+![Image 4419](./Documentation/CNCMachining/IMG_4419.JPG)
+
+_The calipers that I intend to use, to measure the wood tooltip and program its dimensions into the CNC software._
+
+![Image 4421](./Documentation/CNCMachining/IMG_4421.JPG)
+
+_Today's progress on the "intermediate" level of soldering training._
+
+Hand-soldered eight 1206 resistors. The micro-USB port passed the continuity test. Learned how to use copper braid wick, to bond the five pads to their gold-colored counterparts on the micro-USB port.
+
+I shouldn't have a journal entry tomorrow. I'm using this evening and tomorrow to catch up/get ahead on homework. I should have a journal entry on Friday (April 11), and no entries over the weekend. We'll see what the workload is like by Monday (April 14). I'm uploading the current state of the journal to the Internet Archive.
