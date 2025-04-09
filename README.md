@@ -789,7 +789,13 @@ The computer connected to the 3D printing station had an Intel CPU from 2023 and
 
 _Manually jogging the machine to the 4 corners of the work volume._
 
-[Image]
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4415.JPG" width="51.1%">
+&nbsp; &nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4417.JPG" width="38.9%">
+&nbsp;
+</p>
 
 _Aligning a tool with a corner of the vice/jig._
 
