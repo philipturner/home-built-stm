@@ -806,3 +806,5 @@ Start out with wood. Use the thicker tools in the plastic casing (which appear t
 For aluminum or brass, order dedicated tool bits not yet in the lab. Tools made specifically for CNC machining aluminum. They should have as few flutes as possible. In addition, spares should be ordered. My primary goal is to CNC machine as many parts from previous STM designs as possible.
 
 Don't machine fiberglass, the dust is toxic. Requires a wierd lubricant. The system doesn't have a vacuum exhaust installed to collect dust. The port for the vacuum insert is taped over. The inside is covered in wood dust. Actuating the axes for the first time, I saw them push the dust off a sliding surface.
+
+CNC machining is a lot like mechanosynthesis. There's 3DOF linear control, swappable tooltips, and a workpiece with a known material. G-code could be similar to assembly language programs for atom manipulation.
