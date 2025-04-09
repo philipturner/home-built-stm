@@ -771,7 +771,21 @@ Instead of speaking in torr and distinct HV vs. UHV regimes, we should talk in a
 
 The computer connected to the 3D printing station had an Intel CPU from 2023 and an RTX 4060 GPU. I couldn't install the Denford CNC software on it (required admin password and CD/DVD reader). I connected the monitor, keyboard, mouse, and CNC machine USB cable to an old Windows 7 machine on the floor. It had the proper CNC software installed. The software has built-in documentation about things like aligning the axes.
 
-[Image]
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4411.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4412.JPG" width="45%">
+&nbsp;
+</p>
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4413.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4414.JPG" width="45%">
+&nbsp;
+</p>
 
 _Manually jogging the machine to the 4 corners of the work volume._
 
@@ -779,16 +793,16 @@ _Manually jogging the machine to the 4 corners of the work volume._
 
 _Aligning a tool with a corner of the vice/jig._
 
-Now the machine works. Apparently, someone had fixed it up 2 years ago, and is preparing to have the machine removed. It doesn't like aluminum, at least the tool bits already in the lab. They "explode" when machining aluminum. The Z axis control has some issues.
+Now the machine works. Apparently, someone had fixed it up 2 years ago, and is preparing to have the machine removed. It doesn't like aluminum, at least the tooltips already in the lab. They "explode" when machining aluminum. The Z axis control has some issues. The machine is "easy to damage". This corroborates my experience, as jogging the X axis all the way to the left, it collides with a glass window.
 
-[Image, not yet uploaded]
+![Image 4418](./Documentation/CNCMachining/IMG_4418.JPG)
 
-_CNC tool tips currently available the lab work site._
+_CNC tooltips currently available at the lab work site._
 
 The colorful tools are only good for PCB engraving. The tool currently loaded is a PCB-grade tool.
 
 Start out with wood. Use the thicker tools in the plastic casing (which appear to all have the same dimensions) are generic tools suitable for wood.  The wood tools are an unspecified part model. We don't know the datasheet. Likely have to be measured with calipers.
 
-For aluminum or brass, order dedicated tool bits not yet in the lab. Tools made specifically for CNC machining aluminum. They should have as few flutes as possible. In addition, spares should be ordered.
+For aluminum or brass, order dedicated tool bits not yet in the lab. Tools made specifically for CNC machining aluminum. They should have as few flutes as possible. In addition, spares should be ordered. My primary goal is to CNC machine as many parts from previous STM designs as possible.
 
-Don't machine fiberglass, the dust is toxic.
+Don't machine fiberglass, the dust is toxic. Requires a wierd lubricant. The system doesn't have a vacuum exhaust installed to collect dust. The port for the vacuum insert is taped over. The inside is covered in wood dust. Actuating the axes for the first time, I saw them push the dust off a sliding surface.
