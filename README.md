@@ -799,7 +799,7 @@ Now the machine works. Apparently, someone had fixed it up 2 years ago, and is p
 
 _CNC tooltips currently available at the lab work site._
 
-The colorful tools are only good for PCB engraving. The tool currently loaded is a PCB-grade tool.
+The colorful tools are only good for PCB engraving. The currently loaded tool is a PCB-grade tool.
 
 Start out with wood. Use the thicker tools in the plastic casing (which appear to all have the same dimensions) are generic tools suitable for wood.  The wood tools are an unspecified part model. We don't know the datasheet. Likely have to be measured with calipers.
 
