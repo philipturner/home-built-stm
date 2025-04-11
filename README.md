@@ -856,3 +856,31 @@ _Complexity is the nemesis of progress. It's the reason you need $1 million and 
 ## April 11, 2025
 
 You don't need to wash UHV parts in a bath of boiling trichloroethylene, with 5 self-electrocuted piezos creating funny sounds. You need to wash UHV parts in a bath of boiling (insert different wierd chemical), with 5 self-electrocuted piezos creating funny sounds. All the chemical you dumped and then sinked. I mean drained. Costs more than the part. _This isn't high vacuum, kids. It's ultra-high vacuum. And endless rabbithole of unexpected costs and equipment. Good luck fitting it all into your truck._
+
+![Image 4431](./Documentation/HandSoldering/IMG_4431.JPG)
+
+I finished the "intermediate" level of soldering training. I can officially declare myself not "all bark and no bite". I completed two levels of soldering training in 1 week. I can work blindingly fast when I want, provided I've saved up enough time by completing my homework over the weekend. It just goes to show the magnitude of the complexity problem I encountered on the design/simulation/setup/part specification side. I know the required theoretical knowledge and the relevant computational tooling. I was working just as hard as I am now, trying to pry open and demystify the funny circuit parts. Trying to answer the undefined question: What is ground?
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/HandSoldering/IMG_4433.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/HandSoldering/IMG_4432.JPG" width="45%">
+&nbsp;
+</p>
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/HandSoldering/IMG_4434.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/HandSoldering/IMG_4435.JPG" width="45%">
+&nbsp;
+</p>
+
+The board didn't work first time. I diagnosed the problem by comparing it to a working board, side-by-side. I used the multimeter to perform a continuity test. I put the test probes at two points on the working board. It went "beep". I put the test probes at the same two points, but on my own board. There was no sound. The issue was a faulty solder joint in the common-mode choke. I applied flux and rammed the soldering iron into the unseeable leads, hoping something would change. It somehow worked.
+
+![Image 4430](./Documentation/HandSoldering/IMG_4430.JPG)
+
+_Funny image of a surface-mount capacitor. I'm the person holding it! I'm in a playful mood today, because I hold all the cards in the arms race to self replication._
+
+Onto advanced soldering and dry-running G-code on the CNC machine.
