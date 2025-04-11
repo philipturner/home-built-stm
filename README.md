@@ -852,3 +852,7 @@ The answer depends on:
 None of this is fun to elaborate on, I'll stop here.
 
 _Complexity is the nemesis of progress. It's the reason you need $1 million and to relocate to a different city to build carbon atoms. I'm going to demystify and destroy this unnecessary complexity, even if it wastes a lot of my time. It's a bug I've been diagnosing for the last 8 months. I won't quit until it's patched._
+
+## April 11, 2025
+
+You don't need to wash UHV parts in a bath of boiling trichloroethylene, with 5 self-electrocuted piezos creating funny sounds. You need to wash UHV parts in a bath of boiling (insert different wierd chemical), with 5 self-electrocuted piezos creating funny sounds. All the chemical you dumped and then sinked. I mean drained. Costs more than the part. _This isn't high vacuum, kids. It's ultra-high vacuum. And endless rabbithole of unexpected costs and equipment. Good luck fitting it all into your truck._
