@@ -826,3 +826,29 @@ _Today's progress on the "intermediate" level of soldering training._
 Hand-soldered eight 1206 resistors. The micro-USB port passed the continuity test. Learned how to use copper braid wick, to bond the five pads to their gold-colored counterparts on the micro-USB port.
 
 I shouldn't have a journal entry tomorrow. I'm using this evening and tomorrow to catch up/get ahead on homework. I should have a journal entry on Friday (April 11), and no entries over the weekend. We'll see what the workload is like by Monday (April 14). I'm uploading the current state of the journal to the Internet Archive.
+
+## April 10, 2025
+
+I ended up having ~30 minutes available today to be in the lab. First, I ensured that surface mount parts would be placed in my bin for tomorrow. Second, I read the instruction sheet for the caliper/calipers/digital caliper. You must take out the battery before putting it away.
+
+I used the _digital caliper™_ to measure the tooltip for machining wood. The tooltip has zero bridgehead carbons and zero germanium radicals. It also measures 3,160 microns in one specific dimension and 38,260 microns in another. I don't know which dimension is named which.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4422.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4423.JPG" width="45%">
+&nbsp;
+</p>
+
+I have not given up on building carbon atoms onto an unoxidized silicon or tungsten surface! It's just, the path from now to then, is long, complicated, and boring. But I'm the one to blame, because I refuse to accept designs with unnecessary components. And oscilloscopes, those ugly things that take up 0.25 meters of space unnecessarily. You don't need them. But designing a custom PCB with an ADC, when counting the person-hours required, and $50/hour, is easily over $1000. Even if the actual hardware is only $20. The person-hours cost. It's not a fun subject to talk about. I don't like making tradeoffs like this, and anyone funding this won't like it either. You don't just decide what path to take arbitrarily. You decide with the interests of whoever's funding you in mind. Whether they would accept you paying your way through saving time, or whether the question is about the "true" limit to low cost.
+
+The answer depends on:
+- Are you broke?
+- Are you trying to avoid filling a room full of equipment, when a lab somewhere else already has the reflow ovens for soldering the unhandsolderable DAC81404 in a QFN package?
+- Are you trying to optimize for the time spent manually soldering components?
+- CNC machining, the upfront cost to do it in-house is too high. Whatever machine you can afford ($200&ndash;2000) doesn't have enough precision. What does have enough precision, is best utilized through an online CNC service for $50/part. This is not a question. It's me figuring out how to acquire the aluminum or steel big hunk part of the kinematic mount, whose V-groove can't actually be CNC machined. _Wait, what?_
+
+None of this is fun to elaborate on, I'll stop here.
+
+_Complexity is the nemesis of progress. It's the reason you need $1 million and to relocate to a different city to build carbon atoms. I'm going to demystify and destroy this unnecessary complexity, even if it wastes a lot of my time. It's a bug I've been diagnosing for the last 8 months. I won't quit until it's patched._
