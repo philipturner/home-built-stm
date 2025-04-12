@@ -881,6 +881,6 @@ The board didn't work first time. I diagnosed the problem by comparing it to a w
 
 ![Image 4430](./Documentation/HandSoldering/IMG_4430.JPG)
 
-_Funny image of a surface-mount capacitor. I'm the person holding it! I'm in a playful mood today, because I hold all the cards in the arms race to self replication._
+_Image of a surface-mount capacitor._
 
 Onto advanced soldering and dry-running G-code on the CNC machine.
