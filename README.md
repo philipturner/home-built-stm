@@ -895,7 +895,6 @@ I dissected an example G-code program from the open-source document, to get prac
 <summary>62 lines of G-code</summary>
 
 ```
-// Example G-code:
 n0010 g21 g0 x0 y0 z50 (top of part should be on XY plane)
 n0020 t1 m6 m3 f20 s4000 (use an engraver or small ball-nose endmill)
 n0030 g0 x0 y0 z2
@@ -961,7 +960,7 @@ n0620 m2
 
 </details>
 
-I dissected all of these lines manually. It was tedious, but that's the point. It ingrains the basics into your brain, and you become familiar with some essential concepts of G-code. The results are available on a GitHub Gist:
+I dissected all of these lines manually. It was tedious, but that's the point. It ingrains the basics into your brain, and you become familiar with some essential concepts of G-code. The results are available on a GitHub gist:
 
 https://gist.github.com/philipturner/90f2060d3bd2e0dca20891e8c03300bd
 
