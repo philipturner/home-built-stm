@@ -1066,3 +1066,7 @@ There are four likely options for tip shapes, based on the tool library for the 
 - <b>Drill:</b> V-shaped Z-profile, comes to a sharp point at the center.
 
 The left container is likely "Slot Mill". The right container is likely "Ball Mill".
+
+![Image 4453](./Documentation/CNCMachining/IMG_4453.JPG)
+
+_Denford VR Milling 5 application with tooltip parameters entered._
