@@ -1052,3 +1052,5 @@ Finally, I took a top-down aerial view image. I used 0.5x magnification on my ph
 ![Image 4450](./Documentation/CNCMachining/IMG_4450.JPG)
 
 I learned something after reading some documentation embedded in the Denford CNC software. A "billet" is an unfinished piece of stock, or the block of material that has yet to be machined. Its dimensions must be specified in the G-code to render a "VR" simulation of the machining process. I assume the billet is always rectangular and aligned with the 3 cartesian axes.
+
+The "flute length" for wood tooltips is about 21.61 mm. It's hard to get an accurate reading, because I must visually estimate the point where the flutes terminate.
