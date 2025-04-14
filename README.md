@@ -1050,3 +1050,5 @@ I took measurements of the jig. The four measurements are listed below. The inst
 Finally, I took a top-down aerial view image. I used 0.5x magnification on my phone, held it high above the jig, and cropped out the content surrounding the jig. I don't know if this technique improved planarity of the image. It will allow semi-accurate reverse engineering to extract dimensions too large for the capiler. With all of this data, I might be able to find dimensions for the wood block. Although I still don't understand how the jig fully constrains its movement.
 
 ![Image 4450](./Documentation/CNCMachining/IMG_4450.JPG)
+
+I learned something after reading some documentation embedded in the Denford CNC software. A "billet" is an unfinished piece of stock, or the block of material that has yet to be machined. Its dimensions must be specified in the G-code to render a "VR" simulation of the machining process. I assume the billet is always rectangular and aligned with the 3 cartesian axes.
