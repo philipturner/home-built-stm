@@ -1054,3 +1054,15 @@ Finally, I took a top-down aerial view image. I used 0.5x magnification on my ph
 I learned something after reading some documentation embedded in the Denford CNC software. A "billet" is an unfinished piece of stock, or the block of material that has yet to be machined. Its dimensions must be specified in the G-code to render a "VR" simulation of the machining process. I assume the billet is always rectangular and aligned with the 3 cartesian axes.
 
 The "flute length" for wood tooltips is about 21.61 mm. It's hard to get an accurate reading, because I must visually estimate the point where the flutes terminate.
+
+There are two different containers of tooltips for milling wood. Both have two flutes and very similar dimensions. The left container (one of which is currently installed in the CNC router) has flat, sharp tips. The right container has rounded, blunter tips.
+
+![Image 4452](./Documentation/CNCMachining/IMG_4452.JPG)
+
+There are four likely options for tip shapes, based on the tool library for the Denford CNC simulator:
+- <b>Slot Mill:</b> 2 flutes, flat Z-profile. General-purpose tool for both drilling holes in the Z direction, and removing material through X/Y linear motions. Recommended for milling aluminum and brass.
+- <b>End Mill:</b> 4 or more flutes, flat Z-profile. The higher flute count is optimized for more quickly removing material. Only use this to remove material through X/Y linear motions. Drilling holes in the Z direction will cause chips to clog. Recommended for milling steel.
+- <b>Ball Nose:</b> Rounded Z-profile, sort of comes up to a point.
+- <b>Drill:</b> V-shaped Z-profile, comes to a sharp point at the center.
+
+The left container is likely "Slot Mill". The right container is likely "Ball Mill".
