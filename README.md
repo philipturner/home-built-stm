@@ -6,6 +6,43 @@ philipturner@vt.edu
 
 STM with no nonlinearities in the relationship between piezo voltage and position.
 
+Table of Contents:
+- Journal Entries (Planning Stage)
+  - [Progress (Jan 2025)](#progress-jan-2025)
+  - [High-Level Overview](#high-level-overview)
+  - [Lithium Niobate](#lithium-niobate)
+  - [Finite Element Modeling](#finite-element-modeling)
+  - [Chips](#chips)
+  - [Update (February 22, 2025)](#update-february-22-2025)
+  - [First Draft of TIA Subsystem](#first-draft-of-tia-subsystem)
+  - [Bypassing vs. Decoupling Capacitors](#bypassing-vs-decoupling-capacitors)
+- Journal Entries (Theoretical Stage)
+  - [March 6, 2025](#march-6-2025)
+  - [March 15, 2025](#march-15-2025)
+  - [March 18, 2025](#march-18-2025)
+  - [March 19, 2025](#march-19-2025)
+  - [March 20, 2025](#march-20-2025)
+  - [March 21, 2025](#march-21-2025)
+  - [March 22, 2025](#march-22-2025)
+  - [March 23, 2025](#march-23-2025)
+  - [March 25, 2025](#march-25-2025)
+  - [March 28, 2025](#march-28-2025)
+  - [March 29, 2025](#march-29-2025)
+  - [March 30, 2025](#march-30-2025)
+  - [March 31, 2025](#march-31-2025)
+  - [April 1, 2025](#april-1-2025)
+  - [April 2, 2025](#april-2-2025)
+- Journal Entries (Experimental Stage)
+  - [April 6, 2025](#april-6-2025)
+  - [April 7, 2025](#april-7-2025)
+  - [April 8, 2025](#april-8-2025)
+  - [April 9, 2025](#april-9-2025)
+  - [April 10, 2025](#april-10-2025)
+  - [April 11, 2025](#april-11-2025)
+  - [April 12, 2025](#april-12-2025)
+  - [April 13, 2025](#april-13-2025)
+  - [April 14, 2025](#april-14-2025)
+
 ## Progress (Jan 2025)
 
 This project is officially a NANO 4994 research project for Spring 2025, worth 3 credits. After months of research, I found a potential solution to my main goal of building an STM, solving piezo creep. I discovered a new material that could make better piezoelectric actuators: <b>lithium niobate</b>. I am listing some of the calculations and scripts I have done. Currently, I am speed-running the tutorials for FreeCAD and KiCad. I have gotten through ~50% of them.
@@ -885,7 +922,7 @@ _Image of a surface-mount capacitor._
 
 Onto advanced soldering and dry-running G-code on the CNC machine.
 
-# April 12, 2025
+## April 12, 2025
 
 I was working on understanding G-code. The RS-274 standard is open-source, while the ISO 6983-1 standard is locked behind a paywall. I accessed the 34-page _INTERNATIONAL STANDARD ISO 6983-1 Second edition_ (2009-12-15) anyway, although I won't specify how.
 
@@ -979,3 +1016,11 @@ What happens next, is I slowly rebuild motivation. I have to enjoy the long and 
 I found logging my thoughts on this repo, very helpful. Perhaps it gets them off my mind, helps me formalize them. When I look back, or other people look back, there's a treasure trove of important practical insights. _Complexity is the nemesis of progress._ That has always been true, ever since I built a software stack from the ground up. Simple algorithms cost less time to maintain, and I have finite person-hours to spend on development. Understand everything to the core, debug it in incremental, bite-sized stages. Go on red alert and put all resources toward fixing the tiniest "subtle" bugs. In experiment, these software bugs are the concerning theoretical questions I've been answering nonstop as of late. My tactics have never changed, I refuse to change. I will vertically integrate my hardware to the level I deem necessary. That's how I got where I am now.
 
 I've got most of my current homework off my plate for the next few days. I have to convince myself to spend this afternoon getting ahead on a future assignment. That's the only way I can afford to spend ~4 days in a row at the AMP Lab all morning. Homework will pile up again before next weekend, especially with final exams nearing.
+
+## April 14, 2025
+
+I successfully swapped the tooltip for CNC machine. Here are the physical tools I used to do it. The two-sided, dark metallic thingy seems proprietary. Shaped in a way that most common tools can't service the "nut and collet". I bypassed this restriction with the one-sided, shiny metallic thingy. I swapped the PCB tooltip for the bulkier wood tooltip. Then, I washed my hands to rinse off the disgusting lubricant.
+
+![Image 4445](./Documentation/CNCMachining/IMG_4445.JPG)
+
+_Spindle with the new tooltip installed. Next to it, are the two hand tools in the "hammer and sickle" configuration._
