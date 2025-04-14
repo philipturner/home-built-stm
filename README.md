@@ -868,7 +868,7 @@ I shouldn't have a journal entry tomorrow. I'm using this evening and tomorrow t
 
 I ended up having ~30 minutes available today to be in the lab. First, I ensured that surface mount parts would be placed in my bin for tomorrow. Second, I read the instruction sheet for the caliper/calipers/digital caliper. You must take out the battery before putting it away.
 
-I used the _digital caliper™_ to measure the tooltip for machining wood. The tooltip has zero bridgehead carbons and zero germanium radicals. It also measures 3,160 microns in one specific dimension and 38,260 microns in another. I don't know which dimension is named which.
+I used the _digital caliper™_ to measure the tooltip for machining wood. The tooltip has zero bridgehead carbons and zero germanium radicals. It also measures 3.16 mm in one specific dimension and 38.26 mm in another. I don't know which dimension is named which.
 
 <p align="center">
 &nbsp;
@@ -1024,3 +1024,29 @@ I successfully swapped the tooltip for CNC machine. Here are the physical tools 
 ![Image 4445](./Documentation/CNCMachining/IMG_4445.JPG)
 
 _Spindle with the new tooltip installed. Next to it, are the two hand tools in the "hammer and sickle" configuration._
+
+I took measurements of the jig. The four measurements are listed below. The instrument officially has a resolution of 10.0&ndash;12.7 microns and an accuracy of 25.4 microns.
+- <b>Upper Left:</b> 80.42 mm
+- <b>Upper Right:</b> 63.94 mm
+- <b>Lower Left:</b> 92.92 mm
+- <b>Lower Right:</b> 101.50 mm
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4446.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4447.JPG" width="45%">
+&nbsp;
+</p>
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4448.JPG" width="45%">
+&nbsp; &nbsp;
+  <img src="./Documentation/CNCMachining/IMG_4449.JPG" width="45%">
+&nbsp;
+</p>
+
+Finally, I took a top-down aerial view image. I used 0.5x magnification on my phone, held it high above the jig, and cropped out the content surrounding the jig. I don't know if this technique improved planarity of the image. It will allow semi-accurate reverse engineering to extract dimensions too large for the capiler. With all of this data, I might be able to find dimensions for the wood block. Although I still don't understand how the jig fully constrains its movement.
+
+![Image 4450](./Documentation/CNCMachining/IMG_4450.JPG)
