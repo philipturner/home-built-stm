@@ -1087,3 +1087,5 @@ _The paper model fixtured to the jig with masking tape._
 ![Image 4458](./Documentation/CNCMachining/IMG_4460.JPG)
 
 _The reference point/working offset being calibrated to within ~1 mm of the true corner._
+
+[Using custom G-code to mill a hole into paper at 1500 RPM (YouTube)](https://www.youtube.com/watch?v=SHIjXr6NYhY)
