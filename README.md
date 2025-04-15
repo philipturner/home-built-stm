@@ -1089,3 +1089,9 @@ _The paper model fixtured to the jig with masking tape._
 _The reference point/working offset being calibrated to within ~1 mm of the true corner._
 
 [Using custom G-code to mill a hole into paper at 1500 RPM (YouTube)](https://www.youtube.com/watch?v=SHIjXr6NYhY)
+
+I tried hand-soldering some 0805 components today. I couldn't get any of them on nicely. They like to stick to the tweezers, and it's easy to tombstone them. On at least two of eight, the first pad would unexpectedly melt while I was soldering the second pad. Then, the second time I tried, the first pad didn't melt again. So the part was stuck, with the solder frozen, holding it in an undesired position. I couldn't correct this error. The resistor is still crooked in the image below.
+
+![Image 4465](./Documentation/HandSoldering/IMG_4465.JPG)
+
+If I have this much trouble with 0805 (which is supposedly easy for hand-soldering), imagine the difficulty hand-soldering 0603. Or even 0402, which seems to be the physical limit of what people can do with enough dexterity. Remember that surface-mount technology was never designed for manual soldering. It was designed for precise pick-and-place machines. I'll need good soldering skills to solder wires onto mechanical parts for the STM. Even if the PCBs themselves are fabricated via solder paste + reflow or hot air.
