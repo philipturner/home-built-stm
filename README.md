@@ -1019,7 +1019,7 @@ I've got most of my current homework off my plate for the next few days. I have 
 
 ## April 14, 2025
 
-I successfully swapped the tooltip for CNC machine. Here are the physical tools I used to do it. The two-sided, dark metallic thingy seems proprietary. Shaped in a way that most common tools can't service the "nut and collet". I bypassed this restriction with the one-sided, shiny metallic thingy. I swapped the PCB tooltip for the bulkier wood tooltip. Then, I washed my hands to rinse off the disgusting lubricant.
+I successfully swapped the tooltip for the CNC machine. Here are the physical tools I used to do it. The two-sided, dark metallic thingy seems proprietary. Shaped in a way that most common tools can't service the "nut and collet". I bypassed this restriction with the one-sided, shiny metallic thingy. I swapped the PCB tooltip for the bulkier wood tooltip. Then, I washed my hands to rinse off the disgusting lubricant.
 
 ![Image 4445](./Documentation/CNCMachining/IMG_4445.JPG)
 
