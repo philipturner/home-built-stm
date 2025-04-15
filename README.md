@@ -42,6 +42,7 @@ Table of Contents:
   - [April 12, 2025](#april-12-2025)
   - [April 13, 2025](#april-13-2025)
   - [April 14, 2025](#april-14-2025)
+  - [April 15, 2025](#april-15-2025)
 
 ## Progress (Jan 2025)
 
@@ -1070,3 +1071,19 @@ The left container is likely "Slot Mill". The right container is likely "Ball Mi
 ![Image 4453](./Documentation/CNCMachining/IMG_4453.JPG)
 
 _Denford VR Milling 5 application with tooltip parameters entered._
+
+[Running custom G-code on a Denford 2600 Pro CNC router (YouTube)](https://www.youtube.com/watch?v=O4f1rM5qWTw)
+
+## April 15, 2025
+
+![Image 4458](./Documentation/CNCMachining/IMG_4458.JPG)
+
+_To-scale representation of the aluminum jig, drawn on notebook paper with the aid of a caliper._
+
+![Image 4458](./Documentation/CNCMachining/IMG_4459.JPG)
+
+_The paper model fixtured to the jig with masking tape._
+
+![Image 4458](./Documentation/CNCMachining/IMG_4460.JPG)
+
+_The reference point/working offset being calibrated to within ~1 mm of the true corner._
