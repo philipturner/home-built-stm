@@ -1124,3 +1124,5 @@ I started soldering ICs. SOIC-8, the most common package I've seen for op-amps, 
 Unfortunately, that technique removed _all_ of the solder, leaving none left to bond the pins to the pads. I accidentally pried the entire IC off pads I thought were strongly mechanically bonded. The IC made a 180° rotation, but one pin was still connected to one of the pads. That pin was not happy. Probably warped. I saw some other pins physically warped as well. I'll need more practice to get the hang of small SMT ICs.
 
 I'm not going into the lab tomorrow, because I need to catch up on homework that was assigned over the week. Not sure what's going to happen on Friday.
+
+I got approval from a lab at the [ICTAS II](https://ictas.vt.edu/Facilities/ictasII.html) for my one-off experience with gold sputtering! It is not "training", but it looks like I'll get some hands-on experience with the high vacuum system. And, they have logistics for carrying the sample home without destroying the 30 nm gold layer. The appointment is currently set to happen tomorrow at 11:00 AM to 2:00 PM.
