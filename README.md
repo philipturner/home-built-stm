@@ -1102,3 +1102,25 @@ If I have this much trouble with 0805 (which is supposedly easy for hand-solderi
 [Using custom G-code to mill a line across paper (YouTube)](https://www.youtube.com/watch?v=Hx1Q04RE4tk)
 
 My next task is to transfer the Denford CNC software from the old Windows 7 PC, to the new Windows 11 PC. Although it's kind of strange, because they're supposedly throwing out the CNC machine soon. Why go through the hassle of reinstalling the CNC software if you're only going to use it for a brief period of time?
+
+I attempted to do that. I transferred the raw files over and tried piecing together the DLLs and Windows app files into one folder. Unfortunately, the VR Milling 5 application wouldn't work. I need the admin password to install it correctly. Someone gave me the admin password, but then I was informed that I should wait until someone hypervisor's the Windows 11 PC.
+
+![Image 4473](./Documentation/HandSoldering/IMG_4473.JPG)
+
+I got the hang of soldering small SMT resistors. I finished the last 8 0805 resistors and 21 0603 resistors. I didn't have the same issues starting out with 0603, as when I started out with 0805. I did have to trash one 0603 though, because it got stuck to the soldering iron and shorted. For 0603 and 0402 sizes, the pads get disproportionately larger than the part. They are enlarged to make it easy to hand-solder.
+
+I started soldering ICs. SOIC-8, the most common package I've seen for op-amps, is easy. I can solder one pad at a time with the sharpest soldering iron tip available. I _wrecked_ the TSSOP-8. I tried the same technique as for the SOIC-8, but the pads were spaced much closer now. I accidentally shorted two neighboring pins. I tried remedying this by shorting all of the pins together in a flood of solder. Then, removing the excess solder with copper wick.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/HandSoldering/TSSOP_Image_1.JPG" width="29%">
+&nbsp; &nbsp;
+  <img src="./Documentation/HandSoldering/TSSOP_Image_2.JPG" width="29.3%">
+&nbsp; &nbsp;
+  <img src="./Documentation/HandSoldering/TSSOP_Image_3.JPG" width="30.2%">
+&nbsp;
+</p>
+
+Unfortunately, that technique removed _all_ of the solder, leaving none left to bond the pins to the pads. I accidentally pried the entire IC off pads I thought were strongly mechanically bonded. The IC made a 180° rotation, but one pin was still connected to one of the pads. That pin was not happy. Probably warped. I saw some other pins physically warped as well. I'll need more practice to get the hang of small SMT ICs.
+
+I'm not going into the lab tomorrow, because I need to catch up on homework that was assigned over the week. Not sure what's going to happen on Friday.
