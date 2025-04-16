@@ -43,6 +43,7 @@ Table of Contents:
   - [April 13, 2025](#april-13-2025)
   - [April 14, 2025](#april-14-2025)
   - [April 15, 2025](#april-15-2025)
+  - [April 16, 2025](#april-16-2025)
 
 ## Progress (Jan 2025)
 
@@ -1095,3 +1096,9 @@ I tried hand-soldering some 0805 components today. I couldn't get any of them on
 ![Image 4465](./Documentation/HandSoldering/IMG_4465.JPG)
 
 If I have this much trouble with 0805 (which is supposedly easy for hand-soldering), imagine the difficulty hand-soldering 0603. Or even 0402, which seems to be the physical limit of what people can do with enough dexterity. Remember that surface-mount technology was never designed for manual soldering. It was designed for precise pick-and-place machines. I'll need good soldering skills to solder wires onto mechanical parts for the STM. Even if the PCBs themselves are fabricated via solder paste + reflow or hot air.
+
+## April 16, 2025
+
+[Using custom G-code to mill a line across paper (YouTube)](https://www.youtube.com/watch?v=Hx1Q04RE4tk)
+
+My next task is to transfer the Denford CNC software from the old Windows 7 PC, to the new Windows 11 PC. Although it's kind of strange, because they're supposedly throwing out the CNC machine soon. Why go through the hassle of reinstalling the CNC software if you're only going to use it for a brief period of time?
