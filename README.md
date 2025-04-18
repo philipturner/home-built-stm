@@ -1126,3 +1126,13 @@ Unfortunately, that technique removed _all_ of the solder, leaving none left to 
 I'm not going into the lab tomorrow, because I need to catch up on homework that was assigned over the week. Not sure what's going to happen on Friday.
 
 I got approval from a lab at the [ICTAS II](https://ictas.vt.edu/Facilities/ictasII.html) for my one-off experience with gold sputtering! It is not "training", but it looks like I'll get some hands-on experience with the high vacuum system. And, they have logistics for carrying the sample home without destroying the 30 nm gold layer. The appointment is currently set to happen tomorrow at 11:00 AM to 2:00 PM.
+
+## April 17, 2025
+
+I got permission to post the results of my lab session, open-source. However, I was given careful terms for how to word it, and where/how I may publish it. I'll update this README once I have another day to think about it.
+
+## April 18, 2025
+
+I've been working way too hard for the last several months. I got burned out on the hardware stuff. I'm taking a break to port my renderer to Windows in whatever spare time I get over the next few weeks:
+
+https://github.com/philipturner/molecular-renderer
