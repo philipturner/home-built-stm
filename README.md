@@ -1131,6 +1131,11 @@ I got approval from a lab at the [ICTAS II](https://ictas.vt.edu/Facilities/icta
 
 I got permission to post the results of my lab session, open-source. However, I was given careful terms for how to word it, and where/how I may publish it. I'll update this README once I have another day to think about it.
 
+Precautions:
+- I did not get training.
+- I did not get access to their system.
+- This is not an experience open to students in general.
+
 ## April 18, 2025
 
 I've been working way too hard for the last several months. I got burned out on the hardware stuff. I'm taking a break to port my renderer to Windows in whatever spare time I get over the next few weeks:
