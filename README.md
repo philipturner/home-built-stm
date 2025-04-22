@@ -44,6 +44,10 @@ Table of Contents:
   - [April 14, 2025](#april-14-2025)
   - [April 15, 2025](#april-15-2025)
   - [April 16, 2025](#april-16-2025)
+  - [April 17, 2025](#april-17-2025)
+- Journal Entries (Conclusion Stage)
+  - [April 18, 2025](#april-18-2025)
+  - [April 22, 2025](#april-22-2025)
 
 ## Progress (Jan 2025)
 
