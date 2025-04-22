@@ -1141,3 +1141,20 @@ Precautions:
 I've been working way too hard for the last several months. I got burned out on the hardware stuff. I'm taking a break to port my renderer to Windows in whatever spare time I get over the next few weeks:
 
 https://github.com/philipturner/molecular-renderer
+
+## April 22, 2025
+
+I gave that a try, and finished up getting Microsoft [DirectXShaderCompiler](https://github.com/microsoft/DirectXShaderCompiler/tree/main) to work with Swift. But after that, I don't know whether I have motivation to carry the Windows port forward. Final exams are coming up, and I won't have time to work on it substantially (depressing).
+
+Throughout the last weekend, I thought up several things:
+- The UFF, OpenFF, and ReaxFF forcefields from common molecular "CAD" programs don't have enough quality. There really is a need for a general-purpose, broadly accurate polarizable force field.
+- Setting up the bond topology for any arbitrary molecular system eats up the most time. The most general way, is to perform a quantum mechanical calculation with no a priori assumptions about the electronic structure. Then, identify the geometric location of sigma bonds and connect atoms to each other. You can use this topology to perform very cheap forcefield calculations. Hence the whole point of GFN-FF.
+- [MM4](https://github.com/philipturner/MM4) can exploit the fact that diamond, silicon carbide, and silicon are entirely sp<sup>3</sup> hybridized. You can utilize algorithms from [HDL](https://github.com/philipturner/HDL) based on the periodic arrangement of atoms in a diamond-like 3D lattice. It simplifies the bond topology setup and removes the need for quantum mechanical pre-calculation.
+- Real-world mechanosynthesis will most likely produce amorphous carbon. Silicon carbide is the best chance of producing a 3D lattice that can be automated like HDL + MM4. Until it is proven possible to build, any work on CAD for supermassive crystolecules is a waste of time. A rabbithole that might be wasting time. In addition, the real-world hardware and techniques for preparing SiC feedstocks is non-trivial. Extremely complicated and not accessible, compared to amorphous C which is just carbon dimers on a single species of tripod.
+- Mechanosynthesis and tripod feedstock preparation for amorphous C will be an order of magnitude faster than for SiC. But whether we can make anything useful out of amorphous C (can't even be computer modeled, imperfect copies for replication) is debatable.
+
+At the very least, it's not worth investing time fixing the speed bottleneck in MM4. MM4 is much easier to modify and vertically integrate with custom OpenCL kernels, than the wildly complex semiempirical quantum mechanical code for xTB. It also unlocks a very fun Minecraft-like experience of building machines out of 3D diamond-like lattices.
+
+Hexagonal diamond scales to very large systems for many reasons. It lacks significant surface strain compared to cubic diamond. You often don't have to perform an energy minimization at the molecular mechanics level of theory, to determine whether a large crystolecule has warped. Granted, concave corners still have 5-membered rings and may need some minimization. But at least you can auto-generate large structures without MM4 calculations, and not have ugly un-reconstructed C(100)-(1 × 1) surfaces.
+
+If I did spend time on the CAD, it would be for making the renderer capable of more atoms. Tens of millions of atoms in real-time. Making it more accessible to other people, with Windows support and good documentation (like the [FreeCAD tutorials](https://wiki.freecad.org/Tutorials)). However, practically, molecular CAD has no use for mechanosynthesis. It's the sad reality; any work on molecular modeling is being thrown down the drain. It's a tug toward a different direction of my internal conflict. I don't know what I'll want to do after college is over, I just need the ability to spend 100% of my time with nobody telling me what to do. The problems I'm facing with electromagnetic interference are time-consuming, but possible once I get access to more free time/week.
