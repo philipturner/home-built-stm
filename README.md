@@ -1179,3 +1179,5 @@ This Markdown document is on line number 1176. Paragraphs in Markdown are all wr
 ## April 25, 2025
 
 After seeing my efforts to fix the CNC machine at the AMP Lab, they're offering access to a better CNC in a different room. And swipe access to the advanced soldering room. I plan on meeting with the lab coordinator today, and figuring out when I can return to the lab. The primary limiter is the heavy workload from finals.
+
+I also have swipe access to Durham 373, a room for ECE robotics. They have an older model of CNC machine that someone got working a few semesters ago. He carved the VT logo into wood. The machine's current drill bit and installed bit are optimized for wood, which is fine. Better than the installation already existing in the AMP Lab.
