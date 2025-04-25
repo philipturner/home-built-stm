@@ -48,6 +48,7 @@ Table of Contents:
 - Journal Entries (Conclusion Stage)
   - [April 18, 2025](#april-18-2025)
   - [April 22, 2025](#april-22-2025)
+  - [April 25, 2025](#april-25-2025)
 
 ## Progress (Jan 2025)
 
@@ -1174,3 +1175,7 @@ It's pretty clear this is the answer: I'll spend most of my time on the experime
 I guess I can't go 100% experimental like that past proposal to make a startup with just ~1 million dollars. It ends up being "combined theoretical & experimental approach", and I can make big contributions to both sides. It's better to not deny the reality that you enjoy doing something. Acceptance of the facts is what sets me apart from my predecessors. Well, I'll revisit this issue in some time, and see whether I really do have motivation left for molecular CAD, or it's just a symptom of the huge influx of information and mindsets right now. There's still hope I can go 100% experimental.
 
 This Markdown document is on line number 1176. Paragraphs in Markdown are all written without line breaks. Do I really have ~588 distinct paragraphs of pure lab notes for this semester?
+
+## April 25, 2025
+
+After seeing my efforts to fix the CNC machine at the AMP Lab, they're offering access to a better CNC in a different room. And swipe access to the advanced soldering room. I plan on meeting with the lab coordinator today, and figuring out when I can return to the lab. The primary limiter is the heavy workload from finals.
