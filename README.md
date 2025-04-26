@@ -1142,6 +1142,52 @@ Precautions:
 - This is not an experience open to university students.
 - All commentary is my own, and the lab owners do not corroborate that it is a correct description of their lab or what occurred on April 17.
 
+Lab notes:
+- Wafer and wafer holder were cleaned with nitrogen gas flow. Avoid talking while holding the sample, as water and other contaminants are more likely to accumulate on it.
+- The sputtering platform had 5 different metal targets simultaneously (Ti, Cr, Cu, Au, can’t recall the 5th one). To access the metal, a hinge is opened, lifting a disc of the metal for exposure. Or perhaps the target is not actually mounted on the part that opens. A high voltage (200-400 V) is applied between the target and the silicon wafer sample, ionizing the ambient argon gas.
+- The instrument only thinks in time; the time a target is exposed to ionized argon gas. Therefore, deposition rates in nm/s must be known beforehand.
+- After sputtering, the wafer must be sliced before STM, XRD, or XPS analysis. Its diameter is 3 inches (7.6 cm), but analysis machines typically accept 1 cm flat pieces. I chose to keep the wafer intact until I am absolutely sure it needs to be analyzed. For the foreseeable future, my STM research can make do with HOPG samples.
+- Wafer must be sliced with special setup, optical paper, special tweezers and scratcher. Overall, equipment costs $100 for low-end or a few hundred for the equipment they had. I can contact them in the future for specific part models. I remarked that the cost of this cutting hardware is much less than the $1000 for a commercial Au sample.
+- The sample preparation was only sputtering, not sputtering + annealing. The lack of annealing means it’s likely Au(111) “textured” with grains on the order of 1 nanometer to 1 micron. A flat Au(111) surface requires annealing with a special heater.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Sputtering/IMG_4479.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/Sputtering/IMG_4480.JPG" width="45%">
+&nbsp;
+</p>
+
+_Left: Gold sample without cover. Right: Gold sample with cover._
+
+![Image 4481](./Documentation/Sputtering/IMG_4481.JPG)
+
+_Screenshot of laboratory log for sputtering procedure._
+
+![Image 4482](./Documentation/Sputtering/IMG_4482.JPG)
+
+_Pressure gauge confirming 1e-8 torr._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Sputtering/IMG_4483.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/Sputtering/IMG_4485.JPG" width="45%">
+&nbsp;
+</p>
+
+_Left: Vacuum chamber where sputtering occurred. Right: Load lock chamber where sample was inserted._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Sputtering/IMG_4486.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/Sputtering/IMG_4487.JPG" width="45%">
+&nbsp;
+</p>
+
+_Left: Turbo pump model. Right: Packing sample in container for transporting home._
+
 ## April 18, 2025
 
 I've been working way too hard for the last several months. I got burned out on the hardware stuff. I'm taking a break to port my renderer to Windows in whatever spare time I get over the next few weeks:
