@@ -1180,4 +1180,14 @@ This Markdown document is on line number 1176. Paragraphs in Markdown are all wr
 
 After seeing my efforts to fix the CNC machine at the AMP Lab, they're offering access to a better CNC in a different room. And swipe access to the advanced soldering room. I plan on meeting with the lab coordinator today, and figuring out when I can return to the lab. The primary limiter is the heavy workload from finals.
 
-I also have swipe access to Durham 373, a room for ECE robotics. They have an older model of CNC machine that someone got working a few semesters ago. He carved the VT logo into wood. The machine's current drill bit and installed bit are optimized for wood, which is fine. Better than the installation already existing in the AMP Lab.
+I also have swipe access to Durham 373, a room for ECE robotics. They have an older model of CNC machine that someone got working a few semesters ago. He carved the VT logo into wood. The machine's current drill bit and installed billet are optimized for wood, which is fine. Better than the installation already existing in the AMP Lab.
+
+I was told that the IT department will be getting a dedicated Windows PC put into Durham 373 for the Roland MDX-40A machine. Just so that I can work on it, install the driver software, and create a machine startup manual. I likely won't work on it significantly until two weeks in the future.
+
+![Image 4494](./Documentation/CNCMachining/IMG_4494.JPG)
+
+_Image of the Roland MDX-40A CNC machine, from the front side._
+
+![Image 4507](./Documentation/CNCMachining/IMG_4507.JPG)
+
+_The drill bit installed in the machine, temporarily removed via two standard tools._
