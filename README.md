@@ -1139,7 +1139,8 @@ I got permission to post the results of my lab session, open-source. However, I 
 Precautions:
 - I did not get training.
 - I did not get access to their system.
-- This is not an experience open to students in general.
+- This is not an experience open to university students.
+- All commentary is my own, and the lab owners do not corroborate that it is a correct description of their lab or what occurred on April 17.
 
 ## April 18, 2025
 
