@@ -6,6 +6,10 @@ philipturner@vt.edu
 
 STM with no nonlinearities in the relationship between piezo voltage and position.
 
+Presentation:
+- Video (YouTube) - currently under review
+- [Slides (PDF)](./Documentation/Presentation/Final%20Presentation.pdf)
+
 Table of Contents:
 - Journal Entries (Planning Stage)
   - [Progress (Jan 2025)](#progress-jan-2025)
