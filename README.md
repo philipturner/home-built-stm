@@ -1256,3 +1256,24 @@ Other progress:
 - I am slowly inching away at the product catalog for Bourns potentiometers. Filling in entries of the spreadsheet when I find random bits of spare time, and am away from the Windows PC.
 - Making steady progress toward learning DirectX 12 at home. Developing plans for the phased out release of various software modules. Going to create FreeCAD/KiCad for molecules. It's going to take many, many months to bring the final vision to reality. I'm planning for the long-term, to create something that lasts and doesn't lose relevance to software rot. But at a fraction of the millions of dollars being invested into MSEP.
 
+## May 6, 2025
+
+I watched some videos from [Mr SolderFix (YouTube)](https://www.youtube.com/@mrsolderfix3996) and tried hand-soldering the TSSOP again. He has several techniques for fixing solder bridges and desoldering chips without destroying them. The best way to fix solder bridges:
+- Add concentrated flux to the two bridged pins
+- Put copper wick near the two pins, but don't slide it (keep it static)
+- Remove all solder from the two pins
+- Try soldering the two pins again, from a clean slate
+
+The key to soldering fine-pitched leads, is managing the solder volume. Often, you will apply a small amount of solder to the iron. Then, the solder transfers directly from the iron to the lead. That might not work reliably, but it's really hard to melt the 0.38 mm solder right next to the lead. Tough to recall exactly what worked. Anyway, make sure the amount of solder is very small.
+
+![Image 4536](./Documentation/HandSoldering/IMG_4536.JPG)
+
+The PCB from last attempt was damaged; one of the 8 pads for the TSSOP-8 had burned off. I removed the chip by clipping the leads with pliers, then cleaned all solder and lead remnants off the pads. Upon a clearer inspection, I confirmed that the pad could not be recovered. In addition, a second pad was partially burned off.
+
+![Image 4525](./Documentation/HandSoldering/IMG_4525.JPG)
+
+Instead, I soldered two new TSSOP-8 chips onto two fresh PCBs. Both chips passed the continuity test (all 8 leads, no shorts between neighbors). I also got extra practice with SOIC-8 and SOT-23-5. The lab had run out of USSOP and QFP chips, so I couldn't advance to hand-soldering of anything smaller.
+
+## May 7, 2025
+
+Useful note: if you're working with epoxy, ensure there is a respirator with "organic vapor rating". The process of applying epoxy can release significant quantities of Bisphenol A fumes. These are bad, just like fumes of acid flux during soldering. Acid fumes look like a stream of white smoke when going into the fume extractor in the advanced soldering room.
