@@ -1125,7 +1125,7 @@ I started soldering ICs. SOIC-8, the most common package I've seen for op-amps, 
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/HandSoldering/TSSOP_Image_1.JPG" width="29%">
+  <img src="./Documentation/HandSoldering/TSSOP_Image_1.JPG" width="29.0%">
 &nbsp; &nbsp;
   <img src="./Documentation/HandSoldering/TSSOP_Image_2.JPG" width="29.3%">
 &nbsp; &nbsp;
@@ -1302,4 +1302,42 @@ Last 15-30 seconds, reflow all pins at once, then pull away
 Switch under station to “cool”, goes to room temp faster
 ```
 
-TODO: Document the experience with reflow soldering once I've finished the QFNs.
+I got more experience with reflow soldering today. I started with the 3 chips from the previous session. After soldering, every chip passed the continuity test. All leads were connected to their pads, and no neighboring leads were shorted.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4530.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4531.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4532.JPG" width="30%">
+&nbsp;
+</p>
+
+_Left: after applying steel stencil. Middle: after placing chips with tweezers. Right: after reflow soldering._
+
+Next, I practiced with the QFN chips. The smallest chip (3 mm x 3 mm) was very difficult to prepare with the stencil. I tried a second time, but the results were not much better. There were multiple solder paste bridges between neighboring pads.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4546.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4547.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4548.JPG" width="30%">
+&nbsp;
+</p>
+
+_Left: solder paste applied to the QFN-20-3x3 footprint. Middle: solder paste applied to the QFN-20-4x4 footprint. Right: solder paste applied to the QFN-20-5x5 footprint._
+
+After soldering, the continuity test indicated no shorts for the larger chips (4 mm x 4 mm, 5 mm x 5 mm). For the smaller chip, there were 3 shorts. One possibility, is the specific chip had multiple leads duplicating the same function. For example, some chips have multiple GND pins. However, the evidence strongly suggests that this was an unintentional short.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4549.JPG" width="40.8%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4550.JPG" width="49.2%">
+&nbsp;
+</p>
+
+_Left: The circuit board after reflow soldering. Right: close-up of the QFN-20-3x3 with shorts labeled._
