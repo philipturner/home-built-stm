@@ -53,6 +53,9 @@ Table of Contents:
   - [April 18, 2025](#april-18-2025)
   - [April 22, 2025](#april-22-2025)
   - [April 25, 2025](#april-25-2025)
+  - [May 5, 2025](#may-5-2025)
+  - [May 6, 2025](#may-6-2025)
+  - [May 7, 2025](#may-7-2025)
 
 ## Progress (Jan 2025)
 
@@ -1242,3 +1245,14 @@ _Image of the Roland MDX-40A CNC machine, from the front side._
 ![Image 4507](./Documentation/CNCMachining/IMG_4507.JPG)
 
 _The drill bit installed in the machine, temporarily removed via two standard tools._
+
+## May 5, 2025
+
+I released the video presentation for this semester's project! It also covers what happened in Summer 2024 and the first semester of this school year.
+
+[Lithium Niobate: A New Era for Scanning Probe Technology (YouTube)](https://www.youtube.com/watch?v=1APURT2G7bo)
+
+Other progress:
+- I am slowly inching away at the product catalog for Bourns potentiometers. Filling in entries of the spreadsheet when I find random bits of spare time, and am away from the Windows PC.
+- Making steady progress toward learning DirectX 12 at home. Developing plans for the phased out release of various software modules. Going to create FreeCAD/KiCad for molecules. It's going to take many, many months to bring the final vision to reality. I'm planning for the long-term, to create something that lasts and doesn't lose relevance to software rot. But at a fraction of the millions of dollars being invested into MSEP.
+
