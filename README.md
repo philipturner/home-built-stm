@@ -1277,3 +1277,27 @@ Instead, I soldered two new TSSOP-8 chips onto two fresh PCBs. Both chips passed
 ## May 7, 2025
 
 Useful note: if you're working with epoxy, ensure there is a respirator with "organic vapor rating". The process of applying epoxy can release significant quantities of Bisphenol A fumes. These are bad, just like fumes of acid flux during soldering. Acid fumes look like a stream of white smoke when going into the fume extractor in the advanced soldering room.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/HandSoldering/IMG_4537.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/HandSoldering/IMG_4538.JPG" width="45%">
+&nbsp;
+</p>
+
+_The two fume extractor pipes in the advanced soldering room. Both pipes feed into the same machine._
+
+Advice about the hot air station:
+
+```
+Temperature is hard to control
+Under station: 180 C
+1-2 minutes on soaking zone of reflow curve
+Hot air: 350 C
+Air pen: 6 inches away from chip, slowly increasing heat near it
+After 30 seconds, slowly decrease distance from gun to chip
+Goal is to heat evenly, thermal gradients are bad for chips
+Last 15-30 seconds, reflow all pins at once, then pull away
+Switch under station to “cool”, goes to room temp faster
+```
