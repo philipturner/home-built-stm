@@ -1301,3 +1301,5 @@ Goal is to heat evenly, thermal gradients are bad for chips
 Last 15-30 seconds, reflow all pins at once, then pull away
 Switch under station to “cool”, goes to room temp faster
 ```
+
+TODO: Document the experience with reflow soldering once I've finished the QFNs.
