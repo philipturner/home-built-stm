@@ -1314,7 +1314,7 @@ I got more experience with reflow soldering today. I started with the 3 chips fr
 &nbsp;
 </p>
 
-_Left: after applying steel stencil. Middle: after placing chips with tweezers. Right: after reflow soldering._
+_<b>Left:</b> After applying steel stencil. <b>Middle:</b> After placing chips with tweezers. <b>Right:</b> After reflow soldering._
 
 Next, I practiced with the QFN chips. The smallest chip (3 mm x 3 mm) was very difficult to prepare with the stencil. I tried a second time, but the results were not much better. There were multiple solder paste bridges between neighboring pads.
 
@@ -1328,7 +1328,7 @@ Next, I practiced with the QFN chips. The smallest chip (3 mm x 3 mm) was very d
 &nbsp;
 </p>
 
-_Left: solder paste applied to the QFN-20-3x3 footprint. Middle: solder paste applied to the QFN-20-4x4 footprint. Right: solder paste applied to the QFN-20-5x5 footprint._
+_<b>Left:</b> Solder paste applied to the QFN-20-3x3 footprint. <b>Middle:</b> Solder paste applied to the QFN-20-4x4 footprint. <b>Right:</b> Solder paste applied to the QFN-20-5x5 footprint._
 
 After soldering, the continuity test indicated no shorts for the larger chips (4 mm x 4 mm, 5 mm x 5 mm). For the smaller chip, there were 3 shorts. One possibility, is the specific chip had multiple leads duplicating the same function. For example, some chips have multiple GND pins. However, the evidence strongly suggests that this was an unintentional short.
 
@@ -1340,4 +1340,4 @@ After soldering, the continuity test indicated no shorts for the larger chips (4
 &nbsp;
 </p>
 
-_Left: The circuit board after reflow soldering. Right: close-up of the QFN-20-3x3 with shorts labeled._
+_<b>Left:</b> The circuit board after reflow soldering. <b>Right:</b> Close-up of the QFN-20-3x3 with shorts labeled._
