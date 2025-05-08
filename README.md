@@ -1366,7 +1366,7 @@ Elaboration on the last scene of the video. Technique: heat the lead-free solder
 - Takes multiple attempts with the iron to get a hit that will break the short
 - Good when one of the pins connects to the ground plane, and the soldering iron wouldn’t have enough heat. The hot air gun is a localized heat source with more thermal energy.
 
-### TODO: Format these notes and upload the images
+### TODO: Format the notes and images. Some of them can be left as bulleted lists. Focus on formatting the images first.
 
 Plan for today:
 - (1) Practice with blank, fresh board
