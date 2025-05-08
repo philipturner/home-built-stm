@@ -1442,6 +1442,10 @@ _<b>Left:</b> PCB before hot air rework (desoldering). <b>Right:</b> PCB after h
 
 _<b>Left:</b> The two tweezers I have used extensively throughout soldering training. <b>Right:</b> Using the tweezer with a bent tip to grip a component. This is the orientation used to pull the component off during rework (desoldering)._
 
+![Image 4567](./Documentation/ReflowSoldering/IMG_4567.JPG)
+
+_The chips after desoldering. All of them are upside-down, so any lead point out of the page. For the SOT-23-5, one of the leads has an excessive amount of solder._
+
 After the Jivi board is within 1 cm of the correct place under the stencil, put the knobs in the closest to halfway across the rail. Only a small subset of all holes are threaded, which is an issue.
 Move it into position before completely locking it down
 Current jig is within 1 mm of correct; align it as well as you can by yourself
