@@ -1344,3 +1344,24 @@ After soldering, the continuity test indicated no shorts for the larger chips (4
 </p>
 
 _<b>Left:</b> The circuit board after reflow soldering. <b>Right:</b> Close-up of the QFN-20-3x3 with shorts labeled._
+
+## May 8, 2025
+
+Notes from a talk with another person doing a personal project at the AMP Lab:
+- JLCPCB adds extra delays, because the customer service comes back with questions about your design. Extra 2 days until the board is manufactured.
+- Ordered set of PCBs for $190. But, after the China tariffs were enacted, he got billed with an unexpected tariff of $280. I discussed the benefits of the US manufacturers, [OSH Park](https://oshpark.com/) and [Z-AXIS](https://www.zaxis.net/). He had not tried OSH Park before.
+- Interesting CNC manufacturer: [SendCutSend](https://sendcutsend.com/guidelines/cnc)
+- Encourages use of differential signaling to cancel common-mode interference. I had a long discussion arguing that this technique doesn't apply to STM current sensors. But it does apply to qPlus AFM current sensors and capacitive displacement sensors.
+- He spent ~4 months in the planning stage, just figuring out what parts are needed for his project. Only now, just acting on the plan and building the design. I noted that my project is in a similar state.
+- In engineering, you have to choose the simplest possible design. Recommended that I start with the simplest, easiest deliverable. In that case, just a PCB for the current sensor.
+
+Notes from the [Mr SolderFix video (YouTube)](https://www.youtube.com/watch?v=v58m-S35s24) for hot air stations:
+- Mr SolderFix uses 380&ndash;390°C for lead-free solder with the hot air station
+- Mr SolderFix suggests 150°C used for the hot plate (“under station”), but does hot air rework with only the hot air gun
+- Lead-free board “doesn’t help”, “takes a lot more heat to get that separated”
+- Going in with an iron just makes a short worse, adds more solder to it. Even with a small conical tip.
+
+Elaboration on the last scene of the video. Technique: heat the lead-free solder to 250°C, not enough to melt it. Then, touch the short with the iron.
+- Have to apply the hot air gun and soldering iron simultaneously
+- Takes multiple attempts with the iron to get a hit that will break the short
+- Good when one of the pins connects to the ground plane, and the soldering iron wouldn’t have enough heat. The hot air gun is a localized heat source with more thermal energy.
