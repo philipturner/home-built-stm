@@ -1474,5 +1474,3 @@ Additional notes before I practice assembling the board:
 - Green board: resistors might de-solder
 - Expect a PDF about the JiviBoard today
 - I can leave a half-assembled board in the fridge, and return to it the following day. The solder paste shouldn't dry up.
-
-TODO: Check for spelling errors in the last several entries with an AI grammar checker tool.
