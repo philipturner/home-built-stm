@@ -4,6 +4,8 @@ philipturner@vt.edu
 
 ## Project Overview
 
+> _Complexity is the nemesis of progress._
+
 STM with no nonlinearities in the relationship between piezo voltage and position.
 
 Presentation:
@@ -56,6 +58,7 @@ Table of Contents:
   - [May 5, 2025](#may-5-2025)
   - [May 6, 2025](#may-6-2025)
   - [May 7, 2025](#may-7-2025)
+  - [May 8, 2025](#may-8-2025)
 
 ## Progress (Jan 2025)
 
@@ -1165,7 +1168,7 @@ Lab notes:
 &nbsp;
 </p>
 
-_Left: Gold sample without cover. Right: Gold sample with cover._
+_<b>Left:</b> Gold sample without cover. <b>Right:</b> Gold sample with cover._
 
 ![Image 4481](./Documentation/Sputtering/IMG_4481.JPG)
 
@@ -1183,7 +1186,7 @@ _Pressure gauge confirming 1e-8 torr._
 &nbsp;
 </p>
 
-_Left: Vacuum chamber where sputtering occurred. Right: Load lock chamber where sample was inserted._
+_<b>Left:</b> Vacuum chamber where sputtering occurred. <b>Right:</b> Load lock chamber where sample was inserted._
 
 <p align="center">
 &nbsp;
@@ -1193,7 +1196,7 @@ _Left: Vacuum chamber where sputtering occurred. Right: Load lock chamber where 
 &nbsp;
 </p>
 
-_Left: Turbo pump model. Right: Packing sample in container for transporting home._
+_<b>Left:</b> Turbo pump model. <b>Right:</b> Packing sample in container for transporting home._
 
 ## April 18, 2025
 
