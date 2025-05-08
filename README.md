@@ -1421,3 +1421,13 @@ _<b>Left:</b> The SOIC-8 right after reflow soldering via hot air. <b>Right:</b>
 | ------------- | :--------: | :--------: |
 | After Stencil | ![](./Documentation/ReflowSoldering/IMG_4556.JPG) | ![](./Documentation/ReflowSoldering/IMG_4557.JPG) |
 | After Reflow  | ![](./Documentation/ReflowSoldering/IMG_4562.JPG) | ![](./Documentation/ReflowSoldering/IMG_4563.JPG) |
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4564.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4568.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> PCB before hot air rework (desoldering). <b>Right:</b> PCB after hot air rework. Both images were uploaded in full 12 megapixel resolution, to show the texture of the solder on the pads._
