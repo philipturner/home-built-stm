@@ -1396,3 +1396,13 @@ For the SOIC-8, the leads looked a bit shiny. I was trying to remove it with twe
 Neither of the QFNs had an easy indication that they were ready to come off. They only came off on the try when I waited for much longer than the previous ones. Probably 30 seconds.
 I put the desoldered ICs into their own bag for future reference.
 Include the images of the before/after boards without any compression.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4552.JPG" width="51.3%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4553.JPG" width="38.7%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The control box for the hot air gun. The knob for air flow rate ("AIR") is located at the middle of the bottom. <b>Right:</b> The jig for hot air rework. The SOIC-8, which has yet to be soldered, is in the upper left corner of the PCB._
