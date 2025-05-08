@@ -1365,3 +1365,34 @@ Elaboration on the last scene of the video. Technique: heat the lead-free solder
 - Have to apply the hot air gun and soldering iron simultaneously
 - Takes multiple attempts with the iron to get a hit that will break the short
 - Good when one of the pins connects to the ground plane, and the soldering iron wouldn’t have enough heat. The hot air gun is a localized heat source with more thermal energy.
+
+### TODO: Format these notes and upload the images
+
+Plan for today:
+- (1) Practice with blank, fresh board
+- (2) SOIC-8 with paste
+- (3) QFN-4x4 and QFN-5x5
+- (4) Hand-solder a SOT-23-5
+- (5) Use hot air to desolder the SO-X, then reposition the under station, then desolder the QFNs
+
+Have to physically unplug the hot air station to get the air stream to turn off
+I turned the air onto 4.5 / 8 to get the solder paste to melt
+350 C was sufficient, did not need 380 C
+Took multiple tries, overall elapsed time was 5 minutes
+
+SOIC-8 passes continuity test, no shorts. All leads are connected, even though top right one doesn’t look fully melted at first glance.
+In the microscope, the entire left side looks not completely melted. The top right side looks fine by comparison.
+Wiped off the SOIC-8’s pads with a cloth and IPA. Now they look a little cleaner. Half of the original surface area is still covered in the solder paste texture.
+
+The results for the QFN chips look good. Cleaner than the last one. While the QFN-4x4 does have an obvious short, it isn’t from the pads that were skewed out of alignment when applying the stencil (left). Rather, it comes from a series of pads that had light solder bridges to begin with (top).
+The continuity test indicated only 1 short for the QFN-4x4, the same one observed visually.
+The continuity test indicated no shorts for the QFN-5x5.
+
+Hand-soldered the SOT-23-5. All leads pass the continuity test to their pads, no shorts. Still difficult to hand-solder each individual pin when the pitch/pad size is so small.
+
+Using the black (bent) pliers to take the components off. Looks like a better angle when the hot air gun is overhead.
+Although at 350 C, and it didn’t look like the solder had melted, the SOT-23-5 came off easily with tweezers.
+For the SOIC-8, the leads looked a bit shiny. I was trying to remove it with tweezers, but it only came off after the leads changed appearance. Still doesn’t look like fully molten solder though.
+Neither of the QFNs had an easy indication that they were ready to come off. They only came off on the try when I waited for much longer than the previous ones. Probably 30 seconds.
+I put the desoldered ICs into their own bag for future reference.
+Include the images of the before/after boards without any compression.
