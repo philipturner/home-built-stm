@@ -1431,3 +1431,33 @@ _<b>Left:</b> The SOIC-8 right after reflow soldering via hot air. <b>Right:</b>
 </p>
 
 _<b>Left:</b> PCB before hot air rework (desoldering). <b>Right:</b> PCB after hot air rework. Both images were uploaded in full 12 megapixel resolution, to show the texture of the solder on the pads._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4565.JPG" width="30.0%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4566.JPG" width="60.0%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The two tweezers I have used extensively throughout soldering training. <b>Right:</b> Using the tweezer with a bent tip to grip a component. This is the orientation used to pull the component off during rework (desoldering)._
+
+After the Jivi board is within 1 cm of the correct place under the stencil, put the knobs in the closest to halfway across the rail. Only a small subset of all holes are threaded, which is an issue.
+Move it into position before completely locking it down
+Current jig is within 1 mm of correct; align it as well as you can by yourself
+Nevermind, it just got corrected to good enough
+Worry about the RP2040, the smallest pitch on the board. If that’s aligned, everything else should be fine.
+Don’t allow any dried solder on the large spatula. People often don’t like it because hard to apply a lot of pressure, so you can use the same tools (squeegee) you’ve already used by hand instead.
+Haven’t noticed a big difference using the lead-free type 3 solder paste on this tiny pitched board, compared to the leaded type 6 solder paste.
+Board might stick to the stencil, sign that solder paste got underneath the stencil
+Try to clean up bridged pads on the RP2040 with the dental pick
+Assemble smallest parts first and biggest parts last, but your preference. About whether you can get parts on without them blocking each other.
+
+Try pasting 3 boards in a batch, choosing the best. Send a picture to him of the microscope image before putting parts on. To validate.
+Don’t forget to clean off the stencil when done, susceptible to dried solder paste.
+When done with the frame, take it off and put it on the ground.
+Never put a board upside down in the oven after parts from the top side have already been soldered. Parts might fall off, depending on surface tension of the solder.
+Wipe off the knobs and screws holding the PCB as well, people manage to get solder paste in them.
+The 2nd microscope actually does work, just have to plug in the monitor.
+Green board: resistors might de-solder
+Expect a PDF about the JiviBoard today
