@@ -1366,38 +1366,23 @@ Elaboration on the last scene of the video. Technique: heat the lead-free solder
 - Takes multiple attempts with the iron to get a hit that will break the short
 - Good when one of the pins connects to the ground plane, and the soldering iron wouldn’t have enough heat. The hot air gun is a localized heat source with more thermal energy.
 
-### TODO: Format the notes and images. Some of them can be left as bulleted lists. Focus on formatting the images first.
-
-### TODO: Check for spelling errors in the last several entries with an AI grammar checker tool.
-
 Plan for today:
-- (1) Practice with blank, fresh board
-- (2) SOIC-8 with paste
-- (3) QFN-4x4 and QFN-5x5
-- (4) Hand-solder a SOT-23-5
-- (5) Use hot air to desolder the SO-X, then reposition the under station, then desolder the QFNs
 
-Have to physically unplug the hot air station to get the air stream to turn off
-I turned the air onto 4.5 / 8 to get the solder paste to melt
-350 C was sufficient, did not need 380 C
-Took multiple tries, overall elapsed time was 5 minutes
+```
+1. Practice with blank, fresh board
+2. SOIC-8 with paste
+3. QFN-4x4 and QFN-5x5
+4. Hand-solder a SOT-23-5
+5. Use hot air to desolder the SO-X, 
+   then reposition the under station,
+   then desolder the QFNs
+```
 
-SOIC-8 passes continuity test, no shorts. All leads are connected, even though top right one doesn’t look fully melted at first glance.
-In the microscope, the entire left side looks not completely melted. The top right side looks fine by comparison.
-Wiped off the SOIC-8’s pads with a cloth and IPA. Now they look a little cleaner. Half of the original surface area is still covered in the solder paste texture.
-
-The results for the QFN chips look good. Cleaner than the last one. While the QFN-4x4 does have an obvious short, it isn’t from the pads that were skewed out of alignment when applying the stencil (left). Rather, it comes from a series of pads that had light solder bridges to begin with (top).
-The continuity test indicated only 1 short for the QFN-4x4, the same one observed visually.
-The continuity test indicated no shorts for the QFN-5x5.
-
-Hand-soldered the SOT-23-5. All leads pass the continuity test to their pads, no shorts. Still difficult to hand-solder each individual pin when the pitch/pad size is so small.
-
-Using the black (bent) pliers to take the components off. Looks like a better angle when the hot air gun is overhead.
-Although at 350 C, and it didn’t look like the solder had melted, the SOT-23-5 came off easily with tweezers.
-For the SOIC-8, the leads looked a bit shiny. I was trying to remove it with tweezers, but it only came off after the leads changed appearance. Still doesn’t look like fully molten solder though.
-Neither of the QFNs had an easy indication that they were ready to come off. They only came off on the try when I waited for much longer than the previous ones. Probably 30 seconds.
-I put the desoldered ICs into their own bag for future reference.
-Include the images of the before/after boards without any compression.
+Notes when reflow soldering the SOIC-8:
+- Have to physically unplug the hot air station to get the air stream to turn off
+- I turned the air onto 4.5 / 8 to get the solder paste to melt
+- 350°C was sufficient, did not need 380°C
+- Took multiple tries, overall elapsed time was 5 minutes
 
 <p align="center">
 &nbsp;
@@ -1409,6 +1394,10 @@ Include the images of the before/after boards without any compression.
 
 _<b>Left:</b> The control box for the hot air gun. The knob for air flow rate ("AIR") is located at the middle of the bottom. <b>Right:</b> The jig for hot air rework. The SOIC-8, which has yet to be soldered, is in the upper left corner of the PCB._
 
+SOIC-8 passes continuity test, no shorts. All leads are connected, even though top right one doesn’t look fully melted at first glance. In the microscope, the entire left side looks not completely melted. The top right side looks fine by comparison.
+
+Wiped off the SOIC-8’s pads with a cloth and IPA. Now they look a little cleaner. Half of the original surface area is still covered in the solder paste texture.
+
 <p align="center">
 &nbsp;
   <img src="./Documentation/ReflowSoldering/IMG_4554.JPG" width="45%">
@@ -1419,12 +1408,18 @@ _<b>Left:</b> The control box for the hot air gun. The knob for air flow rate ("
 
 _<b>Left:</b> The SOIC-8 right after reflow soldering via hot air. <b>Right:</b> After wiping the leads with IPA on a cloth. Notice the visible strands of cloth left over._
 
+The results for the QFNs look good. Cleaner than the SOIC-8. While the QFN-4x4 does have an obvious short, it isn’t from the pads that were skewed out of alignment when applying the stencil (left). Rather, it comes from a series of pads that had light solder bridges to begin with (top).
+
+The continuity test indicated only 1 short for the QFN-4x4, the same one observed visually. The continuity test indicated no shorts for the QFN-5x5.
+
 |               | QFN-20-4x4 | QFN-20-5x5 |
 | ------------- | :--------: | :--------: |
 | After Stencil | ![](./Documentation/ReflowSoldering/IMG_4556.JPG) | ![](./Documentation/ReflowSoldering/IMG_4557.JPG) |
 | After Reflow  | ![](./Documentation/ReflowSoldering/IMG_4562.JPG) | ![](./Documentation/ReflowSoldering/IMG_4563.JPG) |
 
 _Table showing the two QFNs during two different steps of the assembly process._
+
+I hand-soldered the SOT-23-5. All leads pass the continuity test to their pads, no shorts. Still difficult to hand-solder each individual pin when the pitch/pad size is so small.
 
 <p align="center">
 &nbsp;
@@ -1435,6 +1430,13 @@ _Table showing the two QFNs during two different steps of the assembly process._
 </p>
 
 _<b>Left:</b> PCB before hot air rework (desoldering). <b>Right:</b> PCB after hot air rework. Both images were uploaded in full 12 megapixel resolution, to show the texture of the solder on the pads._
+
+Notes when desoldering the chips:
+- Using the black (bent) pliers to take the components off. Looks like a better angle when the hot air gun is overhead.
+- Although at 350°C, and it didn’t look like the solder had melted, the SOT-23-5 came off easily with tweezers.
+- For the SOIC-8, the leads looked a bit shiny. I was trying to remove it with tweezers, but it only came off after the leads changed appearance. Still doesn’t look like fully molten solder though.
+- Neither of the QFNs had an easy indication that they were ready to come off. They only came off on the try when I waited for much longer than the previous ones. Probably 30 seconds.
+- I put the desoldered ICs into their own bag for future reference.
 
 <p align="center">
 &nbsp;
@@ -1450,22 +1452,27 @@ _<b>Left:</b> The two tweezers I have used extensively throughout soldering trai
 
 _The chips after desoldering. All of them are upside-down, so any leads point out of the page. For the SOT-23-5, one of the leads has an excessive amount of solder._
 
-After the JiviBoard is within 1 cm of the correct place under the stencil, put the knobs in the closest to halfway across the rail. Only a small subset of all holes are threaded, which is an issue.
-Move it into position before completely locking it down
-Current jig is within 1 mm of correct; align it as well as you can by yourself
-Nevermind, it just got corrected to good enough
-Worry about the RP2040, the smallest pitch on the board. If that’s aligned, everything else should be fine.
-Don’t allow any dried solder on the large spatula. People often don’t like it because hard to apply a lot of pressure, so you can use the same tools (squeegee) you’ve already used by hand instead.
-Haven’t noticed a big difference using the lead-free type 3 solder paste on this tiny pitched board, compared to the leaded type 6 solder paste.
-Board might stick to the stencil, sign that solder paste got underneath the stencil
-Try to clean up bridged pads on the RP2040 with the dental pick
-Assemble smallest parts first and biggest parts last, but your preference. About whether you can get parts on without them blocking each other.
+Notes when walking through JiviBoard soldering:
+- After the JiviBoard is within 1 cm of the correct place under the stencil, put the knobs in the closest to halfway across the rail. Only a small subset of all holes are threaded, which is an issue.
+- Move it into position before completely locking it down
+- Current jig is within 1 mm of correct; align it as well as you can by yourself
+- Nevermind, it just got corrected to good enough
+- Worry about the RP2040, the smallest pitch on the board. If that’s aligned, everything else should be fine.
+- Don’t allow any dried solder on the large spatula. People often don’t like it because hard to apply a lot of pressure, so you can use the same tools (squeegee) you’ve already used by hand instead.
+- Haven’t noticed a big difference using the Pb-free type 3 solder paste on this tiny pitched board, compared to the Pb-containing type 6 solder paste.
+- Board might stick to the stencil, sign that solder paste got underneath the stencil
+- Try to clean up bridged pads on the RP2040 with the dental pick
+- Assemble smallest parts first and biggest parts last, but it's your preference. It's about whether you can get parts on without them blocking each other. This board is relatively flat (1 mm), so the order of parts doesn't matter much.
 
-Try pasting 3 boards in a batch, choosing the best. Send a picture to him of the microscope image before putting parts on. To validate.
-Don’t forget to clean off the stencil when done, susceptible to dried solder paste.
-When done with the frame, take it off and put it on the ground.
-Never put a board upside down in the oven after parts from the top side have already been soldered. Parts might fall off, depending on surface tension of the solder.
-Wipe off the knobs and screws holding the PCB as well, people manage to get solder paste in them.
-The 2nd microscope actually does work, just have to plug in the monitor.
-Green board: resistors might de-solder
-Expect a PDF about the JiviBoard today
+Additional notes before I practice assembling the board:
+- Try pasting 3 boards in a batch, choosing the best. Send a picture to him of the microscope image before putting parts on. To validate.
+- Don’t forget to clean off the stencil when done, susceptible to dried solder paste.
+- When done with the frame, take it off and put it on the ground.
+- Never put a board upside down in the oven after parts from the top side have already been soldered. Parts might fall off, depending on surface tension of the solder.
+- Wipe off the knobs and screws holding the PCB as well, people manage to get solder paste in them.
+- The 2nd microscope actually does work, just have to plug in the monitor.
+- Green board: resistors might de-solder
+- Expect a PDF about the JiviBoard today
+- I can leave a half-assembled board in the fridge, and return to it the following day. The solder paste shouldn't dry up.
+
+TODO: Check for spelling errors in the last several entries with an AI grammar checker tool.
