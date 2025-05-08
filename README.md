@@ -1406,3 +1406,18 @@ Include the images of the before/after boards without any compression.
 </p>
 
 _<b>Left:</b> The control box for the hot air gun. The knob for air flow rate ("AIR") is located at the middle of the bottom. <b>Right:</b> The jig for hot air rework. The SOIC-8, which has yet to be soldered, is in the upper left corner of the PCB._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4554.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4555.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The SOIC-8 right after reflow soldering via hot air. <b>Right:</b> After wiping the leads with IPA on a cloth. Notice the visible strands of cloth left over._
+
+|               | QFN-20-4x4 | QFN-20-5x5 |
+| ------------- | :--------: | :--------: |
+| After Stencil | ![](./Documentation/ReflowSoldering/IMG_4556.JPG) | ![](./Documentation/ReflowSoldering/IMG_4557.JPG) |
+| After Reflow  | ![](./Documentation/ReflowSoldering/IMG_4562.JPG) | ![](./Documentation/ReflowSoldering/IMG_4563.JPG) |
