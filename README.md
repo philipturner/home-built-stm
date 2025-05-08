@@ -1368,6 +1368,8 @@ Elaboration on the last scene of the video. Technique: heat the lead-free solder
 
 ### TODO: Format the notes and images. Some of them can be left as bulleted lists. Focus on formatting the images first.
 
+### TODO: Check for spelling errors in the last several entries with an AI grammar checker tool.
+
 Plan for today:
 - (1) Practice with blank, fresh board
 - (2) SOIC-8 with paste
@@ -1422,6 +1424,8 @@ _<b>Left:</b> The SOIC-8 right after reflow soldering via hot air. <b>Right:</b>
 | After Stencil | ![](./Documentation/ReflowSoldering/IMG_4556.JPG) | ![](./Documentation/ReflowSoldering/IMG_4557.JPG) |
 | After Reflow  | ![](./Documentation/ReflowSoldering/IMG_4562.JPG) | ![](./Documentation/ReflowSoldering/IMG_4563.JPG) |
 
+_Table showing the two QFNs during two different steps of the assembly process._
+
 <p align="center">
 &nbsp;
   <img src="./Documentation/ReflowSoldering/IMG_4564.JPG" width="45%">
@@ -1444,9 +1448,9 @@ _<b>Left:</b> The two tweezers I have used extensively throughout soldering trai
 
 ![Image 4567](./Documentation/ReflowSoldering/IMG_4567.JPG)
 
-_The chips after desoldering. All of them are upside-down, so any lead point out of the page. For the SOT-23-5, one of the leads has an excessive amount of solder._
+_The chips after desoldering. All of them are upside-down, so any leads point out of the page. For the SOT-23-5, one of the leads has an excessive amount of solder._
 
-After the Jivi board is within 1 cm of the correct place under the stencil, put the knobs in the closest to halfway across the rail. Only a small subset of all holes are threaded, which is an issue.
+After the JiviBoard is within 1 cm of the correct place under the stencil, put the knobs in the closest to halfway across the rail. Only a small subset of all holes are threaded, which is an issue.
 Move it into position before completely locking it down
 Current jig is within 1 mm of correct; align it as well as you can by yourself
 Nevermind, it just got corrected to good enough
