@@ -59,6 +59,7 @@ Table of Contents:
   - [May 6, 2025](#may-6-2025)
   - [May 7, 2025](#may-7-2025)
   - [May 8, 2025](#may-8-2025)
+  - [May 9, 2025](#may-9-2025)
 
 ## Progress (Jan 2025)
 
@@ -1474,3 +1475,23 @@ Additional notes before I practice assembling the board:
 - Green board: resistors might de-solder
 - Expect a PDF about the JiviBoard today
 - I can leave a half-assembled board in the fridge, and return to it the following day. The solder paste shouldn't dry up.
+
+## May 9, 2025
+
+|               | RP2040 (QFN) | Micro-USB Port |
+| ------------- | :--------: | :--------: |
+| After Stencil | ![](./Documentation/ReflowSoldering/IMG_4582.JPG) | ![](./Documentation/ReflowSoldering/IMG_4584.JPG) |
+| After Placement | ![](./Documentation/ReflowSoldering/IMG_4583.JPG) | ![](./Documentation/ReflowSoldering/IMG_4585.JPG) |
+| After Reflow  | ![](./Documentation/ReflowSoldering/IMG_4587.JPG) | ![](./Documentation/ReflowSoldering/IMG_4588.JPG) |
+
+_Soldering process for the two components with the most tightly spaced leads._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4586.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/ReflowSoldering/IMG_4591.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The assembled JiviBoard, before reflow soldering. <b>Right:</b> After reflow soldering. C5 (0201 package) is tombstoned. Multiple leads on the RP2040 (QFN package) seem disconnected._
