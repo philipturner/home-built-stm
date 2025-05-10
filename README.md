@@ -1502,7 +1502,33 @@ _<b>Left:</b> The assembled JiviBoard, before reflow soldering. <b>Right:</b> Af
 
 The tombstoned capacitor was fixed by just applying concentrated flux and going in with a pre-tinned iron. The capacitor immediately adjusted its orientation, and further tip approaches added solder volume to the disconnected pad.
 
+<p align="center">
+&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4593.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4594.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4595.JPG" width="30%">
+&nbsp;
+</p>
+
+_The capacitor during various stages of rework. <b>Left:</b> First stage. <b>Middle:</b> Second stage. <b>Right:</b> Third stage._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4597.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4598.JPG" width="45%">
+&nbsp;
+</p>
+
+_4x zoomed-in images of the capacitor. <b>Left:</b> Fourth stage of rework. <b>Right:</b> The multimeter probe applied to the capacitor's GND pin._
+
 I looked back at the circuit’s PCB file in KiCad. The disconnected pad was part of a GND net, so it was easy to run a continuity test. I just touched the other probe to one of the many GND pads in the circuit. The opposite pad of the capacitor did not indicate continuity to GND. I tested both pads at least 5 times under the same conditions. The tests indicate complete connection of the previously disconnected pad and no shorts across the capacitor.
+
+![Image 4599](./Documentation/JiviBoard/IMG_4599.JPG)
+
+_The setup used to perform continuity tests on the 0201 capacitor._
 
 When reflow soldering the QFN yesterday, I noted two specific pins with low solder volumes. They are pin 12 (GPIO9) and pin 13 (GPIO10). Since they are just GPIOs, the computer should boot without them being connected. Using the microscope, I identified even more pins with low solder volumes.
 
