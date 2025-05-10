@@ -56,10 +56,12 @@ Table of Contents:
   - [April 22, 2025](#april-22-2025)
   - [April 25, 2025](#april-25-2025)
   - [May 5, 2025](#may-5-2025)
+- Journal Entries (Experimental Stage, Revived)
   - [May 6, 2025](#may-6-2025)
   - [May 7, 2025](#may-7-2025)
   - [May 8, 2025](#may-8-2025)
   - [May 9, 2025](#may-9-2025)
+  - [May 10, 2025](#may-10-2025)
 
 ## Progress (Jan 2025)
 
@@ -1495,3 +1497,29 @@ _Soldering process for the two components with the most tightly spaced leads._
 </p>
 
 _<b>Left:</b> The assembled JiviBoard, before reflow soldering. <b>Right:</b> After reflow soldering. C5 (0201 package) is tombstoned. Multiple leads on the RP2040 (QFN package) seem disconnected._
+
+## May 10, 2025
+
+The tombstoned capacitor was fixed by just applying concentrated flux and going in with a pre-tinned iron. The capacitor immediately adjusted its orientation, and further tip approaches added solder volume to the disconnected pad.
+
+I looked back at the circuit’s PCB file in KiCad. The continuity disconnected pad was part of a GND net, so it was easy to run a continuity test. I just touched the other probe to one of the many GND pads in the circuit. The opposite pad of the capacitor did not indicate continuity to GND. I tested both pads multiple times under the same conditions. The tests indicated complete connection of the previously disconnected pad and no shorts across the capacitor.
+
+Some of the (seemingly) incorrectly soldered pins of the QFN seem to just be GPIOs. Which means the computer should boot without them. Specifically, pin 12 (GPIO9) and pin 13 (GPIO10). Upon further inspection, the other questionably soldered pins are:
+
+[Images taken in order]
+1-14
+15-28
+29-42
+43-56
+
+About U3, it looks like a mess upon visual inspection. But the microscope suggests it’s just covered in bubbles of not-yet-cleaned flux. They aren’t solder shorts or solder squishing out from underneath the chip. This was an especially concerning possibility for the capacitor nearby, which can easily be shorted.
+
+I’m going to do some 0402 resistors on a practice board before hand-soldering the components on the back side. [Took an image]
+
+The three RGB lights turn on and the computer recognizes it as a storage disk. The UF2 file from the manual doesn’t actually exist on GitHub. I measured all test points. Pressing the “RUN” switch makes the computer temporarily eject the disk, although it shows up in Finder again after ~3 seconds. Pressing “BOOT” does nothing.
+
+Test points:
+TP1: 4.98 V, expected 5 V
+TP2: 3.28 V, expected 3.3 V
+TP3: 0.01 V, expected GND
+TP4: 1.10 V, expected 1.1 V
