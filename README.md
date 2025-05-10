@@ -1580,4 +1580,12 @@ I used a multimeter to measure the voltage of the test points.
 
 The computer recognizes the JiviBoard as a storage disk. Pressing the “RUN” switch makes the laptop temporarily eject the disk. After ~3 seconds, the disk appears in Finder again. Pressing “BOOT” does nothing.
 
-TODO: Format the final images for the JiviBoard.
+<p align="center">
+&nbsp;
+  <img src="./Documentation/JiviBoard/JiviBoardFiles1.jpg" width="46.1%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/JiviBoardFiles3.jpg" width="43.9%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The board appearing in Finder as an ejectable storage volume. <b>Right:</b> The contents of some files stored on the volume._
