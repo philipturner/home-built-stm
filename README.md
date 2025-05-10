@@ -1541,9 +1541,35 @@ When reflow soldering the QFN yesterday, I noted two specific pins with low sold
 
 U3 looks like a mess upon visual inspection. The microscope indicates that it's covered in bubbles of not-yet-cleaned flux. The bubbles aren’t solder shorts or solder squishing out from underneath the chip. This is a relief; I originally thought excess solder had bridged to a nearby 0402 capacitor.
 
+<p align="center">
+&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4604.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4605.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4606.JPG" width="30%">
+&nbsp;
+</p>
+
+_The excess material around U3. <b>Left:</b> Pins 1&ndash;4. <b>Middle:</b> Pins 5&ndash;8. <b>Right:</b> Highlighting the nearby capacitor (C7)._
+
 I’m going to do some 0402 resistors on a practice board. After that, I can return to hand-soldering the components on the back side.
 
-The three RGB lights turn on. The UF2 file from the manual doesn’t actually exist on GitHub. I measured the voltage of all test points.
+![Image 4610](./Documentation/JiviBoard/IMG_4610.JPG)
+
+The three RGB lights turn on. The UF2 file from the manual doesn’t actually exist on GitHub.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4612.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/JiviBoard/IMG_4617.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The back of the board, after hand-soldering the final components. <b>Right:</b> The board, connected to a laptop through a USB-C cable._
+
+I used a multimeter to measure the voltage of the test points.
 
 | Test Point | Measured Voltage | Expected Voltage |
 | ---------- | ---------------: | ---------------: |
@@ -1553,3 +1579,5 @@ The three RGB lights turn on. The UF2 file from the manual doesn’t actually ex
 | TP4 | 1.10 V | 1.10 V |
 
 The computer recognizes the JiviBoard as a storage disk. Pressing the “RUN” switch makes the laptop temporarily eject the disk. After ~3 seconds, the disk appears in Finder again. Pressing “BOOT” does nothing.
+
+TODO: Format the final images for the JiviBoard.
