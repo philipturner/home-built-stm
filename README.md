@@ -1534,10 +1534,10 @@ When reflow soldering the QFN yesterday, I noted two specific pins with low sold
 
 | Pins | Image | Possibly Disconnected |
 | ---: | ----- | --------------------- |
-|  1&ndash;14 | ![](./Documentation/JiviBoard/IMG_4600.JPG) | 12, 13 |
-| 15&ndash;28 | ![](./Documentation/JiviBoard/IMG_4601.JPG) | 17, 19, 24, 25, 26 |
-| 29&ndash;42 | ![](./Documentation/JiviBoard/IMG_4602.JPG) | 29 |
-| 43&ndash;56 | ![](./Documentation/JiviBoard/IMG_4603.JPG) | 50, 51 |
+|  1&ndash;14 | <img src="./Documentation/JiviBoard/IMG_4600.JPG" width="200"> | 12, 13 |
+| 15&ndash;28 | <img src="./Documentation/JiviBoard/IMG_4601.JPG" width="200"> | 17, 19, 24, 25, 26 |
+| 29&ndash;42 | <img src="./Documentation/JiviBoard/IMG_4602.JPG" width="200"> | 29 |
+| 43&ndash;56 | <img src="./Documentation/JiviBoard/IMG_4603.JPG" width="200"> | 50, 51 |
 
 U3 looks like a mess upon visual inspection. The microscope indicates that it's covered in bubbles of not-yet-cleaned flux. The bubbles aren’t solder shorts or solder squishing out from underneath the chip. This is a relief; I originally thought excess solder had bridged to a nearby 0402 capacitor.
 
