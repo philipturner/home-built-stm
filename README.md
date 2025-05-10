@@ -1500,7 +1500,7 @@ _<b>Left:</b> The assembled JiviBoard, before reflow soldering. <b>Right:</b> Af
 
 ## May 10, 2025
 
-The tombstoned capacitor was fixed by applying concentrated flux and going in with a pre-tinned iron. The capacitor immediately adjusted its orientation, and further tip approaches added solder volume to the disconnected pad.
+The tombstoned capacitor was fixed by applying concentrated flux and going in with a pre-tinned iron. The capacitor immediately adjusted its orientation. Further tip approaches added solder volume to the disconnected pad.
 
 <p align="center">
 &nbsp;
