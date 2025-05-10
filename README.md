@@ -1480,17 +1480,17 @@ Additional notes before I practice assembling the board:
 
 |               | RP2040 (QFN) | Micro-USB Port |
 | ------------- | :--------: | :--------: |
-| After Stencil | ![](./Documentation/ReflowSoldering/IMG_4582.JPG) | ![](./Documentation/ReflowSoldering/IMG_4584.JPG) |
-| After Placement | ![](./Documentation/ReflowSoldering/IMG_4583.JPG) | ![](./Documentation/ReflowSoldering/IMG_4585.JPG) |
-| After Reflow  | ![](./Documentation/ReflowSoldering/IMG_4587.JPG) | ![](./Documentation/ReflowSoldering/IMG_4588.JPG) |
+| After Stencil | ![](./Documentation/JiviBoard/IMG_4582.JPG) | ![](./Documentation/JiviBoard/IMG_4584.JPG) |
+| After Placement | ![](./Documentation/JiviBoard/IMG_4583.JPG) | ![](./Documentation/JiviBoard/IMG_4585.JPG) |
+| After Reflow  | ![](./Documentation/JiviBoard/IMG_4587.JPG) | ![](./Documentation/JiviBoard/IMG_4588.JPG) |
 
 _Soldering process for the two components with the most tightly spaced leads._
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/ReflowSoldering/IMG_4586.JPG" width="45%">
+  <img src="./Documentation/JiviBoard/IMG_4586.JPG" width="45%">
 &nbsp;&nbsp;
-  <img src="./Documentation/ReflowSoldering/IMG_4591.JPG" width="45%">
+  <img src="./Documentation/JiviBoard/IMG_4591.JPG" width="45%">
 &nbsp;
 </p>
 
