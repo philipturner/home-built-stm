@@ -1502,24 +1502,28 @@ _<b>Left:</b> The assembled JiviBoard, before reflow soldering. <b>Right:</b> Af
 
 The tombstoned capacitor was fixed by just applying concentrated flux and going in with a pre-tinned iron. The capacitor immediately adjusted its orientation, and further tip approaches added solder volume to the disconnected pad.
 
-I looked back at the circuit’s PCB file in KiCad. The continuity disconnected pad was part of a GND net, so it was easy to run a continuity test. I just touched the other probe to one of the many GND pads in the circuit. The opposite pad of the capacitor did not indicate continuity to GND. I tested both pads multiple times under the same conditions. The tests indicated complete connection of the previously disconnected pad and no shorts across the capacitor.
+I looked back at the circuit’s PCB file in KiCad. The disconnected pad was part of a GND net, so it was easy to run a continuity test. I just touched the other probe to one of the many GND pads in the circuit. The opposite pad of the capacitor did not indicate continuity to GND. I tested both pads at least 5 times under the same conditions. The tests indicate complete connection of the previously disconnected pad and no shorts across the capacitor.
 
-Some of the (seemingly) incorrectly soldered pins of the QFN seem to just be GPIOs. Which means the computer should boot without them. Specifically, pin 12 (GPIO9) and pin 13 (GPIO10). Upon further inspection, the other questionably soldered pins are:
+When reflow soldering the QFN yesterday, I noted two specific pins with low solder volumes. They are pin 12 (GPIO9) and pin 13 (GPIO10). Since they are just GPIOs, the computer should boot without them being connected. Using the microscope, I identified even more pins with low solder volumes.
 
-[Images taken in order]
-1-14
-15-28
-29-42
-43-56
+| Pins | Image | Possibly Disconnected |
+| ---: | ----- | --------------------- |
+|  1&ndash;14 |   | 12, 13 |
+| 15&ndash;28 |   |
+| 29&ndash;42 |   |
+| 43&ndash;56 |   |
 
-About U3, it looks like a mess upon visual inspection. But the microscope suggests it’s just covered in bubbles of not-yet-cleaned flux. They aren’t solder shorts or solder squishing out from underneath the chip. This was an especially concerning possibility for the capacitor nearby, which can easily be shorted.
+U3 looks like a mess upon visual inspection. The microscope indicates that it's covered in bubbles of not-yet-cleaned flux. The bubbles aren’t solder shorts or solder squishing out from underneath the chip. This is a relief; I originally thought excess solder had bridged to a nearby 0402 capacitor.
 
-I’m going to do some 0402 resistors on a practice board before hand-soldering the components on the back side. [Took an image]
+I’m going to do some 0402 resistors on a practice board. After that, I can return to hand-soldering the components on the back side.
 
-The three RGB lights turn on and the computer recognizes it as a storage disk. The UF2 file from the manual doesn’t actually exist on GitHub. I measured all test points. Pressing the “RUN” switch makes the computer temporarily eject the disk, although it shows up in Finder again after ~3 seconds. Pressing “BOOT” does nothing.
+The three RGB lights turn on. The UF2 file from the manual doesn’t actually exist on GitHub. I measured the voltage of all test points.
 
-Test points:
-TP1: 4.98 V, expected 5 V
-TP2: 3.28 V, expected 3.3 V
-TP3: 0.01 V, expected GND
-TP4: 1.10 V, expected 1.1 V
+| Test Point | Measured Voltage | Expected Voltage |
+| ---------- | ---------------: | ---------------: |
+| TP1 | 4.98 V | 5.00 V |
+| TP2 | 3.28 V | 3.30 V |
+| TP3 | 0.01 V | 0.00 V |
+| TP4 | 1.10 V | 1.10 V |
+
+The computer recognizes the JiviBoard as a storage disk. Pressing the “RUN” switch makes the laptop temporarily eject the disk. After ~3 seconds, the disk appears in Finder again. Pressing “BOOT” does nothing.
