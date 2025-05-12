@@ -1747,3 +1747,7 @@ I'm saving the code for each test procedure in a separate CNC file. They are nam
 Capturing a video while milling multiple lines through the material. I'll upload it to social media after this session is over. I'm moving quite fast today, so I might try making some more complex shapes once the previous tasks are over.
 
 I understand the Z-axis control issue now. The machine has drifted at least 1.570 mm downward since the lab session started. I recalibrated the workpiece datum point to compensate for the drift.
+
+![Image 4630](./Documentation/CNCMachining/IMG_4630.JPG)
+
+_Workpiece after executing the three tasks planned for today._
