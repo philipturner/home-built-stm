@@ -1668,3 +1668,19 @@ M5;
 ```
 
 </details>
+
+Originally, I was milling paper with very conservative settings. Now, I'm milling wood. Based on a brief internet search, I'll increase the feeds and speeds to the following:
+
+```
+Spindle Speed:
+Machine supports 8000 RPM theoretical, 6800 RPM actual?
+1500 RPM -> 6000 RPM
+  M3 S1500; M5;
+  M3 S6000; M5;
+
+Feed Rate:
+Machine supports 1300 mm/min theoretical, 1170 mm/min actual?
+150 mm/min -> 300 mm/min
+  G01 F150;
+  G01 F300;
+```
