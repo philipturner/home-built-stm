@@ -1727,3 +1727,13 @@ Next objectives:
 - Mill two passes going in opposite directions. Based on a brief internet search, there are many acceptable values for radial depth of cut (RDOC). I will use 33% of the tool's measured diameter.
 - Use one of the circular path features to mill the perimeter of a half-circle.
 - Each milling test is offset 12 mm from the previous one. Later tests should be closer to the viewing window (negative Y?) than earlier tests. There is ~65 mm of space left in this direction.
+
+---
+
+I'm on the first of the above objectives, and there's already a lot of dust to clean. Luckily, nothing else is going wrong or acting strangely. When I open the hood, I get that smell from when I machined wood in Tech Ed in middle school. Has a tint of burnt wood. I'll try removing the bulk of the shavings with paper towels from the bathroom.
+
+![Image 4624](./Documentation/CNCMachining/IMG_4624.JPG)
+
+_The wood shavings after milling a straight line, and before cleaning the area._
+
+I'm saving the code for each test procedure in a separate CNC file. They are named `example4.FNC`, `example5.FNC`, and `example6.FNC`. When I'm done for today, I'll rip them off the PC and upload to the repository.
