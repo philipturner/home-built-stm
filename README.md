@@ -62,6 +62,7 @@ Table of Contents:
   - [May 8, 2025](#may-8-2025)
   - [May 9, 2025](#may-9-2025)
   - [May 10, 2025](#may-10-2025)
+  - [May 12, 2025](#may-12-2025)
 
 ## Progress (Jan 2025)
 
@@ -1589,3 +1590,81 @@ The computer recognizes the JiviBoard as a storage disk. Pressing the “RUN” 
 </p>
 
 _<b>Left:</b> The board appearing in Finder as an ejectable storage volume. <b>Right:</b> The contents of some files stored on the volume._
+
+## May 12, 2025
+
+Nothing has been done about the Roland MDX-40A in Durham 373. So, I stole a block of wood from Durham 373 and installed it into the Denford machine. I also tried getting the Denford software to work on the modern Windows 11 PC. They still haven't installed the hypervisor.
+
+![Image 4622](./Documentation/CNCMachining/IMG_4622.JPG)
+
+_The wood billet, obtained without having to travel to a physical store._
+
+The admin password works, but the software won't install because it won't detect the license. I have the license (`SecKey.tff`) in the exact same folder as the application! This is the nonsense you get with prioprietary software like SOLIDWORKS and EasyEDA. One reason I use FreeCAD and KiCad instead (also, the open-source alternatives have better simulation support and customizability).
+
+To elaborate, here is the (obsolete) way people design stuff now:
+- Mechanical: SOLIDWORKS + COMSOL
+- Electrical: EasyEDA + LTspice
+- Chemistry: Gaussian 16, double-zeta polarized basis, B3LYP exchange-correlation
+
+Here is the better, more modern workflow I have learned:
+- Mechanical: FreeCAD + FreeCAD finite element solver
+- Electrical: KiCad + KiCad integrated SPICE emulator
+- Chemistry: GFN2-xTB
+
+I uploaded the two CNC files from previous sessions, under `Models/CNCFiles`. I'm going to review them to figure out where to go next.
+
+<details>
+<summary>example.FNC</summary>
+
+```
+G21 G90;
+G04 X2.00 ;
+
+G00 X0 Y0 ;
+G00 X0 Y-50 ;
+G00 Z-20;
+G00 Z0;
+G00 X0 Y0 ;
+
+G00 X-50 Y0 ;
+G00 X-50 Y-50 ;
+G00 Z-20;
+G00 Z0;
+G00 X-50 Y0 ;
+
+G00 X-100 Y0 ;
+G00 X-100 Y-50 ;
+G00 Z-20;
+G00 Z0;
+G00 X-100 Y0 ;
+
+G00 X-150 Y0 ;
+G00 X-150 Y-50 ;
+G00 Z-20;
+G00 Z0;
+G00 X-150 Y0 ;
+```
+
+</details>
+
+<details>
+<summary>example2.FNC</summary>
+
+```
+G21 G90;
+G4 X2.00;
+G00 X0 Y0 Z10;
+
+G4 X2.00;
+M3 S1500;
+G4 X2.00;
+
+G00 X20 Y40;
+G01 Z-7 F150;
+G01 X80 F150;
+G00 Z10;
+
+M5;
+```
+
+</details>
