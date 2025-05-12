@@ -1593,7 +1593,7 @@ _<b>Left:</b> The board appearing in Finder as an ejectable storage volume. <b>R
 
 ## May 12, 2025
 
-Nothing has been done about the Roland MDX-40A in Durham 373. So, I stole a block of wood from Durham 373 and installed it into the Denford machine. I also tried getting the Denford software to work on the modern Windows 11 PC. They still haven't installed the hypervisor.
+Nothing has been done about the Roland MDX-40A in Durham 373. So, I stole a block of wood from Durham 373 and installed it into the Denford machine. I also tried getting the Denford software to work on the modern Windows 11 PC. They still haven't installed the hypervisor. I can't get the CNC software to work there, so I'm reverting to the old Windows 7 PC.
 
 ![Image 4622](./Documentation/CNCMachining/IMG_4622.JPG)
 
