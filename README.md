@@ -1730,10 +1730,16 @@ Next objectives:
 
 ---
 
-I'm on the first of the above objectives, and there's already a lot of dust to clean. Luckily, nothing else is going wrong or acting strangely. When I open the hood, I get that smell from when I machined wood in Tech Ed in middle school. Has a tint of burnt wood. I'll try removing the bulk of the shavings with paper towels from the bathroom.
+I'm on the first of the above objectives, and there's already a lot of dust to clean. Luckily, nothing else is going wrong or acting strangely. When I open the hood, I get that smell from when I machined wood in Tech Ed in middle school. Has a tint of burnt wood.
 
 ![Image 4624](./Documentation/CNCMachining/IMG_4624.JPG)
 
 _The wood shavings after milling a straight line, and before cleaning the area._
+
+I removed the dust with a small brush and a dustpan. I wore safety glasses while cleaning the workpiece.
+
+![Image 4625](./Documentation/CNCMachining/IMG_4625.JPG)
+
+_Various pieces of equipment used during this lab session._
 
 I'm saving the code for each test procedure in a separate CNC file. They are named `example4.FNC`, `example5.FNC`, and `example6.FNC`. When I'm done for today, I'll rip them off the PC and upload them to the repository.
