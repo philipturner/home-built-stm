@@ -1721,3 +1721,8 @@ M5;
 ![Image 4623](./Documentation/CNCMachining/IMG_4623.JPG)
 
 _The hole drilled into the billet, 7 mm below the setpoint. The fresh wood shavings are visible._
+
+Next objectives:
+- Mill a straight line into the billet.
+- Mill two passes going in opposite directions. Based on a brief internet search, there are many acceptable values for radial depth of cut (RDOC). I will use 33% of the tool's measured diameter.
+- Each milling test is offset 20 mm from the previous one. Later tests should be closer to the viewing window (negative Y?) than earlier tests.
