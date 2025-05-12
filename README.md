@@ -1745,3 +1745,5 @@ _Various pieces of equipment used during this lab session._
 I'm saving the code for each test procedure in a separate CNC file. They are named `example4.FNC`, `example5.FNC`, and `example6.FNC`. When I'm done for today, I'll rip them off the PC and upload them to the repository.
 
 Capturing a video while milling multiple lines through the material. I'll upload it to social media after this session is over. I'm moving quite fast today, so I might try making some more complex shapes once the previous tasks are over.
+
+I understand the Z-axis control issue now. The machine has drifted at least 1.570 mm downward since the lab session started. I recalibrated the workpiece datum point to compensate for the drift.
