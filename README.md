@@ -1686,3 +1686,38 @@ Machine supports 1300 mm/min theoretical, 1170 mm/min actual?
 ```
 
 I drilled a hole, and it seemed to go through just fine at this speed. I heard a loud noise, but nothing seemed unusually bad. Here is the code, and an image of the results.
+
+<details>
+<summary>example3.FNC</summary>
+
+```
+(Set the unit system, coordinate mode, and starting position.)
+G21 G90;
+G00 X0 Y0 Z10;
+
+(Move to above where a hole will be drilled.)
+(The Z position is already at 10 mm.)
+G00 X20 Y00;
+
+(Start the spindle.)
+(Wait 2 seconds to ensure the operator can close the door.)
+M3 S6000;
+G04 X2.00;
+
+(Drill 7 mm below the setpoint.)
+(The setpoint is a little conservative, ~1 mm above the actual surface.)
+(Descend from Z=10 mm to Z=-7 mm.)
+G01 Z-7 F300;
+
+(Retract to a safe Z position for scanning.)
+G00 Z10;
+
+(Stop the spindle.)
+M5;
+```
+
+</details>
+
+![Image 4623](./Documentation/CNCMachining/IMG_4623.JPG)
+
+_The hole drilled into the billet, 7 mm below the setpoint. The fresh wood shavings are visible._
