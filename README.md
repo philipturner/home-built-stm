@@ -1743,3 +1743,5 @@ I removed the dust with a small brush and a dustpan. I wore safety glasses while
 _Various pieces of equipment used during this lab session._
 
 I'm saving the code for each test procedure in a separate CNC file. They are named `example4.FNC`, `example5.FNC`, and `example6.FNC`. When I'm done for today, I'll rip them off the PC and upload them to the repository.
+
+Capturing a video while milling multiple lines through the material. I'll upload it to social media after this session is over.
