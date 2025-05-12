@@ -1684,3 +1684,5 @@ Machine supports 1300 mm/min theoretical, 1170 mm/min actual?
   G01 F150;
   G01 F300;
 ```
+
+I drilled a hole, and it seemed to go through just fine at this speed. I heard a loud noise, but nothing seemed unusually bad. Here is the code, and an image of the results.
