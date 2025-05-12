@@ -1736,4 +1736,4 @@ I'm on the first of the above objectives, and there's already a lot of dust to c
 
 _The wood shavings after milling a straight line, and before cleaning the area._
 
-I'm saving the code for each test procedure in a separate CNC file. They are named `example4.FNC`, `example5.FNC`, and `example6.FNC`. When I'm done for today, I'll rip them off the PC and upload to the repository.
+I'm saving the code for each test procedure in a separate CNC file. They are named `example4.FNC`, `example5.FNC`, and `example6.FNC`. When I'm done for today, I'll rip them off the PC and upload them to the repository.
