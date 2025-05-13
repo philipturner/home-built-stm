@@ -1981,3 +1981,111 @@ First-principles estimate:
 | Reddit | 102 μm/rev |
 | Reddit | 107 μm/rev |
 | Reddit | 53 μm/rev |
+
+---
+
+Absorbing the above information, I can make some conclusions. For my specific tool geometry (diameter and flute count), an approximate value is 25% RDOC and 67 μm/rev. With a rectangular cross-section model, each revolution removes 0.11 mm<sup>2</sup> and each chip is 0.054 mm<sup>2</sup>. Each chip is 0.7% of the entire circle's cross section, but 2.0% of the cavity next to a flute.
+
+Regarding surface speeds, HSS generally uses ~300 ft/min or ~1.5 m/s. Carbide generally uses ~1200 ft/min or ~6.0 m/s. Plug these into the [Wikipedia formula](https://en.wikipedia.org/wiki/Speeds_and_feeds#Accuracy). Tool circumference is 10.05 mm.
+
+| Tool Type | Surface Speed | Circumference |
+| --------- | ------------: | ------------: |
+| HSS       | 1.5 m/s       | 0.01005 m     |
+| Carbide   | 6.0 m/s       | 0.01005 m     |
+
+| Tool Type | Spindle Speed (Hz) | Spindle Speed (RPM) |
+| --------- | -----------------: | ------------------: |
+| HSS       | 149 Hz            | 8940 RPM             |
+| Carbide   | 597 Hz            | 35800 RPM            |
+
+I compared my calculation to the worked example on eMastercam. For carbide, it is supposedly O(22000) RPM. The number on Datron is O(38000) RPM. My calculations suggest 35800 RPM for a carbide bit, which exceeds the machine's capacity.
+
+| eMastercam Forum | Number Derived From Imperial | Number Derived from Metric |
+| ---------------- | ---------------------------: | -------------------------: |
+| HSS              | 5701 RPM                     |  96 Hz |
+| Carbide          | 22900 RPM                    | 382 Hz |
+
+Regarding feed rates, I've seem numbers such as 10 IPM and 200 IPM floated around. In SI units, that is 4.2 mm/s to 84.7 mm/s. Ignoring machine limits, here are the best feed rates for my setup:
+
+| Tool Type | Spindle Speed (Hz) | Chip Load per Revolution |
+| --------- | ------------------ | -----------------------: |
+| HSS       | 149 Hz             | 67 μm                    |
+| Carbide   | 597 Hz             | 67 μm                    |
+
+| Tool Type | Feed Rate (Metric) | Feed Rate (mm/min) | Feed Rate (IPM) |
+| --------- | -----------------: | -----------------: | --------------: |
+| HSS       | 10.0 mm/s          | 600 mm/min         | 24 IPM          |
+| Carbide   | 40.0 mm/s          | 2400 mm/min        | 94 IPM          |
+
+I'll use a conservative axial depth of cut (ADOC) of 100% the tool diameter. Some numbers floated around on forums: taught 0.50 as a rule, but 1.00&ndash;1.50 is fine. Another number online says you can go to 4.00&ndash;10.00. <b>Z-intrusions should not go deeper than 3.2 mm.</b> When milling in the XY-direction, chip volume does not exceed 0.17 mm<sup>3</sup>.
+
+When milling in the Z-direction, the numbers are more complex. Try back-tracking to find the feed rate that produces 0.17 mm<sup>3</sup> chips. Or, easier to calculate, the feedrate that removes 0.34 mm<sup>3</sup> of material per revolution. The numbers I got for feedrate are off the charts, at least 4680 mm/min. The feed rate used for XY milling is much smaller. I think it will do for Z milling as well.
+
+<details>
+<summary>Calculations</summary>
+
+```
+chip depth = chip volume / chip area
+chip depth = 0.34 mm^3 / 0.11 mm^2 = 3.1 mm
+chip depth = 0.17 mm^3 / 0.054 mm^2 = 3.1 mm
+exact same as the Z-intrusion depth
+this number looks faulty
+
+feed rate (m/s) = chip depth * spindle speed (Hz)
+
+ 1500 RPM ->  25 Hz
+ 6000 RPM -> 100 Hz
+ 8940 RPM -> 149 Hz
+35800 RPM -> 597 Hz
+
+(3.1 mm) * (1 m / 1000 mm) *  (25 Hz) = 0.078 m/s
+(3.1 mm) * (1 m / 1000 mm) * (100 Hz) = 0.310 m/s
+(3.1 mm) * (1 m / 1000 mm) * (149 Hz) = 0.460 m/s
+(3.1 mm) * (1 m / 1000 mm) * (597 Hz) = 1.850 m/s
+
+0.078 m/s * (1000 mm / 1 m) * (60 s / 1 min) =   4680 mm/min
+0.310 m/s * (1000 mm / 1 m) * (60 s / 1 min) =  18600 mm/min
+0.460 m/s * (1000 mm / 1 m) * (60 s / 1 min) =  27600 mm/min
+1.850 m/s * (1000 mm / 1 m) * (60 s / 1 min) = 111000 mm/min
+```
+
+</details>
+
+Redo the numbers, where each cut in the Z-direction removes 67 μm of material. These numbers seem more reasonable.
+
+<details>
+<summary>Calculations</summary>
+
+```
+chip depth = 67 μm
+
+feed rate (m/s) = chip depth * spindle speed (Hz)
+
+(67 μm) * (1 m / 10^6 mm) *  (25 Hz) = 0.00167 m/s
+(67 μm) * (1 m / 10^6 mm) * (100 Hz) = 0.0067  m/s
+(67 μm) * (1 m / 10^6 mm) * (149 Hz) = 0.0100  m/s
+(67 μm) * (1 m / 10^6 mm) * (597 Hz) = 0.0399  m/s
+
+0.00167 m/s * (1000 mm / 1 m) * (60 s / 1 min) =  100 mm/min
+0.0067  m/s * (1000 mm / 1 m) * (60 s / 1 min) =  402 mm/min
+0.0100  m/s * (1000 mm / 1 m) * (60 s / 1 min) =  600 mm/min
+0.0399  m/s * (1000 mm / 1 m) * (60 s / 1 min) = 2394 mm/min
+```
+
+</details>
+
+I've summarized the numbers below. The axial feed rates end up the same as the radial feed rates.
+
+| Previous Experiment | Spindle Speed | Radial Feed Rate | Axial Feed Rate |
+| ------------------- | ------------: | ---------------: | --------------: |
+| Unknown Bit + Paper | 1500 RPM      | 150 mm/min       | 150 mm/min      |
+| Unknown Bit + Wood  | 6000 RPM      | 300 mm/min       | 300 mm/min      |
+
+| Proposed Conditions    | Spindle Speed | Radial Feed Rate | Axial Feed Rate |
+| ---------------------- | ------------: | ---------------: | --------------: |
+| Unknown Bit + Paper    | 1500 RPM      | n/a              | 100 mm/min      |
+| Unknown Bit + Wood     | 6000 RPM      | n/a              | 402 mm/min      |
+| HSS Bit + Aluminum     | 8940 RPM      | 600 mm/min       | 600 mm/min      |
+| Carbide Bit + Aluminum | 35800 RPM     | 2400 mm/min      | 2394 mm/min     |
+
+If I use the ratio RPM / (mm/min) = 15, I can use any possible spindle speed. I'll start with a conservative 3000 RPM and 200 mm/min, and drill a hole ~3 mm deep. Due to drift in the Z axis, the actual depth might vary by 1 mm.
