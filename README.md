@@ -2119,3 +2119,9 @@ I looked more closely at the drill bit. Luckily, the steel or carbide in the bit
 ![Image 4640.JPG](./Documentation/CNCAluminum/IMG_4640.JPG)
 
 _The damaged drill bit, after removal from the machine._
+
+Results of the latest test. I don't see significant material welded to the drill bit, but there might be a small bit welded. The milled surface has bad quality. Some material is sticking up as sharp pieces instead of chips. I'll analyze the results in more detail tomorrow. Chatter might be a problem, as the machine is loud.
+
+![Image 4641.JPG](./Documentation/CNCAluminum/IMG_4641.JPG)
+
+_The aftermath of `example9.FNC`. Although the results appear more promising, this operation removed much less material than the last._
