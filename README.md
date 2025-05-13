@@ -1910,3 +1910,74 @@ Post searching for a reliable guide:
   - 100 μm is an average value for 3.0 mm diameter
   - 100 μm is an average value for 6.0 mm diameter
 - Source: [Reddit](https://www.reddit.com/r/hobbycnc/comments/11maijn/recommended_chip_load_reliable_guide)
+
+Convert all of the surface speeds in this data to SI units.
+
+| Source | Surface Speed Quoted |
+| ------ | -------------------: |
+| Datron | 5.97 m/s |
+| Datron | 7.75 m/s |
+| LittleMachineShop | 2.54&ndash;3.56 m/s |
+| LittleMachineShop | 0.84 m/s |
+| LittleMachineShop | 1.78&ndash;2.03 m/s |
+| LittleMachineShop | 1.78&ndash;2.03 m/s |
+| LittleMachineShop | 14.3 m/s |
+| LittleMachineShop | 0.84 m/s |
+| LittleMachineShop | 1.78&ndash;2.03 m/s |
+| LittleMachineShop | 1.78&ndash;2.03 m/s |
+| eMastercam | 1.52 m/s |
+| eMastercam | 6.10 m/s |
+| Smithy | 2.03&ndash;5.08 m/s |
+| Google AI Overview | 0.51&ndash;1.52 m/s |
+| Google AI Overview | 4.06&ndash;7.62 m/s |
+| Harvey Tool | 2.54&ndash;5.08 m/s |
+| Harvey Tool | 4.06&ndash;7.62 m/s |
+
+Convert all chip loads to microns per revolution. If a formula depends on tooth count, use a 2-flute endmill.
+
+| Source | Chip Load Quoted | Tool Diameter |
+| ------ | ---------------: | ------------: |
+| Datron | 80&ndash;130 μm/rev | 3.0 mm |
+| Datron | 90&ndash;140 μm/rev | 4.0 mm |
+| Datron | 100&ndash;150 μm/rev | 5.0 mm |
+| eMastercam | 100 μm/rev | 5.1 mm |
+| Harvey Tool | 50 μm/rev | 3.2 mm |
+| Harvey Tool | 100 μm/rev | 4.8 mm |
+| Harvey Tool | 100 μm/rev | 6.4 mm |
+| Reddit | 64 μm/rev | 3.2 mm |
+| Reddit | 51 μm/rev | 1.6 mm |
+| Reddit | 100 μm/rev | 3.0 mm |
+| Reddit | 100 μm/rev | 6.0 mm |
+
+Assume chip load scales linearly with tool diameter. The optimal chip is a tiny, but constant percentage of the tool's cross section. Perhaps a single-digit percentage.
+
+First-principles estimate:
+- Area of tool with 3.2 mm diameter
+- Area of circle: 8.04 mm<sup>2</sup>
+- With 33% tax from blades: 5.39 mm<sup>2</sup>
+
+First-principles estimate:
+- 100 μm, pizza slice cross section, 3.2 mm diameter
+- 0.16 mm<sup>2</sup>
+- 2% of all area
+- 3% of all accessible area
+
+First-principles estimate:
+- 100 μm, rectangle cross section, 3.2 mm diameter
+- 0.32 mm<sup>2</sup>
+- 4% of all area
+- 6% of all accessible area
+
+| Source | Chip Load, Normalized to 3.2 mm |
+| ------ | ------------------------------: |
+| Datron | 85&ndash;139 μm/rev |
+| Datron | 72&ndash;112 μm/rev |
+| Datron | 64&ndash;96 μm/rev |
+| eMastercam | 63 μm/rev |
+| Harvey Tool | 50 μm/rev |
+| Harvey Tool | 67 μm/rev |
+| Harvey Tool | 50 μm/rev |
+| Reddit | 64 μm/rev |
+| Reddit | 102 μm/rev |
+| Reddit | 107 μm/rev |
+| Reddit | 53 μm/rev |
