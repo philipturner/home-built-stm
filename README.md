@@ -63,6 +63,7 @@ Table of Contents:
   - [May 9, 2025](#may-9-2025)
   - [May 10, 2025](#may-10-2025)
   - [May 12, 2025](#may-12-2025)
+  - [May 13, 2025](#may-13-2025)
 
 ## Progress (Jan 2025)
 
@@ -1753,3 +1754,37 @@ I understand the Z-axis control issue now. The machine has drifted at least 1.57
 ![Image 4630](./Documentation/CNCMachining/IMG_4630.JPG)
 
 _Workpiece after executing the three tasks planned for today._
+
+## May 13, 2025
+
+My objective for today is to _attempt_ to CNC machine aluminum. On the Denford website, it says the Router 2600 Pro model can machine non-ferrous metals. I'll start out with the same steel slot mill used for wood. If that one keeps breaking or wearing down, someone will give me titanium nitride-coated ones at around noon.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4501.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4502.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The front of the box with new drill bits, listing the types of bits present. <b>Right:</b> The part model and serial number of the product._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4505.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4503.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> Titanium nitride-coated drill bits with the "corn" shape. <b>Right:</b> Nano blue-coated drill bits with the "corn" shape._
+
+"Corn" shaped end mills are supposedly used for milling steel. They are typically made with tungsten carbide. Source: [Huana Tools](https://huanatools.com/applications-of-corn-teeth-end-mill/)
+
+The "nano blue" coating is probably just to look cool. It is supposedly a very thin coating of titanium aluminum nitride. Due to its thinness and aluminum content, it's probably not useful for machining aluminum. Source: [Practical Machinist](https://www.practicalmachinist.com/forum/threads/end-mill-coatings-nano-blue.428355/)
+
+The ordered end mills are supposedly an alloy of steel and tungsten carbide. They can withstand continuous machining for 800 minutes. A brief internet search did not reveal a datasheet listing feeds and speeds. Source: [SainSmart](https://www.sainsmart.com/products/genmitsu-1-8-shank-40-pcs-cnc-cutter-milling-carving-bit-set-mc40a)
+
+---
+
+First major problem: can I even mount one of the existing aluminum billets?
