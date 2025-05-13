@@ -1840,3 +1840,73 @@ Next, speculate about the 2D chip cross-section in the helical region. The great
 ---
 
 Next, examine literature data for surface speed. With wood, the speed doesn't matter much. Scope this analysis to milling only aluminum billets. Search for values for both high-speed steel (HSS) and carbide. I assume carbide permits faster surface speeds. I will convert all numbers to meters per second (m/s).
+
+3 mm diameter, single-flute end mill
+- Surface speed: 358 m/min
+- Spindle speed: 38000 RPM
+- Feed rate: 3.0&ndash;4.9 m/min
+  - Combined with spindle speed, the chip load is 80&ndash;130 μm per revolution.
+- Source: [Datron](https://www.datron.com/resources/blog/milling-speed-for-aluminum-optimal-rates)
+
+4 mm diameter, single-flute end mill
+- Surface speed: 465 m/min
+- Spindle speed: 37000 RPM
+- Feed rate: 3.3&ndash;5.2 m/min
+  - Combined with spindle speed, the chip load is 90&ndash;140 μm per revolution.
+- Source: [Datron](https://www.datron.com/resources/blog/milling-speed-for-aluminum-optimal-rates)
+
+High-Speed Steel:
+- Turning: 500&ndash;700 ft/min
+- Milling: 165 ft/min
+- Drilling: 350&ndash;400 ft/min
+- Reaming: 350&ndash;400 ft/min
+- Source: [LittleMachineShop](https://littlemachineshop.com/reference/cuttingspeeds.php)
+
+Carbide:
+- Turning: 2820 ft/min
+- Milling: 165 ft/min
+- Drilling: 350&ndash;400 ft/min
+- Reaming: 350&ndash;400 ft/min
+- Source: [LittleMachineShop](https://littlemachineshop.com/reference/cuttingspeeds.php)
+
+Forum post:
+- Drill: #7(.201) drill, 0.2 inches, 5.1 mm diameter
+- HSS: 300 ft/min
+- Carbide: 1200 ft/min
+- Chip load: 
+  - ".004 per revolution" for 2-flute
+  - ".004&ndash;.012 per revolution" for 4-flute
+  - 100	μm per revolution
+- Source: [eMastercam](https://www.emastercam.com/forums/topic/30130-aluminum-feeds-and-speeds/#comment-264170)
+
+Generic internet sources:
+- 400&ndash;1000 ft/min ([Smithy](https://web.archive.org/web/20191110041924/https://smithy.com/machining-reference/milling/page/12))
+- 100&ndash;300 ft/min with HSS (Google AI Overview)
+- 800&ndash;1500 ft/min from "some sources" (Google AI Overview)
+
+Another source:
+- Assuming carbide end mills.
+- Surface speed:
+  - 500&ndash;1000 ft/min (strange grades of aluminum)
+  - 800&ndash;1500 ft/min (common grades of aluminum)
+- Chip load:
+  - ".001 * number of teeth" for 1/8" diameter
+  - ".002 * number of teeth" for 3/16" diameter
+  - ".002 * number of teeth" for 1/4" diameter
+- Chip load in metric units:
+  - 25 μm * number of teeth, 3.2 mm diameter
+  - 50 μm * number of teeth, 4.8 mm diameter
+  - 50 μm * number of teeth, 6.4 mm diameter
+- Source: [Harvey Tool](https://www.harveytool.com/resources/general-machining-guidelines)
+
+Post searching for a reliable guide:
+- Imperical units:
+  - .0025" for a 1/8 endmill seems reasonable
+  - .002" for a 1/16 endmill seems sketchy
+- Metric units:
+  - 64 μm for 3.2 mm diameter seems reasonable
+  - 51 μm for 1.6 mm diameter seems sketchy
+- Cannot find it in the post, but the Google search brings up the quote: "0.1mm is a good average chipload for a 3-6mm tool"
+  - 100 μm is an average value for 3.0 mm diameter
+  - 100 μm is an average value for 6.0 mm diameter
+- Source: [Reddit](https://www.reddit.com/r/hobbycnc/comments/11maijn/recommended_chip_load_reliable_guide)
