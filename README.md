@@ -1788,3 +1788,17 @@ The ordered end mills are supposedly an alloy of steel and tungsten carbide. The
 ---
 
 First major problem: can I even mount one of the existing aluminum billets?
+
+The rigging has been taken care of.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4632.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4635.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The aluminum billet, installed into the jig. <b>Right:</b> Highlighting the strange corner structure used to hold the billet. This corner elevates the workpiece above the floor, so the drill can go all the way through._
+
+Next problem: understanding the feeds and speeds. Someone said that all existing drill bits explode when machining aluminum. I think that's because they used the wrong feeds and speeds. Too slow, it might not have enough cutting power. Too fast, it might overload the machine's capabilities. I cannot solve this by just trying speeds at random.
