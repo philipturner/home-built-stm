@@ -2089,3 +2089,13 @@ I've summarized the numbers below. The axial feed rates end up the same as the r
 | Carbide Bit + Aluminum | 35800 RPM     | 2400 mm/min      | 2394 mm/min     |
 
 If I use the ratio RPM / (mm/min) = 15, I can use any possible spindle speed. I'll start with a conservative 3000 RPM and 200 mm/min, and drill a hole ~3 mm deep. Due to drift in the Z axis, the actual depth might vary by 1 mm.
+
+---
+
+The first tests of CNC aluminum have mixed results. I milled a hole just fine. But when I did a slotting operation, I horribly damaged the end mill. It's very scratched up now, with a white coating that can't be brushed off. The aluminum failed to form chips, and it's now extremely sharp bits of material sticking out of the billet. Probably a health hazard, because they're sharp and impossible to remove.
+
+G-code files are uploaded to `Models/CNCFiles`. They are `example7.FNC` and `example8.FNC`.
+
+I wanted to double check that this isn't a steel billet. I used my AirPods case as a magnet to test. The case adheres strongly to the steel housing of the CNC machine. I could not feel any magnetic force on the billet. That means it's either aluminum or titanium. I've at least ruled out steel.
+
+The approach used to test wood is not appropriate for aluminum. I'll try again, going in from the corner with a perpendicular cut (25% RDOC). And I'll reduce the cut length from 70 mm to 20 mm. I'll use the same billet as before. I'll swap the end mill for a fresh, identical copy of the destroyed one.
