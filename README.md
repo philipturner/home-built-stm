@@ -2094,8 +2094,20 @@ If I use the ratio RPM / (mm/min) = 15, I can use any possible spindle speed. I'
 
 The first tests of CNC aluminum have mixed results. I milled a hole just fine. But when I did a slotting operation, I horribly damaged the end mill. It's very scratched up now, with a white coating that can't be brushed off. The aluminum failed to form chips, and it's now extremely sharp bits of material sticking out of the billet. Probably a health hazard, because they're sharp and impossible to remove.
 
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4639.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4639_closeup.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> The aftermath of `example8.FNC`. <b>Right:</b> Close-up of the milled material and end mill._
+
 G-code files are uploaded to `Models/CNCFiles`. They are `example7.FNC` and `example8.FNC`.
 
 I wanted to double check that this isn't a steel billet. I used my AirPods case as a magnet to test. The case adheres strongly to the steel housing of the CNC machine. I could not feel any magnetic force on the billet. That means it's either aluminum or titanium. I've at least ruled out steel.
 
 The approach used to test wood is not appropriate for aluminum. I'll try again, going in from the corner with a perpendicular cut (25% RDOC). And I'll reduce the cut length from 70 mm to 20 mm. I'll use the same billet as before. I'll swap the end mill for a fresh, identical copy of the destroyed one.
+
+I'll reduce the axial depth of cut (ADOC) from 100% to 50%, so that most of the chip touches the sharp surfaces of the end mill's tip. Any smaller, and the ADOC could be dwarfed by the drift problem in Z-axis control. I'll also widen the ratio of RPM / (mm/min) to 20. The chip load decreases from 67 μm to 50 μm, another valid value from the literature. The spindle speed will stay at 3000 RPM, but the feed rate will reduce to 150 mm/min. I worry that increasing the spindle speed will cause overheating, a possible reason for the lack of chipping.
