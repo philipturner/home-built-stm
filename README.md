@@ -2111,3 +2111,11 @@ I wanted to double check that this isn't a steel billet. I used my AirPods case 
 The approach used to test wood is not appropriate for aluminum. I'll try again, going in from the corner with a perpendicular cut (25% RDOC). And I'll reduce the cut length from 70 mm to 20 mm. I'll use the same billet as before. I'll swap the end mill for a fresh, identical copy of the destroyed one.
 
 I'll reduce the axial depth of cut (ADOC) from 100% to 50%, so that most of the chip touches the sharp surfaces of the end mill's tip. Any smaller, and the ADOC could be dwarfed by the drift problem in Z-axis control. I'll also widen the ratio of RPM / (mm/min) to 20. The chip load decreases from 67 μm to 50 μm, another valid value from the literature. The spindle speed will stay at 3000 RPM, but the feed rate will reduce to 150 mm/min. I worry that increasing the spindle speed will cause overheating, a possible reason for the lack of chipping.
+
+---
+
+I looked more closely at the drill bit. Luckily, the steel or carbide in the bit hadn't shattered. The white coating wasn't from the drill being scratched. Rather, the aluminum had welded itself to the bit. I'm taking this defective bit home as a souveneir. I assume this is reasonable, within the bounds of lab policy. People would typically discard the bit anyway.
+
+![Image 4640.JPG](./Documentation/CNCAluminum/IMG_4640.JPG)
+
+_The damaged drill bit, after removal from the machine._
