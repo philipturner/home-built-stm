@@ -1802,3 +1802,9 @@ The rigging has been taken care of.
 _<b>Left:</b> The aluminum billet, installed into the jig. <b>Right:</b> Highlighting the strange corner structure used to hold the billet. This corner elevates the workpiece above the floor, so the drill can go all the way through._
 
 Next problem: understanding the feeds and speeds. Someone said that all existing drill bits explode when machining aluminum. I think that's because they used the wrong feeds and speeds. Too slow, it might not have enough cutting power. Too fast, it might overload the machine's capabilities. I cannot solve this by just trying speeds at random.
+
+Things that break a drill bit:
+- Stainless steel workpiece "work hardening"
+- Aluminum workpiece welding to the tool, if "lubricant or appropriate tool coatings are not used"
+- Overheating due to surface speed exceeding the rated limit, or feedrate being way too slow for a given RPM (rubbing)
+- Flutes get too full and jam the tool. The tool snaps off suddenly. This is the most common problem for beginners, and <b>likely the event where a tool "exploded"</b>.
