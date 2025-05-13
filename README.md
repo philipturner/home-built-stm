@@ -1808,3 +1808,5 @@ Things that break a drill bit:
 - Aluminum workpiece welding to the tool, if "lubricant or appropriate tool coatings are not used"
 - Overheating due to surface speed exceeding the rated limit, or feedrate being way too slow for a given RPM (rubbing)
 - Flutes get too full and jam the tool. The tool snaps off suddenly. This is the most common problem for beginners, and <b>likely the event where a tool "exploded"</b>.
+
+The new drill bits were taken out of the stock room. I'll swap out the existing slot mill for another (possibly identical) slot mill from the new set. That way, I can ensure I'm cutting with a carbide tool. Not messing with the gold-colored titanium nitride coating.
