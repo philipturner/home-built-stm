@@ -1812,3 +1812,31 @@ Things that break a drill bit:
 The new drill bits were taken out of the stock room. I'll swap out the existing slot mill for another (possibly identical) slot mill from the new set. That way, I can ensure I'm cutting with a carbide tool. Not messing with the gold-colored titanium nitride coating.
 
 Slotting operations initiate a new hole into a material. For example, the first line milled into paper was a slotting operation. 180° of the tool is engaged when making the first line. Subsequent cuts, such as those with 33% RDOC, engage less of the tool circumference. The formulas for feed rate must change accordingly. For aluminum, it might be especially hard to evacuate chips during the first intrusion (the slotting pass).
+
+---
+
+Before selecting the feeds and speeds, I must do some theoretical modeling. I started by taking the best-looking slot mill out of the newly ordered tools. I took images of the geometry at the tool's head. It's not what I would expect from first principles.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4636.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4637.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4638.JPG" width="30%">
+&nbsp;
+</p>
+
+_Tip geometry of a fresh carbide tool. <b>Left:</b> Viewing straight down from the Z-direction. <b>Middle:</b> Side-on view. <b>Right:</b> Another side-on view, but rotated 90°._
+
+For something creating a helical shape, I would imagine a cross section like two pizza slices touching at the tip. The actual shape is quite contrived, probably optimized for axial (Z-direction) cutting. It is very sharp, reaching a cross section that's an infinitely thin line. Going down the hill on one side, it's a perfectly steep cliff. Going down on the opposite side, there are two distinct carved, sloped faces. I don't know which side of the hill contacts the material. It depends on whether the spindle rotates clockwise or counterclockwise. <b>I call this region the "tip."</b>
+
+As one travels up, away from the bottom-most point, it evolves into (probably) the two pizza slice cross section. This next region, which covers the majority of the tool volume, is optimized for perpendicular (XY-direction) cutting. From first glance, I think 25% RDOC produces chips that fit well into the available volume. Perhaps the cross section looks more like a rectangle. The pair of pizza slices would permit 50% RDOC. <b>I call this region the "helical region".</b>
+
+Speculate about the interactions between the two regions. As one drills the initial hole into the material (Z-direction), material is cut by the strange geometry at the very tip. After creation, each chip moves upward, transitioning to the large helical region. As more chips are created, they push each other up along the spiral. Eventually, they reach the top of the hole and spill onto the surface of the billet.
+
+Next, speculate about the 2D chip cross-section in the helical region. The greatest possible RDOC varies around the circumference. At the blades, the RDOC must be 0%. Somewhere between two blades, it reaches 25%. The blades occupy less than 33% of the circumference. This 33% is the combined distance of both blades. Each blade in isolation is under 17% of the circumference.
+
+---
+
+Next, examine literature data for surface speed. With wood, the speed doesn't matter much. Scope this analysis to milling only aluminum billets. Search for values for both high-speed steel (HSS) and carbide. I assume carbide permits faster surface speeds. I will convert all numbers to meters per second (m/s).
