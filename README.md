@@ -2238,3 +2238,11 @@ I milled two passes along the Y direction. The surface looks clean, but the Z-ax
 ![Image 4664](./Documentation/CNCAluminum/IMG_4664.JPG)
 
 _A cut that's twice as deep as it should be._
+
+The next cut looks much better. The corner looks rounded, as if the machine had poor Y axis control. However, that's a visual artifact from a thin aluminum shaving. The shaving is narrow at the corner and widens toward the top. The actual corner is just as sharp as with 1000 RPM + 150 mm/min. I'll try once more with 6000 RPM + 300 mm/min, then stop before I push my luck too far.
+
+![Image 4668](./Documentation/CNCAluminum/IMG_4668.JPG)
+
+_A cut with the same X traversal (5 mm), but quantitatively less Z-axis drift._
+
+TODO: Upload `example11.FNC` after the next test.
