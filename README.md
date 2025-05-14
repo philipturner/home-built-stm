@@ -2219,7 +2219,7 @@ _A wide area in the chamber with a coating of aluminum filings. Image is uploade
 
 ![Image 4659](./Documentation/CNCAluminum/IMG_4659.JPG)
 
-_Close-up of part of the billet with a trail of aluminum filings._
+_Close-up of a trail of aluminum shavings on the billet._
 
 TODO:
 - Clean up the filings on the billet
