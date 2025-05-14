@@ -2245,4 +2245,8 @@ The next cut looks much better. The corner looks rounded, as if the machine had 
 
 _A cut with the same X traversal (5 mm), but quantitatively less Z-axis drift._
 
+The Z-axis drift has improved even more. I'll stick with these feeds and speeds for the remaining tests.
+
+TODO: Upload the image here. Waiting until later to do so, to save time.
+
 TODO: Upload `example11.FNC` after the next test. Then, make a cut all the way along the billet's X dimension. Measure how much the Z axis has drifted by the end of the cut.
