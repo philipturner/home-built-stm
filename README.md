@@ -2182,3 +2182,7 @@ I visually inspected the corner of the aluminum billet a second time. The bottom
 ---
 
 Based on the above observations, I decided what to do next. Keep the drill bit; do not swap it with a fresh one. Keep using the same aluminum billet. Read literature on "chatter" in CNC machining, to understand whether it may be causing issues. Then, drill a hole similar to `example7.FNC`, but with the machine producing much less loud noise.
+
+On a brief internet search, the Google AI Overview quoted 60 Hz as the resonant frequency of a router. That is very close to the 50 Hz frequency converted from 3000 RPM. I didn't know the resonant frequencies of CNC machines were so low. I was used to STM designs, where eigenfrequencies are in the kHz range.
+
+Helpful video about chatter in a low-end CNC machine, attempting to machine aluminum: [Breaking Taps (YouTube)](https://www.youtube.com/watch?v=qiM20-woEOk)
