@@ -2132,3 +2132,35 @@ _The aftermath of `example9.FNC`. Although the results appear more promising, th
 > _This is the last day I can spend at the lab. The last journal entry. No time to waste._
 
 I'm going to correctly CNC machine aluminum today. To start, closely inspect the results of last session.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4643.JPG" width="45%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4644.JPG" width="45%">
+&nbsp;
+</p>
+
+_<b>Left:</b> Side view of the used drill bit. <b>Right:</b> Top view of the used drill bit._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4645.JPG" width="17.55%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4646.JPG" width="72.55%">
+&nbsp;
+</p>
+
+_<b>Left:</b> Close-up of the results of `example7.FNC`. <b>Right:</b>: Close-up of the results of `example8.FNC`._
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4647.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4651.JPG" width="30%">
+&nbsp;&nbsp;
+  <img src="./Documentation/CNCAluminum/IMG_4652.JPG" width="30%">
+&nbsp;
+</p>
+
+_Close-up images of the cut made into the corner of the billet. <b>Left:</b> Left view. <b>Middle:</b> Front view. <b>Right:</b> Top view._
