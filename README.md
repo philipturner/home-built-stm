@@ -2188,3 +2188,5 @@ On a brief internet search, the Google AI Overview quoted 60 Hz as the resonant 
 Helpful video about chatter in a low-end CNC machine, while attempting to machine aluminum: [Breaking Taps (YouTube)](https://www.youtube.com/watch?v=qiM20-woEOk)
 
 Machines have lower torque with lower RPMs. Source: [Breaking Taps (YouTube)](https://www.youtube.com/watch?v=rTFn84UwFCM)
+
+The relationship between speed and torque seems more complex. Some sources say torque is constant over a given range. Other sources say it decreases with increasing speed.
