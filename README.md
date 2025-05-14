@@ -2223,7 +2223,7 @@ _Close-up of a trail of aluminum shavings on the billet._
 
 ![Image 4662](./Documentation/CNCAluminum/IMG_4662.JPG)
 
-_Top view of the holes drilled into the billet. Each label (in RPM) indexes a row of the table above._
+_Top view of the holes drilled into the billet. Each label (in RPM) indexes a row of the table above. Source code: `example10.FNC`._
 
 I flattened the scary bits with the other aluminum billet. The piece should be safer to handle now. Next, I'll try making multiple passes at 1000 RPM + 50 mm/min. I want to cut a 3D cuboid, composed of multiple passes in both Y and Z.
 
@@ -2237,7 +2237,7 @@ I milled two passes along the Y direction. The surface looks clean, but the Z-ax
 
 ![Image 4664](./Documentation/CNCAluminum/IMG_4664.JPG)
 
-_A cut that's twice as deep as it should be._
+_A cut that's twice as deep as it should be. Source code: `example11.FNC`._
 
 The next cut looks much better. The corner looks rounded, as if the machine had poor Y axis control. However, that's a visual artifact from a thin aluminum shaving. The shaving is narrow at the corner and widens toward the top. The actual corner is just as sharp as with 1000 RPM + 150 mm/min. I'll try once more with 6000 RPM + 300 mm/min, then stop before I push my luck too far.
 
@@ -2249,20 +2249,20 @@ The Z-axis drift has improved even more. I'll stick with these feeds and speeds 
 
 ![Image 4669](./Documentation/CNCAluminum/IMG_4669.JPG)
 
-_TODO: Add a caption._
+_A third cut that reduces drift by another ~0.5 mm._
 
 Only ~2 mm of Z-drift over 100 mm of X travel. The Y consistency is good; the entire cut looks ~1 mm in the Y dimension.
 
 ![Image 4670](./Documentation/CNCAluminum/IMG_4670.JPG)
 
-![Image 4670](./Documentation/CNCAluminum/IMG_4671.JPG)
+![Image 4671](./Documentation/CNCAluminum/IMG_4671.JPG)
 
-_TODO: Add a caption, try to make the images closely spaced in the Y direction with HTML. Alternatively, rely on GitHub Markdown tables._
+_The cut produced by `example12.FNC`. <b>Top:</b> Front view. <b>Bottom:</b> Top view._
 
 A very clean chunk of material!
 
 ![Image 4676](./Documentation/CNCAluminum/IMG_4676.JPG)
 
-_TODO: Add a caption._
+_The cut created by `example13.FNC`._
 
 TODO: Upload video to social media.
