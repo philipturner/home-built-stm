@@ -64,6 +64,7 @@ Table of Contents:
   - [May 10, 2025](#may-10-2025)
   - [May 12, 2025](#may-12-2025)
   - [May 13, 2025](#may-13-2025)
+  - [May 14, 2025](#may-14-2025)
 
 ## Progress (Jan 2025)
 
@@ -2125,3 +2126,9 @@ Results of the latest test. I don't see significant material welded to the drill
 ![Image 4641.JPG](./Documentation/CNCAluminum/IMG_4641.JPG)
 
 _The aftermath of `example9.FNC`. Although the results appear more promising, this operation removed much less material than the last._
+
+## May 14, 2025
+
+> _This is the last day I can spend at the lab. The last journal entry. No time to waste._
+
+I'm going to correctly CNC machine aluminum today. To start, closely inspect the results of last session.
