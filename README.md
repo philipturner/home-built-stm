@@ -2263,6 +2263,6 @@ A very clean chunk of material!
 
 ![Image 4676](./Documentation/CNCAluminum/IMG_4676.JPG)
 
-_The cut created by `example13.FNC`._
+_The cut produced by `example13.FNC`._
 
 TODO: Upload video to social media.
