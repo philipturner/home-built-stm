@@ -2199,5 +2199,5 @@ I'm going to repeat `example7.FNC`, but with the following parameters (in order)
 | ------------------: | -----------------------: | ------------ |
 | 3000 | 150 | Heard an audible noise. Unsure whether to call the sound good or bad. No visible damage to the drill bit. The hole's surface finish looks exceptionally clean, better than the original test with 200 mm/min. |
 | 2000 | 100 | Loud sound. No major damage to the drill bit. Possibly a better surface finish than 3000 RPM + 150 mm/min, but the bottom might also have a wierd inverted cone texture.
-| 1000 |  50 |
-|  500 |  25 |
+| 1000 |  50 | Same as previous test. |
+|  500 |  25 | Sound is definitely different than with 3000 RPM + 150 mm/min, but not bad. I get a feeling that the Y axis calibration has drifted since the last test, but can't back it up with further visual inspections. |
