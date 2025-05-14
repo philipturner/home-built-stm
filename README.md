@@ -2232,3 +2232,9 @@ I flattened the scary bits with the other aluminum billet. The piece should be s
 _The results of `example8.FNC`, after dulling the sharp edges._
 
 ---
+
+I milled two passes along the Y direction. The surface looks clean, but the Z-axis drift is horrible. Probably descended 4 mm below the surface after all cuts. Definitely not 50% ADOC (1.58 mm). I'll try a similar operation at 3000 RPM + 150 mm/min to minimize the effect of Z drift.
+
+![Image 4664](./Documentation/CNCAluminum/IMG_4664.JPG)
+
+_A cut that's twice as deep as it should be._
