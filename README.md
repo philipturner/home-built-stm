@@ -2206,3 +2206,5 @@ I'm going to repeat `example7.FNC`, but with the following parameters (in order)
 | 6000 | 300 |
 | 8000 | 400 |
 | 10000 | 500 |
+
+About the 4000 RPM test: to save time, I'm not going to upload the images. I think I scratched off some welded aluminum or aluminum chips. The drill bit looks normal now.
