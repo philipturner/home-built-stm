@@ -2197,7 +2197,7 @@ I'm going to repeat `example7.FNC`, but with the following parameters (in order)
 
 | Spindle Speed | Axial Feed Rate | Observations |
 | ------------: | --------------: | ------------ |
-| 3000 RPM | 150 mm/min |
+| 3000 RPM | 150 mm/min | Heard an audible noise. Unsure whether to call the sound good or bad. No visible damage to the drill bit. The hole's surface finish looks exceptionally clean, better than the original test with 200 mm/min. |
 | 2000 RPM | 100 mm/min |
 | 1000 RPM |  50 mm/min |
 |  500 RPM |  25 mm/min |
