@@ -2225,6 +2225,10 @@ _Close-up of a trail of aluminum shavings on the billet._
 
 _Top view of the holes drilled into the billet. Each label (in RPM) indexes a row of the table above._
 
-TODO:
-- Try to flatten the sharp region with another block of aluminum (only image the aftermath)
-- Flip the billet over and mount again
+I flattened the scary bits with the other aluminum billet. The piece should be safer to handle now. Next, I'll try making multiple passes at 1000 RPM + 50 mm/min. I want to cut a 3D cuboid, composed of multiple passes in both Y and Z.
+
+![Image 4663](./Documentation/CNCAluminum/IMG_4663.JPG)
+
+_The results of `example8.FNC`, after dulling the sharp edges._
+
+---
