@@ -2265,4 +2265,4 @@ A very clean chunk of material!
 
 _The cut produced by `example13.FNC`._
 
-TODO: Upload video to social media.
+[Using custom G-code to mill a 3D chunk of aluminum (YouTube)](https://www.youtube.com/watch?v=suMXvjZJhxs)
