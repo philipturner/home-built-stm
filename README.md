@@ -2178,3 +2178,7 @@ During the 3-pass cut into wood, the cut depth changed significantly throughout 
 _Top view of the cuts into wood, after removing additional dust._
 
 I visually inspected the corner of the aluminum billet a second time. The bottom surface is indeed more flush than I previously thought. But there is significant non-chipped material remaining on the upper surface of the billet. A miniature version of the disaster that was `example8.FNC`.
+
+---
+
+Based on the above observations, I decided what to do next. Keep the drill bit; do not swap it with a fresh one. Keep using the same aluminum billet. Read literature on "chatter" in CNC machining, to understand whether it may be causing issues. Then, drill a hole similar to `example7.FNC`, but with the machine producing much less loud noise.
