@@ -2208,3 +2208,22 @@ I'm going to repeat `example7.FNC`, but with the following parameters (in order)
 | 8000 | 400 | The sound is extremely nasty. There is definitely a faint drift in the Y axis. The hole might be shinier, but a step edge in the surface could indicate chatter. The piece of aluminum fused to the bit was larger than before, but again brushes right off. |
 
 About the 4000 RPM test: to save time, I'm not going to upload the images. I think I scratched off some welded aluminum or aluminum chips. The drill bit looks normal now.
+
+---
+
+The entire chamber is covered in aluminum filings now.
+
+![Image 4660](./Documentation/CNCAluminum/IMG_4660.JPG)
+
+_A wide area in the chamber with a coating of aluminum filings. Image is uploaded in full 12-megapixel resolution._
+
+![Image 4659](./Documentation/CNCAluminum/IMG_4659.JPG)
+
+_Close-up of part of the billet with a trail of aluminum filings._
+
+TODO:
+- Clean up the filings on the billet
+- Remove the billet and image the results of all tests
+- Label each hole using a red or orange box
+- Try to flatten the sharp region with another block of aluminum (only image the aftermath)
+- Flip the billet over and mount again
