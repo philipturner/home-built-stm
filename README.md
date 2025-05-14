@@ -2202,7 +2202,7 @@ I'm going to repeat `example7.FNC`, but with the following parameters (in order)
 | 1000 |  50 | Same as previous test. |
 |  500 |  25 | Sound is definitely different than with 3000 RPM + 150 mm/min, but not bad. I get a feeling that the Y axis calibration has drifted since the last test, but can't back it up with further visual inspections. |
 | 4000 | 200 | The hole looks clean, but the sound was louder than before. May have chipped the drill bit. I have to remove the bit from the machine to get a proper image. X axis calibration has definitely drifted. |
-| 5000 | 250 |
+| 5000 | 250 | Very loud, but the hole still looks shiny. Aligned with one of the other holes, because I recalibrated the X and Y datum points. No major damage to the drill bit. |
 | 6000 | 300 |
 | 8000 | 400 |
 | 10000 | 500 |
