@@ -2221,9 +2221,10 @@ _A wide area in the chamber with a coating of aluminum filings. Image is uploade
 
 _Close-up of a trail of aluminum shavings on the billet._
 
+![Image 4662](./Documentation/CNCAluminum/IMG_4662.JPG)
+
+_Top view of the holes drilled into the billet. Each label (in RPM) indexes a row of the table above._
+
 TODO:
-- Clean up the filings on the billet
-- Remove the billet and image the results of all tests
-- Label each hole using a red or orange box
 - Try to flatten the sharp region with another block of aluminum (only image the aftermath)
 - Flip the billet over and mount again
