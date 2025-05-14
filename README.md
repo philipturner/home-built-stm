@@ -2204,7 +2204,7 @@ I'm going to repeat `example7.FNC`, but with the following parameters (in order)
 | 4000 | 200 | The hole looks clean, but the sound was louder than before. May have chipped the drill bit. I have to remove the bit from the machine to get a proper image. X axis calibration has definitely drifted. |
 | 5000 | 250 | Very loud, but the hole still looks shiny. Aligned with one of the other holes, because I recalibrated the X and Y datum points. No major damage to the drill bit. |
 | 6000 | 300 | Still louder. The hole's surface looks rougher. No damage to the drill bit, but I did brush off an aluminum shaving. |
-| 7000 | 350 |
+| 7000 | 350 | The sound was even uglier. I thought the bit was damaged, but it was just another aluminum shaving that brushes off easily. The hole might be rougher or whiter, but it's now hard to tell the difference between the holes from each test. |
 | 8000 | 400 |
 
 About the 4000 RPM test: to save time, I'm not going to upload the images. I think I scratched off some welded aluminum or aluminum chips. The drill bit looks normal now.
