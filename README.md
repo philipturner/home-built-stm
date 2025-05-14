@@ -2253,11 +2253,11 @@ _A third cut that reduces drift by another ~0.5 mm._
 
 Only ~2 mm of Z-drift over 100 mm of X travel. The Y consistency is good; the entire cut looks ~1 mm in the Y dimension.
 
-![Image 4670](./Documentation/CNCAluminum/IMG_4670.JPG)
-
 ![Image 4671](./Documentation/CNCAluminum/IMG_4671.JPG)
 
-_The cut produced by `example12.FNC`. <b>Top:</b> Front view. <b>Bottom:</b> Top view._
+![Image 4670](./Documentation/CNCAluminum/IMG_4670.JPG)
+
+_The cut produced by `example12.FNC`. <b>Top:</b> Top view. <b>Bottom:</b> Front view._
 
 A very clean chunk of material!
 
