@@ -2190,3 +2190,19 @@ Helpful video about chatter in a low-end CNC machine, while attempting to machin
 Machines have lower torque with lower RPMs. Source: [Breaking Taps (YouTube)](https://www.youtube.com/watch?v=rTFn84UwFCM)
 
 The relationship between speed and torque seems more complex. Some sources say torque is constant over a given range. Other sources say it decreases with increasing speed.
+
+---
+
+I'm going to repeat `example7.FNC`, but with the following parameters (in order). I'll stop the journey to very small/large speeds when the tool breaks. Wearing safety glasses, increasing the pause to 5 seconds, and stepping away from the machine.
+
+| Spindle Speed | Axial Feed Rate | Observations |
+| ------------: | --------------: | ------------ |
+| 3000 RPM | 150 mm/min |
+| 2000 RPM | 100 mm/min |
+| 1000 RPM |  50 mm/min |
+|  500 RPM |  25 mm/min |
+| 4000 RPM | 200 mm/min |
+| 5000 RPM | 250 mm/min |
+| 6000 RPM | 300 mm/min |
+| 7000 RPM | 350 mm/min |
+| 8000 RPM | 400 mm/min |
