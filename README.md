@@ -2249,4 +2249,8 @@ The Z-axis drift has improved even more. I'll stick with these feeds and speeds 
 
 TODO: Upload the image here. Waiting until later to do so, to save time.
 
+Only ~2 mm of Z-drift over 100 mm of X travel. The Y consistency is good; the entire cut looks ~1 mm in the Y dimension.
+
 TODO: Upload `example11.FNC` after the next test. Then, make a cut all the way along the billet's X dimension. Measure how much the Z axis has drifted by the end of the cut.
+
+TODO: Final (13th) test is with the new billet. 6 cuts, 3x2 array in YxZ. Each one moves 8 mm along X, 3 mm of air + 5 mm into the material. Theoretically 60&ndash;96 mm of X travel, and acceptable amount of Z-drift. First layer: -1.58 mm, second layer: -3.16 mm. Film it first try in a video. Dry run once in the air.
