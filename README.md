@@ -2185,4 +2185,4 @@ Based on the above observations, I decided what to do next. Keep the drill bit; 
 
 On a brief internet search, the Google AI Overview quoted 60 Hz as the resonant frequency of a router. That is very close to the 50 Hz frequency converted from 3000 RPM. I didn't know the resonant frequencies of CNC machines were so low. I was used to STM designs, where eigenfrequencies are in the kHz range.
 
-Helpful video about chatter in a low-end CNC machine, attempting to machine aluminum: [Breaking Taps (YouTube)](https://www.youtube.com/watch?v=qiM20-woEOk)
+Helpful video about chatter in a low-end CNC machine, while attempting to machine aluminum: [Breaking Taps (YouTube)](https://www.youtube.com/watch?v=qiM20-woEOk)
