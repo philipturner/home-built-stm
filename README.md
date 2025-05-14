@@ -2151,7 +2151,7 @@ _<b>Left:</b> Side view of the used drill bit. <b>Right:</b> Top view of the use
 &nbsp;
 </p>
 
-_<b>Left:</b> Close-up of the results of `example7.FNC`. <b>Right:</b>: Close-up of the results of `example8.FNC`._
+_<b>Left:</b> Close-up of the results of `example7.FNC`. <b>Right:</b> Close-up of the results of `example8.FNC`._
 
 <p align="center">
 &nbsp;
@@ -2164,3 +2164,17 @@ _<b>Left:</b> Close-up of the results of `example7.FNC`. <b>Right:</b>: Close-up
 </p>
 
 _Close-up images of the cut made into the corner of the billet. <b>Left:</b> Left view. <b>Middle:</b> Front view. <b>Right:</b> Top view._
+
+The drill bit looks okay to use for a subsequent test. I didn't see material hanging off of it, like I previously thought. There seems to be a small chip in the sharp part, or a very small amount of welded aluminum.
+
+The first hole drilled looks nice. The surface is clean, with no sharp pieces of metal. The second cut was a disaster. I hypothesize that aluminum welded to the tip early, making it dull. The rest of the cut was the result of rubbing. Chips couldn't form; instead, heat forced the aluminum to move out of the way.
+
+The corner cut appears to begin with a level bottom surface. As the cut progresses, it gets continually worse. This could be a result of the Z-axis control problem. Strong vibrations from cutting could be knocking the mechanical Z-axis loose, exacerbating its natural drift. The cut ends with a round, not straight, section. This is probably because the tip cuts a circular region, and it stopped before clearing all the material along its X-traversal direction.
+
+During the 3-pass cut into wood, the cut depth changed significantly throughout the pass. I only noticed this after cleaning out the dust. Actually, upon closer inspection, the surfaces look more level than before. May have just been leftover dust that resisted cleaning more strongly.
+
+![Image 4653](./Documentation/CNCAluminum/IMG_4653.JPG)
+
+_Top view of the cuts into wood, after removing additional dust._
+
+I visually inspected the corner of the aluminum billet a second time. The bottom surface is indeed more flush than I previously thought. But there is significant non-chipped material remaining on the upper surface of the billet. A miniature version of the disaster that was `example8.FNC`.
