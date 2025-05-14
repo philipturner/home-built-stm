@@ -2259,4 +2259,10 @@ Only ~2 mm of Z-drift over 100 mm of X travel. The Y consistency is good; the en
 
 _TODO: Add a caption, try to make the images closely spaced in the Y direction with HTML. Alternatively, rely on GitHub Markdown tables._
 
-TODO: Final (13th) test is with the new billet. 6 cuts, 3x2 array in YxZ. Each one moves 8 mm along X, 3 mm of air + 5 mm into the material. Theoretically 60&ndash;96 mm of X travel, and acceptable amount of Z-drift. First layer: -1.58 mm, second layer: -3.16 mm. Film it first try in a video. Dry run once in the air.
+A very clean chunk of material!
+
+![Image 4676](./Documentation/CNCAluminum/IMG_4676.JPG)
+
+_TODO: Add a caption._
+
+TODO: Upload video to social media.
